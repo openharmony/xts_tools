@@ -19,10 +19,10 @@ struct MenuPlacement26 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "🔍 搜索功能" })
-      MenuItem({ content: "📊 数据分析" })
-      MenuItem({ content: "💾 保存数据" })
-      MenuItem({ content: "📤 导出文件" })
+      MenuItem({ content: '🔍 搜索功能' })
+      MenuItem({ content: '📊 数据分析' })
+      MenuItem({ content: '💾 保存数据' })
+      MenuItem({ content: '📤 导出文件' })
     }
     .width(64)
     .backgroundColor(0xFFFFFF)
@@ -38,28 +38,28 @@ struct MenuPlacement26 {
   @Builder
   InfoCard() {
     Column() {
-      Text("🎯 菜单定位测试")
+      Text('🎯 菜单定位测试')
         .fontSize(24)
         .fontWeight(FontWeight.Bold)
         .fontColor(0x333333)
         .margin({ bottom: 8 })
       
-      Text("TopRight 定位")
+      Text('TopRight 定位')
         .fontSize(16)
         .fontColor(0x666666)
         .margin({ bottom: 16 })
       
-      Text("• 菜单宽度: 64vp")
+      Text('• 菜单宽度: 64vp')
         .fontSize(14)
         .fontColor(0x888888)
         .margin({ bottom: 4 })
       
-      Text("• 触发方式: 右击")
+      Text('• 触发方式: 右击')
         .fontSize(14)
         .fontColor(0x888888)
         .margin({ bottom: 4 })
       
-      Text("• 定位方向: 右上角")
+      Text('• 定位方向: 右上角')
         .fontSize(14)
         .fontColor(0x888888)
     }
@@ -79,8 +79,8 @@ struct MenuPlacement26 {
     Stack() {
       // 渐变背景
       Column()
-        .width("100%")
-        .height("100%")
+        .width('100%')
+        .height('100%')
         .linearGradient({
           direction: GradientDirection.Bottom,
           colors: [[0xFF6B73FF, 0.0], [0xFF9B59B6, 0.3], [0xFF3498DB, 0.7], [0xFF2ECC71, 1.0]]
@@ -97,14 +97,14 @@ struct MenuPlacement26 {
         .width(150)
         .height(150)
         .fill(0x15FFFFFF)
-        .position({ x: "80%", y: "20%" })
+        .position({ x: '80%', y: '20%' })
       
       // 主要内容
       Row() {
         Column() {
           this.InfoCard()
           
-          Button("🎮 测试菜单")
+          Button('🎮 测试菜单')
             .id('button_26')
             .width(120)
             .height(50)
@@ -126,18 +126,18 @@ struct MenuPlacement26 {
               console.info('MenuPlacement26: 按钮被点击');
             })
         }
-        .width("100%")
-        .height("100%")
+        .width('100%')
+        .height('100%')
         .justifyContent(FlexAlign.Center)
         .alignItems(HorizontalAlign.Center)
       }
-      .width("100%")
-      .height("100%")
+      .width('100%')
+      .height('100%')
       .justifyContent(FlexAlign.End)
       .alignItems(VerticalAlign.Center)
       .padding({ right: 20, bottom: 50 })
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
   }
 }

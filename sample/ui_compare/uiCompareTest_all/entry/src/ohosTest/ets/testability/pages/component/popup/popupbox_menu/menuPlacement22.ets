@@ -19,11 +19,11 @@ struct MenuPlacement22 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "🌐 网络服务" })
-      MenuItem({ content: "☁️ 云端存储" })
-      MenuItem({ content: "🔒 安全认证" })
-      MenuItem({ content: "📊 数据分析" })
-      MenuItem({ content: "🔗 API接口" })
+      MenuItem({ content: '🌐 网络服务' })
+      MenuItem({ content: '☁️ 云端存储' })
+      MenuItem({ content: '🔒 安全认证' })
+      MenuItem({ content: '📊 数据分析' })
+      MenuItem({ content: '🔗 API接口' })
     }
     .width(48)
     .backgroundColor(0xFFFFFF)
@@ -39,28 +39,28 @@ struct MenuPlacement22 {
   @Builder
   InfoCard() {
     Column() {
-      Text("🎯 菜单定位测试")
+      Text('🎯 菜单定位测试')
         .fontSize(24)
         .fontWeight(FontWeight.Bold)
         .fontColor(0x333333)
         .margin({ bottom: 8 })
       
-      Text("Top 定位")
+      Text('Top 定位')
         .fontSize(16)
         .fontColor(0x666666)
         .margin({ bottom: 16 })
       
-      Text("• 菜单宽度: 48vp")
+      Text('• 菜单宽度: 48vp')
         .fontSize(14)
         .fontColor(0x888888)
         .margin({ bottom: 4 })
       
-      Text("• 触发方式: 右击")
+      Text('• 触发方式: 右击')
         .fontSize(14)
         .fontColor(0x888888)
         .margin({ bottom: 4 })
       
-      Text("• 定位方向: 顶部")
+      Text('• 定位方向: 顶部')
         .fontSize(14)
         .fontColor(0x888888)
     }
@@ -80,8 +80,8 @@ struct MenuPlacement22 {
     Stack() {
       // 渐变背景
       Column()
-        .width("100%")
-        .height("100%")
+        .width('100%')
+        .height('100%')
         .linearGradient({
           direction: GradientDirection.Bottom,
           colors: [[0xFF34495E, 0.0], [0xFF2C3E50, 0.3], [0xFF3498DB, 0.7], [0xFF2980B9, 1.0]]
@@ -92,20 +92,20 @@ struct MenuPlacement22 {
         .width(120)
         .height(120)
         .fill(0x20FFFFFF)
-        .position({ x: "20%", y: "15%" })
+        .position({ x: '20%', y: '15%' })
       
       Circle()
         .width(160)
         .height(160)
         .fill(0x15FFFFFF)
-        .position({ x: "70%", y: "65%" })
+        .position({ x: '70%', y: '65%' })
       
       // 主要内容
       Row() {
         Column() {
           this.InfoCard()
           
-          Button("🎮 测试菜单")
+          Button('🎮 测试菜单')
             .id('button_22')
             .width(120)
             .height(50)
@@ -127,18 +127,18 @@ struct MenuPlacement22 {
               console.info('MenuPlacement22: 按钮被点击');
             })
         }
-        .width("100%")
-        .height("100%")
+        .width('100%')
+        .height('100%')
         .justifyContent(FlexAlign.Center)
         .alignItems(HorizontalAlign.Center)
       }
-      .width("100%")
-      .height("100%")
+      .width('100%')
+      .height('100%')
       .justifyContent(FlexAlign.End)
       .alignItems(VerticalAlign.Center)
       .padding({ right: 20, bottom: 50 })
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
   }
 }

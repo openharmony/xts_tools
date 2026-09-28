@@ -21,8 +21,8 @@ struct BlurMaterialSeparatedLayer1090 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "子菜单项1" })
-      MenuItem({ content: "子菜单项2" })
+      MenuItem({ content: '子菜单项1' })
+      MenuItem({ content: '子菜单项2' })
     }
     .backgroundBlurStyle(BlurStyle.BACKGROUND_REGULAR)
   }
@@ -30,10 +30,10 @@ struct BlurMaterialSeparatedLayer1090 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项1' })
+      MenuItem({ content: '菜单项2' })
       MenuItem({ 
-        content: "菜单项3",
+        content: '菜单项3',
         builder: (): void => this.SubMenu()
       })
     }

@@ -19,9 +19,9 @@ struct BlurMaterialSeparatedLayer1050 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
-      MenuItem({ content: "菜单项2" })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项1' })
+      MenuItem({ content: '菜单项2' })
+      MenuItem({ content: '菜单项3' })
     }
     .backgroundBlurStyle(BlurStyle.Thin)
   }

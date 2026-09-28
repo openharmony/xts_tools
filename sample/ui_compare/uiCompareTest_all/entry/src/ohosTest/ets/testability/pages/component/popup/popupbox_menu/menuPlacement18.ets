@@ -19,12 +19,12 @@ struct MenuPlacement18 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "🔧 系统工具" })
-      MenuItem({ content: "⚙️ 高级设置" })
-      MenuItem({ content: "🛠️ 开发工具" })
+      MenuItem({ content: '🔧 系统工具' })
+      MenuItem({ content: '⚙️ 高级设置' })
+      MenuItem({ content: '🛠️ 开发工具' })
     }
     .width(140)
-    .height("50%")
+    .height('50%')
     .backgroundColor(0xFFFFFF)
     .borderRadius(8)
     .shadow({
@@ -38,9 +38,9 @@ struct MenuPlacement18 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "📱 移动端" })
+      MenuItem({ content: '📱 移动端' })
       MenuItem({ 
-        content: "💻 桌面端",
+        content: '💻 桌面端',
         builder: (): void => this.SubMenu()
       })
     }
@@ -58,33 +58,33 @@ struct MenuPlacement18 {
   @Builder
   InfoCard() {
     Column() {
-      Text("🎯 菜单定位测试")
+      Text('🎯 菜单定位测试')
         .fontSize(24)
         .fontWeight(FontWeight.Bold)
         .fontColor(0x333333)
         .margin({ bottom: 8 })
       
-      Text("BottomLeft 定位")
+      Text('BottomLeft 定位')
         .fontSize(16)
         .fontColor(0x666666)
         .margin({ bottom: 16 })
       
-      Text("• 菜单宽度: 64vp")
+      Text('• 菜单宽度: 64vp')
         .fontSize(14)
         .fontColor(0x888888)
         .margin({ bottom: 4 })
       
-      Text("• 触发方式: 长按")
+      Text('• 触发方式: 长按')
         .fontSize(14)
         .fontColor(0x888888)
         .margin({ bottom: 4 })
       
-      Text("• 定位方向: 左下角")
+      Text('• 定位方向: 左下角')
         .fontSize(14)
         .fontColor(0x888888)
         .margin({ bottom: 4 })
       
-      Text("• 包含子菜单")
+      Text('• 包含子菜单')
         .fontSize(14)
         .fontColor(0x888888)
     }
@@ -104,8 +104,8 @@ struct MenuPlacement18 {
     Stack() {
       // 渐变背景
       Column()
-        .width("100%")
-        .height("100%")
+        .width('100%')
+        .height('100%')
         .linearGradient({
           direction: GradientDirection.Bottom,
           colors: [[0xFF8E44AD, 0.0], [0xFF9B59B6, 0.3], [0xFF3498DB, 0.7], [0xFF1ABC9C, 1.0]]
@@ -116,20 +116,20 @@ struct MenuPlacement18 {
         .width(160)
         .height(160)
         .fill(0x20FFFFFF)
-        .position({ x: "5%", y: "10%" })
+        .position({ x: '5%', y: '10%' })
       
       Circle()
         .width(200)
         .height(200)
         .fill(0x15FFFFFF)
-        .position({ x: "75%", y: "70%" })
+        .position({ x: '75%', y: '70%' })
       
       // 主要内容
       Row() {
         Column() {
           this.InfoCard()
           
-          Button("🎮 测试菜单")
+          Button('🎮 测试菜单')
             .id('button_18')
             .width(120)
             .height(50)
@@ -151,18 +151,18 @@ struct MenuPlacement18 {
               console.info('MenuPlacement18: 按钮被点击');
             })
         }
-        .width("100%")
-        .height("100%")
+        .width('100%')
+        .height('100%')
         .justifyContent(FlexAlign.Center)
         .alignItems(HorizontalAlign.Center)
       }
-      .width("100%")
-      .height("100%")
+      .width('100%')
+      .height('100%')
       .justifyContent(FlexAlign.End)
       .alignItems(VerticalAlign.Center)
       .padding({ right: 20, bottom: 50 })
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
   }
 }

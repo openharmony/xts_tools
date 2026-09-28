@@ -27,7 +27,7 @@ struct BlurMaterialSeparatedLayer1000 {
   MyMenu() {
     Menu() {
       MenuItemGroup() {
-        MenuItem({ content: "菜单项1" })
+        MenuItem({ content: '菜单项1' })
       }
     }
     .backgroundBlurStyle(BlurStyle.COMPONENT_THICK)

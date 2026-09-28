@@ -19,13 +19,13 @@ struct MenuExpand01 {
   @Builder
   MenuBuilder() {
     Menu() {
-      MenuItem({ content: "菜单选项1" })
+      MenuItem({ content: '菜单选项1' })
         .id('menu_item_1')
       
-      MenuItem({ content: "菜单选项2" })
+      MenuItem({ content: '菜单选项2' })
         .id('menu_item_2')
       
-      MenuItem({ content: "菜单选项3" })
+      MenuItem({ content: '菜单选项3' })
         .id('menu_item_3')
     }
     .width(240)

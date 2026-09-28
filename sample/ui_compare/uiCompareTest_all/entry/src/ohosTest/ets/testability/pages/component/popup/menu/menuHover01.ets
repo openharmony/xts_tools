@@ -19,13 +19,13 @@ struct MenuHover01 {
   @Builder
   MenuBuilder() {
     Menu() {
-      MenuItem({ content: "主菜单1" })
+      MenuItem({ content: '主菜单1' })
         .id('main_menu_1')
       
-      MenuItem({ content: "主菜单2" })
+      MenuItem({ content: '主菜单2' })
         .id('main_menu_2')
       
-      MenuItem({ content: "主菜单3" })
+      MenuItem({ content: '主菜单3' })
         .id('main_menu_3')
     }
     .width(240)
