@@ -51,17 +51,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0010 start.`);
       // 步骤1：编译overlayManager这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0010")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击组合测试
-      let combinationTestBtn = await driver.waitForComponent(ON.id("button_combination_test_0010"), 2000)
+      let combinationTestBtn = await driver.waitForComponent(ON.id('button_combination_test_0010'), 2000)
       await combinationTestBtn.click()
       await Utils.sleep(500)
 
       // 步骤2：点击任意层级（选择层级1）
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_1_0010"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_1_0010'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
@@ -70,7 +70,7 @@ export default function overlaymanagerLevel() {
       await Utils.sleep(500)
 
       // 步骤4：点击get current option
-      let getCurrentOptionBtn = await driver.waitForComponent(ON.id("button_get_current_option_0010"), 2000)
+      let getCurrentOptionBtn = await driver.waitForComponent(ON.id('button_get_current_option_0010'), 2000)
       await getCurrentOptionBtn.click()
       await Utils.sleep(500)
 
@@ -94,17 +94,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0020 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0020")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击-5
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_minus5_0020"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_minus5_0020'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击top&bottom
-      let topBottomBtn = await driver.waitForComponent(ON.id("button_top_bottom_0020"), 2000)
+      let topBottomBtn = await driver.waitForComponent(ON.id('button_top_bottom_0020'), 2000)
       await topBottomBtn.click()
       await Utils.sleep(500)
 
@@ -128,17 +128,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0030 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0030")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击0.111
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_0111_0030"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_0111_0030'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击top&bottom
-      let topBottomBtn = await driver.waitForComponent(ON.id("button_top_bottom_0030"), 2000)
+      let topBottomBtn = await driver.waitForComponent(ON.id('button_top_bottom_0030'), 2000)
       await topBottomBtn.click()
       await Utils.sleep(500)
 
@@ -162,17 +162,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0040 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0040")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击100001
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_100001_0040"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_100001_0040'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击top&bottom
-      let topBottomBtn = await driver.waitForComponent(ON.id("button_top_bottom_0040"), 2000)
+      let topBottomBtn = await driver.waitForComponent(ON.id('button_top_bottom_0040'), 2000)
       await topBottomBtn.click()
       await Utils.sleep(500)
 
@@ -196,17 +196,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0050 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0050")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击undefined
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_undefined_0050"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_undefined_0050'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击top&bottom
-      let topBottomBtn = await driver.waitForComponent(ON.id("button_top_bottom_0050"), 2000)
+      let topBottomBtn = await driver.waitForComponent(ON.id('button_top_bottom_0050'), 2000)
       await topBottomBtn.click()
       await Utils.sleep(500)
 
@@ -230,17 +230,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0070 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0070")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击任意层级按钮
-      let levelBtn = await driver.waitForComponent(ON.id("button_any_level_0070"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_any_level_0070'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击reqpermissions
-      let reqPermBtn = await driver.waitForComponent(ON.id("button_reqpermissions_0070"), 2000)
+      let reqPermBtn = await driver.waitForComponent(ON.id('button_reqpermissions_0070'), 2000)
       await reqPermBtn.click()
       await Utils.sleep(500)
 
@@ -264,17 +264,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0090 start.`);
       // 步骤1：编译atomicDemo这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0090")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击不同的层级（选择层级5）
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_5_0090"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_5_0090'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击top&bottom
-      let topBottomBtn = await driver.waitForComponent(ON.id("button_top_bottom_0090"), 2000)
+      let topBottomBtn = await driver.waitForComponent(ON.id('button_top_bottom_0090'), 2000)
       await topBottomBtn.click()
       await Utils.sleep(500)
 
@@ -298,12 +298,12 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0100 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0100")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击undefined右上角
-      let levelBtn = await driver.waitForComponent(ON.id("button_undefined_topright_0100"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_undefined_topright_0100'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
@@ -327,17 +327,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0110 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0110")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 先弹出100001的弹窗
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_100001_0110"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_100001_0110'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击remove
-      let removeBtn = await driver.waitForComponent(ON.id("button_remove_0110"), 2000)
+      let removeBtn = await driver.waitForComponent(ON.id('button_remove_0110'), 2000)
       await removeBtn.click()
       await Utils.sleep(500)
 
@@ -361,17 +361,17 @@ export default function overlaymanagerLevel() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0120 start.`);
       // 步骤1：编译toastx这个工程，打开测试页面
-      Settings.createWindow("testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0120")
+      Settings.createWindow('testability/pages/component/popup/overlaymanagerLevel/OverlaymanagerLevel0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤3：点击-100001
-      let levelBtn = await driver.waitForComponent(ON.id("button_level_minus100001_0120"), 2000)
+      let levelBtn = await driver.waitForComponent(ON.id('button_level_minus100001_0120'), 2000)
       await levelBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击top&bottom
-      let topBottomBtn = await driver.waitForComponent(ON.id("button_top_bottom_0120"), 2000)
+      let topBottomBtn = await driver.waitForComponent(ON.id('button_top_bottom_0120'), 2000)
       await topBottomBtn.click()
       await Utils.sleep(500)
 

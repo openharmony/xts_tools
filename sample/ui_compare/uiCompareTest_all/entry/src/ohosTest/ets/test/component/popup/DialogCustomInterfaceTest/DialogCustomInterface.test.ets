@@ -50,7 +50,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0020")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0010 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0010")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0030")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0040 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0040")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0050")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0060 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0060")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0100 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0100")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0110")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0120")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -221,7 +221,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0130 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0130")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -240,7 +240,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0140 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0140")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -259,7 +259,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0150 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0150")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -278,7 +278,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0160")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -297,7 +297,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0190 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0190")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -316,7 +316,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0230 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0230")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0230')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -335,7 +335,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0240 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0240")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -354,7 +354,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0250 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0250")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0250')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -373,7 +373,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0260 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0260")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -392,7 +392,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0270 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0270")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0270')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -411,7 +411,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0280 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0280")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -430,7 +430,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0290 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0290")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -449,7 +449,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0300 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0300")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -468,7 +468,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0330 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0330")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0330')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -487,7 +487,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0370 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0370")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -506,7 +506,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0420', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0420 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0420")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0420')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -525,7 +525,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0670', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0670 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0670")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0670')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -544,7 +544,7 @@ export default function dialogCustomInterface() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0700', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0700 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0700")
+      Settings.createWindow('testability/pages/component/popup/dialogCustomInterface/DialogCustomInterface0700')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()

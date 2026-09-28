@@ -50,14 +50,14 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0250 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0250")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0250')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0250 = await driver.waitForComponent(ON.id("button_open_fulldialog_0250"), 500)
+      let button_open_fulldialog_0250 = await driver.waitForComponent(ON.id('button_open_fulldialog_0250'), 500)
       await button_open_fulldialog_0250.click()
       await Utils.sleep(3000) // 等待动画完成（5000ms动画 + 1000ms缓冲）
 
@@ -86,14 +86,14 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0340 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0340")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0340')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：点击Open按钮，观察弹窗显示动效（既有旋转又有透明度变化）
-      let button_open_fulldialog_0340 = await driver.waitForComponent(ON.id("button_open_fulldialog_0340"), 500)
+      let button_open_fulldialog_0340 = await driver.waitForComponent(ON.id('button_open_fulldialog_0340'), 500)
       await button_open_fulldialog_0340.click()
       await Utils.sleep(3000) // 等待动画完成
 
@@ -119,14 +119,14 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0230 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0230")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0230')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：点击Open按钮，观察弹窗显示动效（应与不配置transition的弹窗效果一致）
-      let button_open_fulldialog_0230 = await driver.waitForComponent(ON.id("button_open_fulldialog_0230"), 500)
+      let button_open_fulldialog_0230 = await driver.waitForComponent(ON.id('button_open_fulldialog_0230'), 500)
       await button_open_fulldialog_0230.click()
       await Utils.sleep(3000) // 等待动画完成
 
@@ -152,19 +152,19 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0330 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0330")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0330')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：使用Tab键切换到打开弹窗按钮，使用Enter键打开弹窗
-      let button_open_dialog_fulldialog_0330 = await driver.waitForComponent(ON.id("button_open_dialog_fulldialog_0330"), 500)
+      let button_open_dialog_fulldialog_0330 = await driver.waitForComponent(ON.id('button_open_dialog_fulldialog_0330'), 500)
       await button_open_dialog_fulldialog_0330.click()
       await Utils.sleep(1000) // 等待弹窗打开并获焦
 
       // 步骤4：使用键盘关闭弹窗（点击关闭按钮），观察焦点走向
-      let button_close_dialog_fulldialog_0330 = await driver.waitForComponent(ON.id("button_close_dialog_fulldialog_0330"), 500)
+      let button_close_dialog_fulldialog_0330 = await driver.waitForComponent(ON.id('button_close_dialog_fulldialog_0330'), 500)
       await button_close_dialog_fulldialog_0330.click()
       await Utils.sleep(1000) // 等待弹窗关闭，焦点返回到打开按钮
 
@@ -186,14 +186,14 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0300 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0300")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0300')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：点击Open按钮，观察弹窗显示动效（弹窗向左上方平移10个单位）
-      let button_open_fulldialog_0300 = await driver.waitForComponent(ON.id("button_open_fulldialog_0300"), 500)
+      let button_open_fulldialog_0300 = await driver.waitForComponent(ON.id('button_open_fulldialog_0300'), 500)
       await button_open_fulldialog_0300.click()
       await Utils.sleep(3000) // 等待动画完成
 
@@ -219,14 +219,14 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0320 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0320")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0320')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：点击Open按钮，观察弹窗显示动效（反向播放）
-      let button_open_fulldialog_0320 = await driver.waitForComponent(ON.id("button_open_fulldialog_0320"), 500)
+      let button_open_fulldialog_0320 = await driver.waitForComponent(ON.id('button_open_fulldialog_0320'), 500)
       await button_open_fulldialog_0320.click()
       await Utils.sleep(3000) // 等待动画完成
 
@@ -248,17 +248,17 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0410 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0410")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0410')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1：使用Tab键、Enter键打开弹窗
-      let button_open_dialog_fulldialog_0410 = await driver.waitForComponent(ON.id("button_open_dialog_fulldialog_0410"), 500)
+      let button_open_dialog_fulldialog_0410 = await driver.waitForComponent(ON.id('button_open_dialog_fulldialog_0410'), 500)
       await button_open_dialog_fulldialog_0410.click()
       await Utils.sleep(1000) // 等待弹窗打开并获焦
 
       // 步骤2：使用键盘关闭弹窗，观察焦点走向
-      let button_close_dialog_fulldialog_0410 = await driver.waitForComponent(ON.id("button_close_dialog_fulldialog_0410"), 500)
+      let button_close_dialog_fulldialog_0410 = await driver.waitForComponent(ON.id('button_close_dialog_fulldialog_0410'), 500)
       await button_close_dialog_fulldialog_0410.click()
       await Utils.sleep(1000) // 等待弹窗关闭，焦点返回到打开按钮
 
@@ -280,14 +280,14 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0290 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0290")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0290')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：点击Open按钮，观察弹窗显示动效（弹窗向左上方平移10个单位）
-      let button_open_fulldialog_0290 = await driver.waitForComponent(ON.id("button_open_fulldialog_0290"), 500)
+      let button_open_fulldialog_0290 = await driver.waitForComponent(ON.id('button_open_fulldialog_0290'), 500)
       await button_open_fulldialog_0290.click()
       await Utils.sleep(3000) // 等待动画完成
 
@@ -313,16 +313,16 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0420 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0420")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0420')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击Open打开弹窗
-      let button_open_fulldialog_0420 = await driver.waitForComponent(ON.id("button_open_fulldialog_0420"), 500)
+      let button_open_fulldialog_0420 = await driver.waitForComponent(ON.id('button_open_fulldialog_0420'), 500)
       await button_open_fulldialog_0420.click()
 
       // 步骤3：在输入框中输入文字
-      let text_area_fulldialog_0420 = await driver.waitForComponent(ON.id("text_area_fulldialog_0420"), 500)
+      let text_area_fulldialog_0420 = await driver.waitForComponent(ON.id('text_area_fulldialog_0420'), 500)
       await text_area_fulldialog_0420.click()
       await Utils.sleep(500)
       await text_area_fulldialog_0420.inputText('Test keyboard avoidance')
@@ -348,17 +348,17 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0460 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0460")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0460')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 首先打开弹窗
-      let button_open_dialog_first_fulldialog_0460 = await driver.waitForComponent(ON.id("button_open_dialog_first_fulldialog_0460"), 500)
+      let button_open_dialog_first_fulldialog_0460 = await driver.waitForComponent(ON.id('button_open_dialog_first_fulldialog_0460'), 500)
       await button_open_dialog_first_fulldialog_0460.click()
       await Utils.sleep(1000)
 
       // 步骤1：点击验证同一个ComponentContent在已经弹出的情况下再次open，前端返回错误
-      let button_open_dialog_again_fulldialog_0460 = await driver.waitForComponent(ON.id("button_open_dialog_again_fulldialog_0460"), 500)
+      let button_open_dialog_again_fulldialog_0460 = await driver.waitForComponent(ON.id('button_open_dialog_again_fulldialog_0460'), 500)
       await button_open_dialog_again_fulldialog_0460.click()
       await Utils.sleep(1000)
 
@@ -380,12 +380,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0440 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0440")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0440')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1：点击验证使用updateCustomDialog动态更新未打开弹窗的options自定义属性，前端返回错误，查看IDE中的log是否打印出错误信息
-      let button_update_unopened_dialog_fulldialog_0440 = await driver.waitForComponent(ON.id("button_update_unopened_dialog_fulldialog_0440"), 500)
+      let button_update_unopened_dialog_fulldialog_0440 = await driver.waitForComponent(ON.id('button_update_unopened_dialog_fulldialog_0440'), 500)
       await button_update_unopened_dialog_fulldialog_0440.click()
       await Utils.sleep(1000)
 
@@ -407,12 +407,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0430 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0430")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0430')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1：点击验证使用closeCustomDialog关闭未打开的弹窗，前端返回错误
-      let button_close_unopened_dialog_fulldialog_0430 = await driver.waitForComponent(ON.id("button_close_unopened_dialog_fulldialog_0430"), 500)
+      let button_close_unopened_dialog_fulldialog_0430 = await driver.waitForComponent(ON.id('button_close_unopened_dialog_fulldialog_0430'), 500)
       await button_close_unopened_dialog_fulldialog_0430.click()
       await Utils.sleep(1000)
 
@@ -434,27 +434,27 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0490 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0490")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0490')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：使用Tab键、Enter键打开弹窗A，观察焦点位置
-      let button_open_dialog_a_fulldialog_0490 = await driver.waitForComponent(ON.id("button_open_dialog_a_fulldialog_0490"), 500)
+      let button_open_dialog_a_fulldialog_0490 = await driver.waitForComponent(ON.id('button_open_dialog_a_fulldialog_0490'), 500)
       await button_open_dialog_a_fulldialog_0490.click()
       await Utils.sleep(1000) // 弹窗A打开瞬间获焦
 
       // 步骤4：使用Tab、Enter键触发OpenB按钮，观察焦点位置
-      let button_open_dialog_b_fulldialog_0490 = await driver.waitForComponent(ON.id("button_open_dialog_b_fulldialog_0490"), 500)
+      let button_open_dialog_b_fulldialog_0490 = await driver.waitForComponent(ON.id('button_open_dialog_b_fulldialog_0490'), 500)
       await button_open_dialog_b_fulldialog_0490.click()
       await Utils.sleep(1000) // 弹窗B打开瞬间获焦
 
       // 步骤5：使用Tab、Enter键触发CloseA按钮，观察焦点位置
-      let button_close_dialog_a_fulldialog_0490 = await driver.waitForComponent(ON.id("button_close_dialog_a_fulldialog_0490"), 500)
+      let button_close_dialog_a_fulldialog_0490 = await driver.waitForComponent(ON.id('button_close_dialog_a_fulldialog_0490'), 500)
       await button_close_dialog_a_fulldialog_0490.click()
       await Utils.sleep(1000) // 弹窗A关闭，焦点在弹窗B的CloseA按钮上
 
       // 步骤6：使用Tab、Enter键触发CloseB按钮，观察焦点位置
-      let button_close_dialog_b_fulldialog_0490 = await driver.waitForComponent(ON.id("button_close_dialog_b_fulldialog_0490"), 500)
+      let button_close_dialog_b_fulldialog_0490 = await driver.waitForComponent(ON.id('button_close_dialog_b_fulldialog_0490'), 500)
       await button_close_dialog_b_fulldialog_0490.click()
       await Utils.sleep(1000) // 焦点返回在主页面上的OpenA按钮
 
@@ -476,14 +476,14 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0190 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0190")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0190')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤1-2：进入测试页面（已通过createWindow完成）
       
       // 步骤3：点击Open按钮，观察弹窗显示动效（scale缩放效果）
-      let button_open_fulldialog_0190 = await driver.waitForComponent(ON.id("button_open_fulldialog_0190"), 500)
+      let button_open_fulldialog_0190 = await driver.waitForComponent(ON.id('button_open_fulldialog_0190'), 500)
       await button_open_fulldialog_0190.click()
       await Utils.sleep(3000) // 等待动画完成
 
@@ -509,17 +509,17 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0120")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0120')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，打开弹窗
-      let button_open_fulldialog_0120 = await driver.waitForComponent(ON.id("button_open_fulldialog_0120"), 500)
+      let button_open_fulldialog_0120 = await driver.waitForComponent(ON.id('button_open_fulldialog_0120'), 500)
       await button_open_fulldialog_0120.click()
       await Utils.sleep(1000) // 等待onWillAppear和onDidAppear回调
 
       // 点击Close按钮关闭弹窗（也可以通过左滑/右滑/点击蒙层）
-      let button_close_dialog_in_component_fulldialog_0120 = await driver.waitForComponent(ON.id("button_close_dialog_in_component_fulldialog_0120"), 500)
+      let button_close_dialog_in_component_fulldialog_0120 = await driver.waitForComponent(ON.id('button_close_dialog_in_component_fulldialog_0120'), 500)
       await button_close_dialog_in_component_fulldialog_0120.click()
       await Utils.sleep(1000) // 等待onWillDisappear和onDidDisappear回调
 
@@ -541,12 +541,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0140 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0140")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0140')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击Open按钮，打开弹窗
-      let button_open_fulldialog_0140 = await driver.waitForComponent(ON.id("button_open_fulldialog_0140"), 500)
+      let button_open_fulldialog_0140 = await driver.waitForComponent(ON.id('button_open_fulldialog_0140'), 500)
       await button_open_fulldialog_0140.click()
       await Utils.sleep(1000)
 
@@ -577,27 +577,27 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0180 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0180")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0180')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open1按钮，打开弹窗1
-      let button_open1_fulldialog_0180 = await driver.waitForComponent(ON.id("button_open1_fulldialog_0180"), 500)
+      let button_open1_fulldialog_0180 = await driver.waitForComponent(ON.id('button_open1_fulldialog_0180'), 500)
       await button_open1_fulldialog_0180.click()
       await Utils.sleep(1000) // 等待onWillAppear1和onDidAppear1回调
 
       // 步骤4：点击弹窗内的Close Dialog 1按钮，关闭弹窗1
-      let button_close_dialog1_in_component_fulldialog_0180 = await driver.waitForComponent(ON.id("button_close_dialog1_in_component_fulldialog_0180"), 500)
+      let button_close_dialog1_in_component_fulldialog_0180 = await driver.waitForComponent(ON.id('button_close_dialog1_in_component_fulldialog_0180'), 500)
       await button_close_dialog1_in_component_fulldialog_0180.click()
       await Utils.sleep(1000) // 等待onWillDisappear1和onDidDisappear1回调
 
       // 步骤5：点击Open2按钮，打开弹窗2
-      let button_open2_fulldialog_0180 = await driver.waitForComponent(ON.id("button_open2_fulldialog_0180"), 500)
+      let button_open2_fulldialog_0180 = await driver.waitForComponent(ON.id('button_open2_fulldialog_0180'), 500)
       await button_open2_fulldialog_0180.click()
       await Utils.sleep(1000) // 等待onWillAppear2和onDidAppear2回调
 
       // 步骤6：点击弹窗内的Close Dialog 2按钮，关闭弹窗2
-      let button_close_dialog2_in_component_fulldialog_0180 = await driver.waitForComponent(ON.id("button_close_dialog2_in_component_fulldialog_0180"), 500)
+      let button_close_dialog2_in_component_fulldialog_0180 = await driver.waitForComponent(ON.id('button_close_dialog2_in_component_fulldialog_0180'), 500)
       await button_close_dialog2_in_component_fulldialog_0180.click()
       await Utils.sleep(1000) // 等待onWillDisappear2和onDidDisappear2回调
 
@@ -619,12 +619,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0160")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0160')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击Open按钮，打开弹窗
-      let button_open_fulldialog_0160 = await driver.waitForComponent(ON.id("button_open_fulldialog_0160"), 500)
+      let button_open_fulldialog_0160 = await driver.waitForComponent(ON.id('button_open_fulldialog_0160'), 500)
       await button_open_fulldialog_0160.click()
       await Utils.sleep(1000)
 
@@ -654,17 +654,17 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0130 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0130")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0130')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，打开弹窗
-      let button_open_fulldialog_0130 = await driver.waitForComponent(ON.id("button_open_fulldialog_0130"), 500)
+      let button_open_fulldialog_0130 = await driver.waitForComponent(ON.id('button_open_fulldialog_0130'), 500)
       await button_open_fulldialog_0130.click()
       await Utils.sleep(1000) // 等待onWillAppear和onDidAppear回调
 
       // 步骤4：点击弹窗内的Close Dialog按钮，关闭弹窗
-      let button_close_dialog_in_component_fulldialog_0130 = await driver.waitForComponent(ON.id("button_close_dialog_in_component_fulldialog_0130"), 500)
+      let button_close_dialog_in_component_fulldialog_0130 = await driver.waitForComponent(ON.id('button_close_dialog_in_component_fulldialog_0130'), 500)
       await button_close_dialog_in_component_fulldialog_0130.click()
       await Utils.sleep(1000) // 等待onWillDisappear和onDidDisappear回调
 
@@ -686,12 +686,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0170 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0170")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0170')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击Open按钮，打开弹窗
-      let button_open_fulldialog_0170 = await driver.waitForComponent(ON.id("button_open_fulldialog_0170"), 500)
+      let button_open_fulldialog_0170 = await driver.waitForComponent(ON.id('button_open_fulldialog_0170'), 500)
       await button_open_fulldialog_0170.click()
       await Utils.sleep(1000)
 
@@ -725,17 +725,17 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0150 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0150")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0150')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击Open按钮，打开弹窗
-      let button_open_fulldialog_0150 = await driver.waitForComponent(ON.id("button_open_fulldialog_0150"), 500)
+      let button_open_fulldialog_0150 = await driver.waitForComponent(ON.id('button_open_fulldialog_0150'), 500)
       await button_open_fulldialog_0150.click()
       await Utils.sleep(1000)
 
       // 点击弹窗内的自动关闭按钮
-      let button_auto_close_fulldialog_0150 = await driver.waitForComponent(ON.id("button_auto_close_fulldialog_0150"), 500)
+      let button_auto_close_fulldialog_0150 = await driver.waitForComponent(ON.id('button_auto_close_fulldialog_0150'), 500)
       await button_auto_close_fulldialog_0150.click()
 
       // 步骤3：等待两秒弹窗关闭
@@ -759,12 +759,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0200 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0200")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0200')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0200 = await driver.waitForComponent(ON.id("button_open_fulldialog_0200"), 500)
+      let button_open_fulldialog_0200 = await driver.waitForComponent(ON.id('button_open_fulldialog_0200'), 500)
       await button_open_fulldialog_0200.click()
       await Utils.sleep(2000) // 观察显示动画（IDENTITY无转场效果，和默认动效一致）
 
@@ -790,12 +790,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0210 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0210")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0210')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0210 = await driver.waitForComponent(ON.id("button_open_fulldialog_0210"), 500)
+      let button_open_fulldialog_0210 = await driver.waitForComponent(ON.id('button_open_fulldialog_0210'), 500)
       await button_open_fulldialog_0210.click()
       await Utils.sleep(3000) // 等待显示动画完成（5000ms + 500ms缓冲）
 
@@ -821,12 +821,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0220 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0220")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0220')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0220 = await driver.waitForComponent(ON.id("button_open_fulldialog_0220"), 500)
+      let button_open_fulldialog_0220 = await driver.waitForComponent(ON.id('button_open_fulldialog_0220'), 500)
       await button_open_fulldialog_0220.click()
       await Utils.sleep(3000) // 等待显示动画完成（5000ms + 500ms缓冲）
 
@@ -852,12 +852,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0240 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0240")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0240')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0240 = await driver.waitForComponent(ON.id("button_open_fulldialog_0240"), 500)
+      let button_open_fulldialog_0240 = await driver.waitForComponent(ON.id('button_open_fulldialog_0240'), 500)
       await button_open_fulldialog_0240.click()
       await Utils.sleep(3000) // 等待显示动画完成（5000ms + 500ms缓冲）
 
@@ -883,12 +883,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0260 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0260")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0260')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0260 = await driver.waitForComponent(ON.id("button_open_fulldialog_0260"), 500)
+      let button_open_fulldialog_0260 = await driver.waitForComponent(ON.id('button_open_fulldialog_0260'), 500)
       await button_open_fulldialog_0260.click()
       await Utils.sleep(3000) // 等待显示动画完成（5000ms + 500ms缓冲）
 
@@ -914,12 +914,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0280 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0280")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0280')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0280 = await driver.waitForComponent(ON.id("button_open_fulldialog_0280"), 500)
+      let button_open_fulldialog_0280 = await driver.waitForComponent(ON.id('button_open_fulldialog_0280'), 500)
       await button_open_fulldialog_0280.click()
       await Utils.sleep(3000) // 等待显示动画完成（5000ms + 500ms缓冲）
 
@@ -945,12 +945,12 @@ export default function popupBoxFullDialog() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0270 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0270")
+      Settings.createWindow('testability/pages/component/popup/popupBoxFullDialog/PopupBoxFullDialog0270')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤3：点击Open按钮，观察弹窗显示动效
-      let button_open_fulldialog_0270 = await driver.waitForComponent(ON.id("button_open_fulldialog_0270"), 500)
+      let button_open_fulldialog_0270 = await driver.waitForComponent(ON.id('button_open_fulldialog_0270'), 500)
       await button_open_fulldialog_0270.click()
       await Utils.sleep(3000) // 等待显示动画完成（5000ms + 500ms缓冲）
 

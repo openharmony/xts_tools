@@ -50,7 +50,7 @@ export default function sidebarContainerStepperTest() {
      */
     it('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0060 start.`);
-      Settings.createWindow("testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer01")
+      Settings.createWindow('testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0060')
@@ -69,7 +69,7 @@ export default function sidebarContainerStepperTest() {
      */
     it('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0030 start.`);
-      Settings.createWindow("testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer02")
+      Settings.createWindow('testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0030')
@@ -88,7 +88,7 @@ export default function sidebarContainerStepperTest() {
      */
     it('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0020 start.`);
-      Settings.createWindow("testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer03")
+      Settings.createWindow('testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0020')
@@ -107,7 +107,7 @@ export default function sidebarContainerStepperTest() {
      */
     it('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0040 start.`);
-      Settings.createWindow("testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer04")
+      Settings.createWindow('testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0040')
@@ -126,7 +126,7 @@ export default function sidebarContainerStepperTest() {
      */
     it('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0050 start.`);
-      Settings.createWindow("testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer05")
+      Settings.createWindow('testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0050')
@@ -145,7 +145,7 @@ export default function sidebarContainerStepperTest() {
      */
     it('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010 start.`);
-      Settings.createWindow("testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer06")
+      Settings.createWindow('testability/pages/component/navigation/sidebarcontainer_stepper/sidebarContainer06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010')

@@ -50,7 +50,7 @@ export default function datePickerModeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0011 start.`);
-      Settings.createWindow("testability/pages/component/picker/dataPicker/mode01")
+      Settings.createWindow('testability/pages/component/picker/dataPicker/mode01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -73,7 +73,7 @@ export default function datePickerModeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0012 start.`);
-      Settings.createWindow("testability/pages/component/picker/dataPicker/mode02")
+      Settings.createWindow('testability/pages/component/picker/dataPicker/mode02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -96,7 +96,7 @@ export default function datePickerModeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0013 start.`);
-      Settings.createWindow("testability/pages/component/picker/dataPicker/mode03")
+      Settings.createWindow('testability/pages/component/picker/dataPicker/mode03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -115,7 +115,7 @@ export default function datePickerModeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0016 start.`);
-      Settings.createWindow("testability/pages/component/picker/dataPicker/mode04")
+      Settings.createWindow('testability/pages/component/picker/dataPicker/mode04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -149,7 +149,7 @@ export default function datePickerModeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0017 start.`);
-      Settings.createWindow("testability/pages/component/picker/dataPicker/mode05")
+      Settings.createWindow('testability/pages/component/picker/dataPicker/mode05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function datePickerModeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0018 start.`);
-      Settings.createWindow("testability/pages/component/picker/dataPicker/mode06")
+      Settings.createWindow('testability/pages/component/picker/dataPicker/mode06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let datePicker: Component = await driver.findComponent(ON.id('DatePickerMode06'));

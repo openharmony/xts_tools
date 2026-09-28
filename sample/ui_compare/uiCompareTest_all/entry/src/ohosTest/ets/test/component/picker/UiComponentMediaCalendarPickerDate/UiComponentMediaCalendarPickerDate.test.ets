@@ -50,7 +50,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0012 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate01")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate01')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate01_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate01_02'), 1000);
@@ -78,7 +78,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0013 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate02")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate02')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate02_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate02_02'), 1000);
@@ -106,7 +106,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0014 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate03")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate03')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate03_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate03_02'), 1000);
@@ -134,7 +134,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0015 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate04")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate04')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate04_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate04_02'), 1000);
@@ -162,7 +162,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0016 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate05")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate05')
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate05_01'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate05_02'), 1000);
@@ -207,7 +207,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0017 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate06")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate06')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate06_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate06_02'), 1000);
@@ -235,7 +235,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0018 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate07")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate07')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate07_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate07_02'), 1000);
@@ -263,7 +263,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0019 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate08")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate08')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate08_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate08_02'), 1000);
@@ -291,7 +291,7 @@ export default function uiComponentMediaCalendarPickerDate() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0020 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate09")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate09')
       let driver: Driver = Driver.create();
       let picker: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate09_01'), 1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentMediaCalendarPickerDate09_02'), 1000);

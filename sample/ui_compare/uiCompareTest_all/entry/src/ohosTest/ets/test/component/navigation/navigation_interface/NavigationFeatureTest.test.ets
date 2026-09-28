@@ -54,7 +54,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0010 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -96,7 +96,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0020 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature02")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -144,7 +144,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0030 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature03")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -205,7 +205,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0040 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature04")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -256,7 +256,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0050 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature05")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -301,7 +301,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0060 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature06")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -352,7 +352,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0070 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature07")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -389,7 +389,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0080 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature08")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -426,7 +426,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0090 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature09")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -463,7 +463,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0100 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature10")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -495,7 +495,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0110 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature11")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -527,7 +527,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0120 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature12")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -566,7 +566,7 @@ export default function navigationFeatureTest() {
         Logger.error('TEST', `Failed to set system language: ${JSON.stringify(e)}`);
       }
       
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature13")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -619,7 +619,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0140 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature14")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -659,7 +659,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0150 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature15")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -712,7 +712,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0160 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature16")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -761,7 +761,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0170 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature17")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -793,7 +793,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0180 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature18")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -825,7 +825,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0190 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature19")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -864,7 +864,7 @@ export default function navigationFeatureTest() {
         Logger.error('TEST', `Failed to set system language: ${JSON.stringify(e)}`);
       }
       
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature20")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       
@@ -896,7 +896,7 @@ export default function navigationFeatureTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0210 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navFeature21")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navFeature21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(300, 1000);
       

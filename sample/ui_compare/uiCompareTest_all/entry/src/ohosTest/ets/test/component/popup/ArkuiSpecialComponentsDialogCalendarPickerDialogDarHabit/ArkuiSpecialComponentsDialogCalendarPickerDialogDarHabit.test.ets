@@ -64,7 +64,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit01")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit01_02'),1000);
@@ -92,7 +92,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0100 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit02")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit02_02'),1000);
@@ -130,7 +130,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit03")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit03_01'),1000);
       await button01.click();
@@ -151,7 +151,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit04")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit04_02'),1000);
@@ -176,7 +176,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0040 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit05")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit05_01'),1000);
       let CalendarPicker01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit05_02'),1000);
@@ -203,7 +203,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit06")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit06_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit06_02'),1000);
@@ -240,7 +240,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0170 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit07")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit07_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit07_02'),1000);
@@ -265,7 +265,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0180 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit08")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit08_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit08_02'),1000);
@@ -295,7 +295,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0190 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit09")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit09_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit09_02'),1000);
@@ -319,7 +319,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0090 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit10")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit10_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit10_02'),1000);
@@ -352,7 +352,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0230 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit11")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit11_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit11_02'),1000);
@@ -379,7 +379,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0240 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit12")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit12_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit12_02'),1000);
@@ -408,7 +408,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0260 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit13")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit13')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit13_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit13_03'),1000);
@@ -431,7 +431,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0330 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit14")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit14')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit14_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit14_03'),1000);
@@ -454,7 +454,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0250 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit15")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit15')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit15_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit15_02'),1000);
@@ -483,7 +483,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0320 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit16")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit16')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit16_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit16_02'),1000);
@@ -512,7 +512,7 @@ export default function arkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0310 start.`);
-      Settings.createWindow("testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit17")
+      Settings.createWindow('testability/pages/component/popup/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit17')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit17_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('ArkuiSpecialComponentsDialogCalenDarHabit17_02'),1000);

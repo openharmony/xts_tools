@@ -49,7 +49,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0016', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0016 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0016")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0016')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0016_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -76,7 +76,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0017', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0017 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0017")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0017')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0017_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -103,7 +103,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0014 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0014")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0014')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0014_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -130,7 +130,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0015 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0015")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0015')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0015_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -157,7 +157,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0025', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0025 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0025")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0025')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0025_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -184,7 +184,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0027', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0027 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0027")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0027')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0027_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -211,7 +211,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0026', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0026 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0026")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0026')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0026_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -238,7 +238,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0028', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0028 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0028")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0028')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let TimePicker = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0028_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -265,7 +265,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0038', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0038 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0038")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0038')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let Button_1 = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0038_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -286,7 +286,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0039', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0039 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0039")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0039')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let Button_1 = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0039_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -307,7 +307,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0041', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0041 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0041")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0041')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let Button_1 = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0041_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -328,7 +328,7 @@ export default function uiComponentMediaTimepickerEnablecascade() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0040 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0040")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerEnablecascade/UiComponentMediaTimepickerEnablecascade0040')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let Button_1 = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnablecascade0040_001'), 1000);  // 显式等待组件出现[6](@ref)

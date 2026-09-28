@@ -52,7 +52,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0010 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -91,7 +91,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0070 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse07")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -127,7 +127,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0110 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse11")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -163,7 +163,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0170 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse17")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -199,7 +199,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0210 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse21")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -235,7 +235,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0270 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse27")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -277,7 +277,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0300 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse30")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -307,7 +307,7 @@ export default function navigationInterfaceFalseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0310 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navInterfaceFalse31")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navInterfaceFalse31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

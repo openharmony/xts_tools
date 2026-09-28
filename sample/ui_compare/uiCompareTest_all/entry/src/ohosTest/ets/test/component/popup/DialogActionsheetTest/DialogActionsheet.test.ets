@@ -51,12 +51,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0010 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0010")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0010')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤2：查找按钮组件
-      let show_actionsheet_no_message_0010 = await driver.waitForComponent(ON.id("show_actionsheet_no_message_0010"), 500)
+      let show_actionsheet_no_message_0010 = await driver.waitForComponent(ON.id('show_actionsheet_no_message_0010'), 500)
       
       // 步骤3：ActionSheet.show()中不配置message参数
       // 注意：此步骤在页面代码中已经实现，点击按钮会调用不包含message参数的ActionSheet.show()
@@ -84,12 +84,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0020 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0020")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：查找按钮组件
-      let show_actionsheet_no_sheets_0020 = await driver.waitForComponent(ON.id("show_actionsheet_no_sheets_0020"), 500)
+      let show_actionsheet_no_sheets_0020 = await driver.waitForComponent(ON.id('show_actionsheet_no_sheets_0020'), 500)
 
       // 步骤3：ActionSheet.show()中不配置message参数
       // 注意：此步骤在页面代码中已经实现，点击按钮会调用不包含message参数的ActionSheet.show()
@@ -117,12 +117,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0030 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0030")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0030')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：查找按钮组件
-      let show_actionsheet_abnormal_title_0030 = await driver.waitForComponent(ON.id("show_actionsheet_abnormal_title_0030"), 500)
+      let show_actionsheet_abnormal_title_0030 = await driver.waitForComponent(ON.id('show_actionsheet_abnormal_title_0030'), 500)
 
       // 步骤3：ActionSheet.show()中不配置message参数
       // 注意：此步骤在页面代码中已经实现，点击按钮会调用不包含message参数的ActionSheet.show()
@@ -152,12 +152,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0040 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0040")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0040')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤2：查找按钮组件
-      let show_actionsheet_wrong_message_type_0040 = await driver.waitForComponent(ON.id("show_actionsheet_wrong_message_type_0040"), 500)
+      let show_actionsheet_wrong_message_type_0040 = await driver.waitForComponent(ON.id('show_actionsheet_wrong_message_type_0040'), 500)
       
       // 步骤3：message设置为数字类型12345678910
       // 注意：此步骤在页面代码中已经实现，点击按钮会调用message设置为数字类型的ActionSheet.show()
@@ -185,12 +185,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0050 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0050")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0050')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤2：查找按钮组件
-      let show_actionsheet_abnormal_subtitle_0050 = await driver.waitForComponent(ON.id("show_actionsheet_abnormal_subtitle_0050"), 500)
+      let show_actionsheet_abnormal_subtitle_0050 = await driver.waitForComponent(ON.id('show_actionsheet_abnormal_subtitle_0050'), 500)
       
       // 步骤3：subtitle设置为异常值123456@#&
       // 注意：此步骤在页面代码中已经实现，点击按钮会调用subtitle设置为异常值的ActionSheet.show()
@@ -218,12 +218,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0060 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0060")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0060')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤2：点击showInSubWindow_false按钮，进入页面，再点击页面中的按钮
-      let show_actionsheet_subwindow_false_0060 = await driver.waitForComponent(ON.id("show_actionsheet_subwindow_false_0060"), 500)
+      let show_actionsheet_subwindow_false_0060 = await driver.waitForComponent(ON.id('show_actionsheet_subwindow_false_0060'), 500)
       await show_actionsheet_subwindow_false_0060.click()
       await Utils.sleep(1000)
       
@@ -248,12 +248,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0070 start.`);
       // 步骤1：安装hap包，进入demo（页面初始化）
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0070")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0070')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤2：点击showInSubWindow_true按钮，进入页面，再点击页面中的按钮
-      let show_actionsheet_subwindow_true_0070 = await driver.waitForComponent(ON.id("show_actionsheet_subwindow_true_0070"), 500)
+      let show_actionsheet_subwindow_true_0070 = await driver.waitForComponent(ON.id('show_actionsheet_subwindow_true_0070'), 500)
       await show_actionsheet_subwindow_true_0070.click()
       await Utils.sleep(1000)
       
@@ -279,12 +279,12 @@ export default function dialogActionsheet() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0080 start.`);
       // 步骤1：ActionSheet.show()中不配置非必填参数（页面初始化）
       // 步骤2：运行此ets页面，查看是否报错（编译不报错）
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0080")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0080')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤3：进入demo，点击非必填参数验证的按钮进入页面，点击页面中的按钮
-      let show_actionsheet_optional_params_0080 = await driver.waitForComponent(ON.id("show_actionsheet_optional_params_0080"), 500)
+      let show_actionsheet_optional_params_0080 = await driver.waitForComponent(ON.id('show_actionsheet_optional_params_0080'), 500)
       await show_actionsheet_optional_params_0080.click()
       await Utils.sleep(1000)
       
@@ -308,12 +308,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0600 start.`);
       // 步骤1：编译gitee上actionSheet组件资料里示例1的代码（页面初始化）
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0600")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0600')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤2：深色模式下查看列表选择弹窗显示
-      let show_actionsheet_dark_mode_0600 = await driver.waitForComponent(ON.id("show_actionsheet_dark_mode_0600"), 500)
+      let show_actionsheet_dark_mode_0600 = await driver.waitForComponent(ON.id('show_actionsheet_dark_mode_0600'), 500)
       await show_actionsheet_dark_mode_0600.click()
       await Utils.sleep(1000)
       
@@ -337,12 +337,12 @@ export default function dialogActionsheet() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0700 start.`);
       // 步骤1：编译gitee上actionSheet组件资料里示例1的代码（页面初始化）
-      Settings.createWindow("testability/pages/component/popup/dialogActionsheet/DialogActionsheet0700")
+      Settings.createWindow('testability/pages/component/popup/dialogActionsheet/DialogActionsheet0700')
       let driver = await Driver.create()
       await Utils.sleep(500)
       
       // 步骤2：浅色模式下查看列表选择弹窗显示
-      let show_actionsheet_light_mode_0700 = await driver.waitForComponent(ON.id("show_actionsheet_light_mode_0700"), 500)
+      let show_actionsheet_light_mode_0700 = await driver.waitForComponent(ON.id('show_actionsheet_light_mode_0700'), 500)
       await show_actionsheet_light_mode_0700.click()
       await Utils.sleep(1000)
       

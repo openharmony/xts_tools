@@ -50,7 +50,7 @@ export default function dialogSpecificationsHand() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsHand/DialogSpecificationsHand0020")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsHand/DialogSpecificationsHand0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsHand0020_001'),1000);
@@ -80,7 +80,7 @@ export default function dialogSpecificationsHand() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsHand/DialogSpecificationsHand0030")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsHand/DialogSpecificationsHand0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsHand0030_001'),1000);
@@ -108,7 +108,7 @@ export default function dialogSpecificationsHand() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0070 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsHand/DialogSpecificationsHand0070")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsHand/DialogSpecificationsHand0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button3: Component = await driver.waitForComponent(ON.id('DialogSpecificationsHand0070_003'),1000);

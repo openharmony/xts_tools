@@ -52,7 +52,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0010 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0010/navigationOnNewParam0010")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0010/navigationOnNewParam0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -132,7 +132,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0030 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0030/navigationOnNewParam0030")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0030/navigationOnNewParam0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -257,7 +257,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0040 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0040/navigationOnNewParam0040")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0040/navigationOnNewParam0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -382,7 +382,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0050 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0050/navigationOnNewParam0050")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0050/navigationOnNewParam0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -450,7 +450,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0060 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0060/navigationOnNewParam0060")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0060/navigationOnNewParam0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -518,7 +518,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0070 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0070/navigationOnNewParam0070")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0070/navigationOnNewParam0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -572,7 +572,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0080 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0080/navigationOnNewParam0080")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0080/navigationOnNewParam0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -697,7 +697,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0090 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0090/navigationOnNewParam0090")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0090/navigationOnNewParam0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -807,7 +807,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0100 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0100/navigationOnNewParam0100")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0100/navigationOnNewParam0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -889,7 +889,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0110 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0110/navigationOnNewParam0110")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0110/navigationOnNewParam0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -957,7 +957,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0120 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0120/navigationOnNewParam0120")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0120/navigationOnNewParam0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1067,7 +1067,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0130 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0130/navigationOnNewParam0130")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0130/navigationOnNewParam0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1177,7 +1177,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0140 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0140/navigationOnNewParam0140")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0140/navigationOnNewParam0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1245,7 +1245,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0150 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0150/navigationOnNewParam0150")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0150/navigationOnNewParam0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1313,7 +1313,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0160 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0160/navigationOnNewParam0160")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0160/navigationOnNewParam0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1381,7 +1381,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0170 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0170/navigationOnNewParam0170")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0170/navigationOnNewParam0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1463,7 +1463,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0180 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0180/navigationOnNewParam0180")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0180/navigationOnNewParam0180')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1545,7 +1545,7 @@ export default function navigationOnNewParamTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0190 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/onNewParam/0190/navigationOnNewParam0190")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/onNewParam/0190/navigationOnNewParam0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

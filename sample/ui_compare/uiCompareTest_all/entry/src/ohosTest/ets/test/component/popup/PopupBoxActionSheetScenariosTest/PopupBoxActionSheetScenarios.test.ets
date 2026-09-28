@@ -51,12 +51,12 @@ export default function popupBoxActionSheetScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0010 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0010")
+      Settings.createWindow('testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0010')
       let driver = await Driver.create()
       await driver.waitForIdle(500,3000)
 
       // 步骤2：查找按钮组件
-      let popup_button_scenarios_0010 = await driver.waitForComponent(ON.id("popup_button_scenarios_0010"), 1000)
+      let popup_button_scenarios_0010 = await driver.waitForComponent(ON.id('popup_button_scenarios_0010'), 1000)
 
       // 步骤3：点击按钮弹出无按钮弹窗列表选择弹窗，无蒙层，showInSubWindow设置为true
       await popup_button_scenarios_0010.click()
@@ -86,12 +86,12 @@ export default function popupBoxActionSheetScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0020 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0020")
+      Settings.createWindow('testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0020')
       let driver = await Driver.create()
       await driver.waitForIdle(500,3000)
 
       // 步骤2：查找按钮组件
-      let popup_button_scenarios_0020 = await driver.waitForComponent(ON.id("popup_button_scenarios_0020"), 1000)
+      let popup_button_scenarios_0020 = await driver.waitForComponent(ON.id('popup_button_scenarios_0020'), 1000)
 
       // 步骤3：点击按钮弹出无按钮弹窗列表选择弹窗，有蒙层，showInSubWindow设置为true
       await popup_button_scenarios_0020.click()
@@ -117,12 +117,12 @@ export default function popupBoxActionSheetScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0030 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0030")
+      Settings.createWindow('testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0030')
       let driver = await Driver.create()
       await driver.waitForIdle(500,3000)
 
       // 步骤2：查找按钮组件
-      let popup_button_scenarios_0030 = await driver.waitForComponent(ON.id("popup_button_scenarios_0030"), 1000)
+      let popup_button_scenarios_0030 = await driver.waitForComponent(ON.id('popup_button_scenarios_0030'), 1000)
 
       // 步骤3：点击按钮弹出有按钮弹窗列表选择弹窗，无蒙层，showInSubWindow设置为true
       await popup_button_scenarios_0030.click()
@@ -148,12 +148,12 @@ export default function popupBoxActionSheetScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0040 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0040")
+      Settings.createWindow('testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0040')
       let driver = await Driver.create()
       await driver.waitForIdle(500,3000)
 
       // 步骤2：查找按钮组件
-      let popup_button_scenarios_0040 = await driver.waitForComponent(ON.id("popup_button_scenarios_0040"), 1000)
+      let popup_button_scenarios_0040 = await driver.waitForComponent(ON.id('popup_button_scenarios_0040'), 1000)
 
       // 步骤3：点击按钮弹出有按钮弹窗列表选择弹窗，有蒙层，showInSubWindow设置为true
       await popup_button_scenarios_0040.click()
@@ -179,7 +179,7 @@ export default function popupBoxActionSheetScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0100 start.`);
       // 步骤1：页面初始化，编译列表弹窗
-      Settings.createWindow("testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0100")
+      Settings.createWindow('testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0100')
       let driver = await Driver.create()
       await driver.waitForIdle(500,3000)
 
@@ -204,12 +204,12 @@ export default function popupBoxActionSheetScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0120 start.`);
       // 步骤1：进入"actionSheet"界面
-      Settings.createWindow("testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0120")
+      Settings.createWindow('testability/pages/component/popup/popupBoxActionSheetScenarios/PopupBoxActionSheetScenarios0120')
       let driver = await Driver.create()
       await driver.waitForIdle(500,3000)
 
       // 步骤2：点击"confirm button1"弹出弹框，然后点击遮障层验证cancel回调
-      let confirm_button1_scenarios_0120 = await driver.waitForComponent(ON.id("confirm_button1_scenarios_0120"), 1000)
+      let confirm_button1_scenarios_0120 = await driver.waitForComponent(ON.id('confirm_button1_scenarios_0120'), 1000)
       await confirm_button1_scenarios_0120.click()
       await driver.waitForIdle(1000,3000)
 

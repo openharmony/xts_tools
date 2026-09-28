@@ -50,7 +50,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1420', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1420 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1420")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1420')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1420_001'),1000);
@@ -77,7 +77,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1410 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1410")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1410')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1410_001'),1000);
@@ -104,7 +104,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1990', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1990 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1990")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1990')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1990_001'),1000);
@@ -131,7 +131,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1280 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1280")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1280_001'),1000);
@@ -158,7 +158,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1680', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1680 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1680")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1680')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1680_001'),1000);
@@ -185,7 +185,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1700', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1700 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1700")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1700')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1700_001'),1000);
@@ -212,7 +212,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1880', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1880 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1880")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1880')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1880_001'),1000);
@@ -239,7 +239,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1290 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1290")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1290_001'),1000);
@@ -266,7 +266,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1740', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1740 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1740")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1740')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1740_001'),1000);
@@ -293,7 +293,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1390 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1390")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1390')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1390_001'),1000);
@@ -320,7 +320,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1830', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1830 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1830")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1830')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1830_001'),1000);
@@ -347,7 +347,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1300 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1300")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1300_001'),1000);
@@ -374,7 +374,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1840', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1840 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1840")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1840')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1840_001'),1000);
@@ -401,7 +401,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1860', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1860 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1860")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1860')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1860_001'),1000);
@@ -428,7 +428,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1870', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1870 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1870")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1870')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1870_001'),1000);
@@ -455,7 +455,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1950', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1950 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1950")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1950')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1950_001'),1000);
@@ -482,7 +482,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1760', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1760 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1760")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1760')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1760_001'),1000);
@@ -509,7 +509,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1260 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1260")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1260_001'),1000);
@@ -536,7 +536,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1210', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1210 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1210")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1210')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1210_001'),1000);
@@ -563,7 +563,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1730', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1730 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1730")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1730')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1730_001'),1000);
@@ -590,7 +590,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1380', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1380 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1380")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1380')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1380_001'),1000);
@@ -617,7 +617,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1770', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1770 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1770")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1770')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1770_001'),1000);
@@ -644,7 +644,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1480', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1480 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1480")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1480')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1480_001'),1000);
@@ -671,7 +671,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1900', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1900 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1900")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1900')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1900_001'),1000);
@@ -698,7 +698,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1310', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1310 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1310")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1310')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1310_001'),1000);
@@ -724,7 +724,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1430', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1430 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1430")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1430')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1430_001'),1000);
@@ -750,7 +750,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1710', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1710 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1710")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1710')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1710_001'),1000);
@@ -776,7 +776,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1850', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1850 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1850")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1850')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1850_001'),1000);
@@ -802,7 +802,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1400 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1400")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1400')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1400_001'),1000);
@@ -828,7 +828,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1220 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1220")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1220')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1220_001'),1000);
@@ -854,7 +854,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1470', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1470 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1470")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1470')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1470_001'),1000);
@@ -880,7 +880,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1330 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1330")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1330')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1330_001'),1000);
@@ -906,7 +906,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1230 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1230")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1230')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1230_001'),1000);
@@ -932,7 +932,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1790', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1790 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1790")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1790')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1790_001'),1000);
@@ -958,7 +958,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1460 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1460")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1460')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1460_001'),1000);
@@ -984,7 +984,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1240 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1240")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1240_001'),1000);
@@ -1010,7 +1010,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1750', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1750 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1750")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1750')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1750_001'),1000);
@@ -1036,7 +1036,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1360 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1360")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1360')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1360_001'),1000);
@@ -1062,7 +1062,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1690', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1690 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1690")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1690')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1690_001'),1000);
@@ -1088,7 +1088,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1820', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1820 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1820")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1820')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1820_001'),1000);
@@ -1114,7 +1114,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1800', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1800 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1800")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1800')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1800_001'),1000);
@@ -1140,7 +1140,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1890', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1890 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1890")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1890')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1890_001'),1000);
@@ -1166,7 +1166,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1350 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1350")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1350')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1350_001'),1000);
@@ -1192,7 +1192,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1930', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1930 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1930")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1930')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1930_001'),1000);
@@ -1218,7 +1218,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1320 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1320")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1320')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1320_001'),1000);
@@ -1244,7 +1244,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1940', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1940 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1940")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1940')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1940_001'),1000);
@@ -1270,7 +1270,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1490 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1490")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1490')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1490_001'),1000);
@@ -1296,7 +1296,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1270 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1270")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1270')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1270_001'),1000);
@@ -1322,7 +1322,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1910', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1910 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1910")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1910')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1910_001'),1000);
@@ -1348,7 +1348,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1370 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1370")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1370_001'),1000);
@@ -1374,7 +1374,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1250 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1250")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1250')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1250_001'),1000);
@@ -1400,7 +1400,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1340 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1340")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1340')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1340_001'),1000);
@@ -1426,7 +1426,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1960', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1960 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1960")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1960')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1960_001'),1000);
@@ -1452,7 +1452,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1810', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1810 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1810")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1810')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1810_001'),1000);
@@ -1478,7 +1478,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1450', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1450 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1450")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1450')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1450_001'),1000);
@@ -1504,7 +1504,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1980', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1980 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1980")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1980')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1980_001'),1000);
@@ -1530,7 +1530,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1720', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1720 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1720")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1720')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1720_001'),1000);
@@ -1556,7 +1556,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1500', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1500 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1500")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1500')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1500_001'),1000);
@@ -1582,7 +1582,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1920', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1920 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1920")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1920')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1920_001'),1000);
@@ -1608,7 +1608,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1510', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1510 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1510")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1510')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1510_001'),1000);
@@ -1634,7 +1634,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1440 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1440")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1440')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1440_001'),1000);
@@ -1660,7 +1660,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1780', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1780 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1780")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1780')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1780_001'),1000);
@@ -1686,7 +1686,7 @@ export default function customDialogInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1970', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1970 start.`);
-      Settings.createWindow("testability/pages/component/popup/customDialogInterface/CustomDialogInterface1970")
+      Settings.createWindow('testability/pages/component/popup/customDialogInterface/CustomDialogInterface1970')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('CustomDialogInterface1970_001'),1000);

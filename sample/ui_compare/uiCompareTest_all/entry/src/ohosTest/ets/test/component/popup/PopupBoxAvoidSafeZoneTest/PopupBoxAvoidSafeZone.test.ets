@@ -51,7 +51,7 @@ export default function popupBoxAvoidSafeZone() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0010 start.`);
       
       try {
-        Settings.createWindow("testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0010")
+        Settings.createWindow('testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0010')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -96,7 +96,7 @@ export default function popupBoxAvoidSafeZone() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0020 start.`);
       
       try {
-        Settings.createWindow("testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0020")
+        Settings.createWindow('testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0020')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -141,7 +141,7 @@ export default function popupBoxAvoidSafeZone() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0060 start.`);
       
       try {
-        Settings.createWindow("testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0060")
+        Settings.createWindow('testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0060')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -186,7 +186,7 @@ export default function popupBoxAvoidSafeZone() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0070 start.`);
       
       try {
-        Settings.createWindow("testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0070")
+        Settings.createWindow('testability/pages/component/popup/popupBoxAvoidSafeZone/PopupBoxAvoidSafeZone0070')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         

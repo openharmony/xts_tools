@@ -51,12 +51,12 @@ export default function popupBoxAlertdialogInterface() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_INTERFACE_1200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_INTERFACE_1200 start.`);
       // 步骤1：进入警告弹窗界面
-      Settings.createWindow("testability/pages/component/popup/popupBoxAlertdialogInterface/PopupBoxAlertdialogInterface1200")
+      Settings.createWindow('testability/pages/component/popup/popupBoxAlertdialogInterface/PopupBoxAlertdialogInterface1200')
       let driver = await Driver.create()
       await driver.waitForIdle(500,3000)
       
       // 步骤2：点击"two button dialog"弹出警告弹窗，内容为$r("app.string.message")的信息
-      let alert_dialog_button_1200 = await driver.waitForComponent(ON.id("alert_dialog_button_1200"), 500)
+      let alert_dialog_button_1200 = await driver.waitForComponent(ON.id('alert_dialog_button_1200'), 500)
       await alert_dialog_button_1200.click()
       await driver.waitForIdle(500,3000)
       

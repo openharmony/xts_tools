@@ -50,7 +50,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0040 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0040")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0040_001'),1000);
@@ -85,7 +85,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0030")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0030_001'),1000);
@@ -120,7 +120,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0020")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0020_001'),1000);
@@ -155,7 +155,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0050")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0050_001'),1000);
@@ -204,7 +204,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0060 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0060")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0060_001'),1000);
@@ -239,7 +239,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0090 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0090")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0090_001'),1000);
@@ -274,7 +274,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0080 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0080")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0080_001'),1000);
@@ -309,7 +309,7 @@ export default function dialogSpecificationsUi() {
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0120")
+      Settings.createWindow('testability/pages/component/popup/dialogSpecificationsUi/DialogSpecificationsUi0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('DialogSpecificationsUi0120_001'),1000);

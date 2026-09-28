@@ -53,7 +53,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177')
@@ -72,7 +72,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861')
@@ -91,7 +91,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation02")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045')
@@ -110,7 +110,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation03")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation03')
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('nav03ChangeMinContentWidth'), 1000);
       await button.click();
@@ -131,7 +131,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation04")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation04')
       let driver: Driver = Driver.create();
       Logger.info('TEST', `button1.click begin.`);
       let button1: Component = await driver.waitForComponent(ON.id('nav04ChangeMode'), 1000);
@@ -225,7 +225,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation05")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation05')
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('nav05PushPageThree'), 1000);
       await button1.click();
@@ -254,7 +254,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation06")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405')
@@ -273,7 +273,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation07")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811')
@@ -292,7 +292,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation08")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227')
@@ -311,7 +311,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation09")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354')
@@ -330,7 +330,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation10")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530')
@@ -349,7 +349,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation11")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299')
@@ -368,7 +368,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation12")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226')
@@ -387,7 +387,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation13")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250')
@@ -406,7 +406,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation14")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508')
@@ -425,7 +425,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation15")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618')
@@ -444,7 +444,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation16")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571')
@@ -463,7 +463,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation17")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771')
@@ -482,7 +482,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0510_988', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0510_988 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation18")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0510_988')
@@ -501,7 +501,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0340_021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0340_021 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation19")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0340_021')
@@ -520,7 +520,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0740_522', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0740_522 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation20")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0740_522')
@@ -539,7 +539,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation21")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216')
@@ -558,7 +558,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation22")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       await Settings.changeWindowOrientation('landScape');
@@ -579,7 +579,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation23")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       let button: Component = await driver.waitForComponent(ON.id('nav23ChangeNavBarPosition'), 1000);
@@ -600,7 +600,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation24")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       let button: Component = await driver.waitForComponent(ON.id('nav24ChangeHideToolBar'), 1000);
@@ -622,7 +622,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation25")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation25')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       let button: Component = await driver.waitForComponent(ON.id('nav25ChangeTitle'), 1000);
@@ -644,7 +644,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation26")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation26')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470')
@@ -663,7 +663,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation27")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369')
@@ -682,7 +682,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation28")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation28')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448')
@@ -701,7 +701,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation29")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation29')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053')
@@ -720,7 +720,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation30")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557')
@@ -739,7 +739,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation31")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       await Settings.changeWindowOrientation('landScape');
@@ -760,7 +760,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation32")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation32')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250')
@@ -780,7 +780,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation33")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation33')
       let driver: Driver = Driver.create();
       Logger.info('TEST', `button1.click begin.`);
       let button1: Component = await driver.waitForComponent(ON.id('nav33ChangeMode'), 1000);
@@ -874,7 +874,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation34")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285')
@@ -893,7 +893,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation35")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747')
@@ -912,7 +912,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation36")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation36')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957')
@@ -931,7 +931,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation37")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation37')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       let scrollBar: Component = await driver.waitForComponent(ON.id('nav37ScrollList'), 1000);
@@ -956,7 +956,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation38")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation38')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165')
@@ -975,7 +975,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation39")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation39')
       let driver: Driver = Driver.create();
       Logger.info('TEST', `button1.click begin.`);
       let button1: Component = await driver.waitForComponent(ON.id('nav39ChangeMode'), 1000);
@@ -1069,7 +1069,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation05")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249')
@@ -1088,7 +1088,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation40")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation40')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448')
@@ -1107,7 +1107,7 @@ export default function navigationInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigation41")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigation41')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781_01')

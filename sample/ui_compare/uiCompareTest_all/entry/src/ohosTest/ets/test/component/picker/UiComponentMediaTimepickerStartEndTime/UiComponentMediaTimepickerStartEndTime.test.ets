@@ -64,7 +64,7 @@ export default function uiComponentMediaTimepickerStartEndTime() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0015 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime01")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnableCascade01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnableCascade01_02'),1000);
@@ -101,7 +101,7 @@ export default function uiComponentMediaTimepickerStartEndTime() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0021 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime02")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnableCascade02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnableCascade02_02'),1000);
@@ -138,7 +138,7 @@ export default function uiComponentMediaTimepickerStartEndTime() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0022 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime03")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnableCascade03_01'),1000);
       windowSnap.snapShot()
@@ -161,7 +161,7 @@ export default function uiComponentMediaTimepickerStartEndTime() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0024 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime04")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnableCascade04_01'),1000);
       windowSnap.snapShot()
@@ -185,7 +185,7 @@ export default function uiComponentMediaTimepickerStartEndTime() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0025 start.`);
-      Settings.createWindow("testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime05")
+      Settings.createWindow('testability/pages/component/picker/uiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaTimepickerEnableCascade05_01'),1000);
       await button01.click()
