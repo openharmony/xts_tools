@@ -121,39 +121,39 @@ struct UIComponentListAndGridListUniversalPropertyConstraintSize0150 {
           right: 5
         })
         .onScrollFrameBegin((offset: number, state: ScrollState) => {
-          console.info("Scroll onScrollFrameBegin");
+          console.info('Scroll onScrollFrameBegin');
           this.message += `\n Scroll onScrollFrameBegin, offset: ${offset}, state: ${state}`;
           return { offsetRemain: offset };
         })
         .onWillScroll((xOffset: number, yOffset: number,  scrollState: ScrollState) => {
-          console.info("Scroll onWillScroll");
+          console.info('Scroll onWillScroll');
           this.message += `\n Scroll onWillScroll, xOffset: ${xOffset}, yOffset: ${yOffset}, scrollState: ${scrollState}`;
         })
         .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
-          console.info("Scroll onDidScroll");
+          console.info('Scroll onDidScroll');
           console.info(scrollOffset.toString());
           console.info(scrollState.toString());
           this.message += `\n Scroll onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
         })
         .onScrollFrameBegin((offset: number, state: ScrollState) => {
-          console.info("Scroll onScrollFrameBegin");
+          console.info('Scroll onScrollFrameBegin');
           this.message += `\n Scroll onScrollFrameBegin, offset: ${offset}, state: ${state}`;
           return { offsetRemain: offset };
         })
         .onScrollStart(() => {
-          console.info("Scroll onScrollStart");
+          console.info('Scroll onScrollStart');
           this.message += `\n Scroll onScrollStart`;
         })
         .onScrollStop(() => {
-          console.info("Scroll onScrollStop");
+          console.info('Scroll onScrollStop');
           this.message += `\n Scroll onScrollStop`;
         })
         .onReachStart(() => {
-          console.info("Scroll onReachStart");
+          console.info('Scroll onReachStart');
           this.message += `\n Scroll onReachStart`;
         })
         .onReachEnd(() => {
-          console.info("Scroll onReachEnd");
+          console.info('Scroll onReachEnd');
           this.message += `\n Scroll onReachEnd`;
         })
       }

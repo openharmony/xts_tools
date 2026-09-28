@@ -196,7 +196,7 @@ struct UIComponentListAndGridWaterFlowAdd0340608 {
       }
       .id(this.name + '_02')
       .layoutDirection(this.waterFlowDirection)
-      .rowsTemplate("1fr 1fr 0fr")
+      .rowsTemplate('1fr 1fr 0fr')
       .columnsGap(10)
       .rowsGap(10)
       .friction(this.frictionValue)
@@ -216,40 +216,40 @@ struct UIComponentListAndGridWaterFlowAdd0340608 {
         right: 5
       })
       .onScrollIndex((first: number, last: number) => {
-        console.info("WaterFlow onScrollIndex");
+        console.info('WaterFlow onScrollIndex');
         console.info(first.toString());
         console.info(last.toString());
         this.message += `\n WaterFlow onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("WaterFlow onScrollFrameBegin");
+        console.info('WaterFlow onScrollFrameBegin');
         this.message += `\n WaterFlow onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("WaterFlow onWillScroll");
+        console.info('WaterFlow onWillScroll');
         this.message += `\n WaterFlow onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
-        console.info("WaterFlow onDidScroll");
+        console.info('WaterFlow onDidScroll');
         console.info(scrollOffset.toString());
         console.info(scrollState.toString());
         this.message += `\n WaterFlow onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onScrollStart(() => {
-        console.info("WaterFlow onScrollStart");
+        console.info('WaterFlow onScrollStart');
         this.message += `\n WaterFlow onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("WaterFlow onScrollStop");
+        console.info('WaterFlow onScrollStop');
         this.message += `\n WaterFlow onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("WaterFlow onReachStart");
+        console.info('WaterFlow onReachStart');
         this.message += `\n WaterFlow onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("WaterFlow onReachEnd");
+        console.info('WaterFlow onReachEnd');
         this.message += `\n WaterFlow onReachEnd`;
       })
 

@@ -304,30 +304,30 @@ struct UIComponentListAndGridModifier0590 {
         right: 5
       })
       .onItemMove((from: number, to: number) =>{
-        console.info("List onItemMove");
+        console.info('List onItemMove');
         this.message += `\n List onItemMove, from: ${from.toString()}, to: ${to.toString()}`;
         return true;
       })
       .onItemDragStart((event: ItemDragInfo, itemIndex: number) => {
-        console.info("List onItemDragStart");
+        console.info('List onItemDragStart');
         this.message += `\n List onItemDragStart, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
         this.text = this.numbers[itemIndex].toString();
         return this.pixelMapBuilder();
       })
       .onItemDragEnter((event: ItemDragInfo) => {
-        console.info("List onItemDragEnter");
+        console.info('List onItemDragEnter');
         this.message += `\n List onItemDragEnter, event: ${JSON.stringify(event)}`;
       })
       .onItemDragLeave((event: ItemDragInfo, itemIndex: number) => {
-        console.info("List onItemDragLeave");
+        console.info('List onItemDragLeave');
         this.message += `\n List onItemDragLeave, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
       })
       .onItemDragMove((event: ItemDragInfo, itemIndex: number, insertIndex: number) => {
-        console.info("List onItemDragMove");
+        console.info('List onItemDragMove');
         this.message += `\n List onItemDragMove, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
       })
       .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-        console.info("List onItemDrop");
+        console.info('List onItemDrop');
         if (!isSuccess || insertIndex >= this.numbers.length) {
           return;
         }
@@ -335,49 +335,49 @@ struct UIComponentListAndGridModifier0590 {
         this.message += `\n List onItemDrop, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}, isSuccess: ${isSuccess}`;
       })
       .onScrollVisibleContentChange((start: VisibleListContentInfo, end: VisibleListContentInfo) => {
-        console.info("List onScrollVisibleContentChange");
+        console.info('List onScrollVisibleContentChange');
         this.message += `\n List onScrollVisibleContentChange, start: ${JSON.stringify(start)}, end: ${JSON.stringify(end)}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("List onScrollFrameBegin");
+        console.info('List onScrollFrameBegin');
         this.message += `\n List onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onScrollIndex((first: number, last: number) => {
-        console.info("List onScrollIndex");
+        console.info('List onScrollIndex');
         console.info(first.toString());
         console.info(last.toString());
         this.message += `\n List onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("List onWillScroll");
+        console.info('List onWillScroll');
         this.message += `\n List onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
-        console.info("List onDidScroll");
+        console.info('List onDidScroll');
         console.info(scrollOffset.toString());
         console.info(scrollState.toString());
         this.message += `\n List onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("List onScrollFrameBegin");
+        console.info('List onScrollFrameBegin');
         this.message += `\n List onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onScrollStart(() => {
-        console.info("List onScrollStart");
+        console.info('List onScrollStart');
         this.message += `\n List onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("List onScrollStop");
+        console.info('List onScrollStop');
         this.message += `\n List onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("List onReachStart");
+        console.info('List onReachStart');
         this.message += `\n List onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("List onReachEnd");
+        console.info('List onReachEnd');
         this.message += `\n List onReachEnd`;
       })
 
