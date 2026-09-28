@@ -23043,6 +23043,13 @@
                 "drivers_interface_midi"
             ],
             "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/formComponent.static.d.ets",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
         }
     ]
 }
