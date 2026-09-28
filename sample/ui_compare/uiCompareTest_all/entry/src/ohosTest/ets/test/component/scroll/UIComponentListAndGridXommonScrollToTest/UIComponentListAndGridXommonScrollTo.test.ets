@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridXommonScrollTo() {
-  describe('UIComponentListAndGridXommonScrollTo', () => {
+export default function uIComponentListAndGridXommonScrollTo() {
+  describe('uIComponentListAndGridXommonScrollTo', () => {
     beforeAll(() => {
 
     })

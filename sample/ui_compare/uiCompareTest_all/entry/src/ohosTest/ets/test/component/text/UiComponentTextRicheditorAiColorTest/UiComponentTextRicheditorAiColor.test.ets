@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentTextRicheditorAiColor() {
-  describe('UiComponentTextRicheditorAiColor', () => {
+export default function uiComponentTextRicheditorAiColor() {
+  describe('uiComponentTextRicheditorAiColor', () => {
     let driver = Driver.create();
 
     afterEach(async () => {

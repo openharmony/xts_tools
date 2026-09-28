@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentGridJiaoDian() {
-  describe('UIComponentGridJiaoDian', () => {
+export default function uIComponentGridJiaoDian() {
+  describe('uIComponentGridJiaoDian', () => {
     beforeAll(() => {
 
     })

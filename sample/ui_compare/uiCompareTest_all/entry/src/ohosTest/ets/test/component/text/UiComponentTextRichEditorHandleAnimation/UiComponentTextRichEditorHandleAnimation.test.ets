@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentTextRichEditorHandleAnimation() {
+export default function uiComponentTextRichEditorHandleAnimation() {
 
-  describe('UiComponentTextRichEditorHandleAnimation', () => {
+  describe('uiComponentTextRichEditorHandleAnimation', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

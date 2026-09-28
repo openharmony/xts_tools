@@ -22,8 +22,8 @@ import { uiAppearance } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit';
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorDoubleClick() {
-  describe('UiComponentTextRichEditorDoubleClick', () => {
+export default function uiComponentTextRichEditorDoubleClick() {
+  describe('uiComponentTextRichEditorDoubleClick', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

@@ -22,8 +22,8 @@ import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { i18n } from '@kit.LocalizationKit';
 
-export default function ListMirrorTest() {
-  describe('ListMirrorTest', () => {
+export default function listMirrorTest() {
+  describe('listMirrorTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

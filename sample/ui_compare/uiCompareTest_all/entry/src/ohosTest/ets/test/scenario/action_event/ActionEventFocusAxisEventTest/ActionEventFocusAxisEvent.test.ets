@@ -23,8 +23,8 @@ import Logger from '../../../model/Logger';
  * FocusAxisEvent事件测试 - 手柄遥杆触发
  * 自动化程度: 30% (需要手柄设备进行手动测试)
  */
-export default function ActionEventFocusAxisEventTest() {
-  describe('ActionEventFocusAxisEventTest', () => {
+export default function actionEventFocusAxisEventTest() {
+  describe('actionEventFocusAxisEventTest', () => {
     afterEach(async () => {
       let driver = Driver.create();
       await driver.delayMs(500);

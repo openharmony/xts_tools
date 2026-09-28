@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function ComponentTextHalfLeading() {
+export default function componentTextHalfLeading() {
 
-  describe('ComponentTextHalfLeading', () => {
+  describe('componentTextHalfLeading', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

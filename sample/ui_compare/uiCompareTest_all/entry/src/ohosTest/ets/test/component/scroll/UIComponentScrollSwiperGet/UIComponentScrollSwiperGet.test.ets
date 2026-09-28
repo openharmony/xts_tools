@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIComponentScrollSwiperGet() {
+export default function uIComponentScrollSwiperGet() {
 
-  describe('UIComponentScrollSwiperGet', () => {
+  describe('uIComponentScrollSwiperGet', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

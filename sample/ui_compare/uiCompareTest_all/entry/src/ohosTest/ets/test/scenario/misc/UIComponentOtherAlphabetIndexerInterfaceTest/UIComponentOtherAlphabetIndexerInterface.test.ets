@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, MouseButton, UiDirection, Component, ON } from '@kit.TestKit'
 
-export default function UIComponentOtherAlphabetIndexerInterface() {
-  describe('UIComponentOtherAlphabetIndexerInterface', () => {
+export default function uIComponentOtherAlphabetIndexerInterface() {
+  describe('uIComponentOtherAlphabetIndexerInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

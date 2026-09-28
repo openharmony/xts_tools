@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentGridLayoutTest() {
-  describe('UIComponentGridLayoutTest', () => {
+export default function uIComponentGridLayoutTest() {
+  describe('uIComponentGridLayoutTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

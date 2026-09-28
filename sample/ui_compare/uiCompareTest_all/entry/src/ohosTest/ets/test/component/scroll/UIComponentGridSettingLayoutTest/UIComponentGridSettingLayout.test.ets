@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function UIComponentGridSettingLayoutTest() {
-  describe('UIComponentGridSettingLayoutTest', () => {
+export default function uIComponentGridSettingLayoutTest() {
+  describe('uIComponentGridSettingLayoutTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

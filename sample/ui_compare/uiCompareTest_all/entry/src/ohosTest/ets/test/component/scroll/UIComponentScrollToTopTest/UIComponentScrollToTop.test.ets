@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentScrollToTop() {
-  describe('UIComponentScrollToTop', () => {
+export default function uIComponentScrollToTop() {
+  describe('uIComponentScrollToTop', () => {
     beforeAll(() => {
 
     })

@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIFrameworkTest() {
+export default function uIFrameworkTest() {
 
-  describe('UIFrameworkTest', () => {
+  describe('uIFrameworkTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

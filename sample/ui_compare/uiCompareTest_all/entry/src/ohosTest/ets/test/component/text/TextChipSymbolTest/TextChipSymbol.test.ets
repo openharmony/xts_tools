@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MatchPattern } from '@kit.TestKit';
 
-export default function TextChipSymbol() {
+export default function textChipSymbol() {
 
-  describe('TextChipSymbol', () => {
+  describe('textChipSymbol', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

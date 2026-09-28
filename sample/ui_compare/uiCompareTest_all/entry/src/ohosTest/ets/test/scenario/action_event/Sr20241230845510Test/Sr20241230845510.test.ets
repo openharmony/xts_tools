@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function Sr20241230845510() {
+export default function sr20241230845510() {
 
-  describe('Sr20241230845510', () => {
+  describe('sr20241230845510', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function ActionEventCommonEventDragMultiObject() {
+export default function actionEventCommonEventDragMultiObject() {
 
-  describe('ActionEventCommonEventDragMultiObject', () => {
+  describe('actionEventCommonEventDragMultiObject', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

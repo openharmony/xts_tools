@@ -20,8 +20,8 @@ import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentTextTextInherit() {
-  describe('UiComponentTextTextInherit', () => {
+export default function uiComponentTextTextInherit() {
+  describe('uiComponentTextTextInherit', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()

@@ -38,9 +38,9 @@ import { BusinessError } from '@kit.BasicServicesKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentTextRicheditor() {
+export default function uiComponentTextRicheditor() {
 
-  describe('UiComponentTextRicheditor', () => {
+  describe('uiComponentTextRicheditor', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

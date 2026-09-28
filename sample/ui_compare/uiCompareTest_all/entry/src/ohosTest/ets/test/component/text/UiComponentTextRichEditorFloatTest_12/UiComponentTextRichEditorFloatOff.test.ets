@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, MouseButton, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorFloatOff() {
-  describe('UiComponentTextRichEditorFloatOff', () => {
+export default function uiComponentTextRichEditorFloatOff() {
+  describe('uiComponentTextRichEditorFloatOff', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

@@ -22,8 +22,8 @@ import { window } from '@kit.ArkUI';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { Point } from '@kit.TestKit'
 
-export default function OptimizationOfDragAndDropZoomRulesTest() {
-  describe('OptimizationOfDragAndDropZoomRulesTest', () => {
+export default function optimizationOfDragAndDropZoomRulesTest() {
+  describe('optimizationOfDragAndDropZoomRulesTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

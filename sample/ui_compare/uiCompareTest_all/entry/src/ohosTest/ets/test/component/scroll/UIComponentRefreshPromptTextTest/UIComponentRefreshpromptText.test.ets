@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentRefreshPromptText() {
-  describe('UIComponentRefreshPromptText', () => {
+export default function uIComponentRefreshPromptText() {
+  describe('uIComponentRefreshPromptText', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

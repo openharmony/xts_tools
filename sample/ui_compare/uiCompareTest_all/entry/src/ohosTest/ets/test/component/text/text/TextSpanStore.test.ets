@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function TextSpanStoreTest() {
-  describe('TextSpanStoreTest', () => {
+export default function textSpanStoreTest() {
+  describe('textSpanStoreTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

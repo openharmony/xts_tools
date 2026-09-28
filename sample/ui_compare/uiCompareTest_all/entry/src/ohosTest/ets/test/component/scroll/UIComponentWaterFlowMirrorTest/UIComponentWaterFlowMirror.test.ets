@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentWaterFlowMirror() {
-  describe('UIComponentWaterFlowMirror', () => {
+export default function uIComponentWaterFlowMirror() {
+  describe('uIComponentWaterFlowMirror', () => {
     beforeAll(() => {
 
     })

@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentGridTabs() {
-  describe('UIComponentGridTabs', () => {
+export default function uIComponentGridTabs() {
+  describe('uIComponentGridTabs', () => {
     beforeAll(() => {
 
     })

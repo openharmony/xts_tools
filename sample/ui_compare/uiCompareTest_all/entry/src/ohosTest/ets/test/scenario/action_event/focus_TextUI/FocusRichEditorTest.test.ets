@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function FocusRichEditor() {
+export default function focusRichEditor() {
 
-  describe('FocusRichEditor', () => {
+  describe('focusRichEditor', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

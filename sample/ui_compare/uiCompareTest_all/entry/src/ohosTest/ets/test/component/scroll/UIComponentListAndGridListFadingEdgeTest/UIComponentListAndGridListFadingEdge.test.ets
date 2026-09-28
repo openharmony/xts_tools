@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridListFadingEdge() {
-  describe('UIComponentListAndGridListFadingEdge', () => {
+export default function uIComponentListAndGridListFadingEdge() {
+  describe('uIComponentListAndGridListFadingEdge', () => {
     beforeAll(() => {
 
     })

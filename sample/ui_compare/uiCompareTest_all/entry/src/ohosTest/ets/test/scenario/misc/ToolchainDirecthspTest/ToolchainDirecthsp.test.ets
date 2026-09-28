@@ -20,10 +20,10 @@ import Logger from '../../../model/Logger';
 import Utils from '../../../model/Utils';
 import { Driver, ON } from '@kit.TestKit';
 
-const TAG = 'ToolchainDirecthsp';
+const TAG = 'toolchainDirecthsp';
 
-export default function ToolchainDirecthsp() {
-  describe('ToolchainDirecthsp', () => {
+export default function toolchainDirecthsp() {
+  describe('toolchainDirecthsp', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

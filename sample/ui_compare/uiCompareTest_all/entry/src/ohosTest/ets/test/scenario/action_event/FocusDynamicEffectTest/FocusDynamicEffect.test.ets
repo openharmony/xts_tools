@@ -22,9 +22,9 @@ import { Driver, ON, Component } from '@kit.TestKit';
 import { ConfigurationConstant } from '@kit.AbilityKit'
 
 
-export default function FocusDynamicEffect() {
+export default function focusDynamicEffect() {
 
-  describe('FocusDynamicEffect', () => {
+  describe('focusDynamicEffect', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

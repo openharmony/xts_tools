@@ -21,8 +21,8 @@ import { i18n } from '@kit.LocalizationKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 
-export default function UIComponentOtherAlphabetIndexerImprove() {
-  describe('UIComponentOtherAlphabetIndexerImprove', () => {
+export default function uIComponentOtherAlphabetIndexerImprove() {
+  describe('uIComponentOtherAlphabetIndexerImprove', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

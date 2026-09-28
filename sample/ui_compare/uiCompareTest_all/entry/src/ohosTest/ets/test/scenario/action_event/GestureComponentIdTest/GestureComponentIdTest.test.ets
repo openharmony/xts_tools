@@ -34,8 +34,8 @@ const GestureEvent_URI = 'testability/pages/scenario/action_event/GestureCompone
 const GestureEventModifier_URI = 'testability/pages/scenario/action_event/GestureComponentId/GestureEventModifier';
 const GestureDynamic_URI = 'testability/pages/scenario/action_event/GestureComponentId/GestureDynamic';
 
-export default function GestureComponentIdTest() {
-  describe('GestureComponentIdTest', () => {
+export default function gestureComponentIdTest() {
+  describe('gestureComponentIdTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

@@ -20,8 +20,8 @@ import Logger from '../../../model/Logger';
 import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function UiComponentTextRicheditorSetselectionTest() {
-  describe('UiComponentTextRicheditorSetselectionTest', () => {
+export default function uiComponentTextRicheditorSetselectionTest() {
+  describe('uiComponentTextRicheditorSetselectionTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

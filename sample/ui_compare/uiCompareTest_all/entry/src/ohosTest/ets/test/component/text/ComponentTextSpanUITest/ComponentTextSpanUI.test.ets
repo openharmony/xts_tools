@@ -22,9 +22,9 @@ import { Driver, ON, Component } from '@kit.TestKit';
 
 
 
-export default function ComponentTextSpanUI() {
+export default function componentTextSpanUI() {
 
-  describe('ComponentTextSpanUI', () => {
+  describe('componentTextSpanUI', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

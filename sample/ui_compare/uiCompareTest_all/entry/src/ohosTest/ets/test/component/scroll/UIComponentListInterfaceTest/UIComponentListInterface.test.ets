@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function UIComponentListInterfaceTest() {
-  describe('UIComponentListInterfaceTest', () => {
+export default function uIComponentListInterfaceTest() {
+  describe('uIComponentListInterfaceTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

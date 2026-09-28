@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function TextClockContentModifier() {
+export default function textClockContentModifier() {
 
-  describe('TextClockContentModifier', () => {
+  describe('textClockContentModifier', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

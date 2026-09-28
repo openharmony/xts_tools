@@ -22,8 +22,8 @@ import { uiAppearance } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit';
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorGundongtiao() {
-  describe('UiComponentTextRichEditorGundongtiao', () => {
+export default function uiComponentTextRichEditorGundongtiao() {
+  describe('uiComponentTextRichEditorGundongtiao', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

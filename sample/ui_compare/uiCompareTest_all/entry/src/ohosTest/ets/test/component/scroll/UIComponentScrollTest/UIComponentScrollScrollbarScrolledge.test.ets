@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, Component, ON } from '@kit.TestKit'
 
-export default function UIComponentScrollScrollbarScrolledge() {
+export default function uIComponentScrollScrollbarScrolledge() {
 
-  describe('UIComponentScrollScrollbarScrolledge', () => {
+  describe('uIComponentScrollScrollbarScrolledge', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

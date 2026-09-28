@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function ActionArkuiSr() {
-  describe('ActionArkuiSr', () => {
-    const TAG: string = 'ActionArkuiSr';
+export default function actionArkuiSr() {
+  describe('actionArkuiSr', () => {
+    const TAG: string = 'actionArkuiSr';
     let driver = Driver.create();
 
     afterEach(async () => {

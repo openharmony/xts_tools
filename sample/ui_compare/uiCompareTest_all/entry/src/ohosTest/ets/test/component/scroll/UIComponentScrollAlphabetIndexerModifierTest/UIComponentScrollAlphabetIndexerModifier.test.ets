@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentScrollAlphabetIndexerModifier() {
-  describe('UIComponentScrollAlphabetIndexerModifier', () => {
+export default function uIComponentScrollAlphabetIndexerModifier() {
+  describe('uIComponentScrollAlphabetIndexerModifier', () => {
     beforeAll(() => {
 
     })

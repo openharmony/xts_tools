@@ -24,7 +24,7 @@ import Settings from './Settings';
 
 const TAG: string = '[TEST]';
 
-class windowSnap {
+class WindowSnap {
   filePath(pageName ?: string) {
     let context: common.UIAbilityContext | undefined = GlobalThis.getInstance().getContext('context')
     Logger.info(TAG, 'deleteFile start');
@@ -177,4 +177,4 @@ class windowSnap {
   }
 }
 
-export default new windowSnap()
+export default new WindowSnap()

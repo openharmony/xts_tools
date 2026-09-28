@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentTextRicheditorInterface() {
-  describe('UiComponentTextRicheditorInterface', () => {
+export default function uiComponentTextRicheditorInterface() {
+  describe('uiComponentTextRicheditorInterface', () => {
     let driver = Driver.create();
 
     afterEach(async () => {

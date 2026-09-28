@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function TextClockTest () {
+export default function textClockTest () {
 
-  describe('TextClockTest', () => {
+  describe('textClockTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -22,9 +22,9 @@ import { Driver, ON, Component } from '@kit.TestKit';
 
 
 
-export default function ComponentTextTextInterface() {
+export default function componentTextTextInterface() {
 
-  describe('ComponentTextTextInterface', () => {
+  describe('componentTextTextInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

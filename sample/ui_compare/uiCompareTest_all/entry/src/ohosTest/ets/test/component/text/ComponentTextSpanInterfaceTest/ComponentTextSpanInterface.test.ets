@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function ComponentTextSpanInterface() {
+export default function componentTextSpanInterface() {
 
-  describe('ComponentTextSpanInterface', () => {
+  describe('componentTextSpanInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

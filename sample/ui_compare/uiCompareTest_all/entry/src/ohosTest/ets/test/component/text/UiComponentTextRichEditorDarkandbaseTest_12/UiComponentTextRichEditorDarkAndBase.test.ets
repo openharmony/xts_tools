@@ -23,8 +23,8 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 
-export default function UiComponentTextRichEditorDarkAndBase() {
-  describe('UiComponentTextRichEditorDarkAndBase', () => {
+export default function uiComponentTextRichEditorDarkAndBase() {
+  describe('uiComponentTextRichEditorDarkAndBase', () => {
 
     afterEach(async (done: Function) => {
 

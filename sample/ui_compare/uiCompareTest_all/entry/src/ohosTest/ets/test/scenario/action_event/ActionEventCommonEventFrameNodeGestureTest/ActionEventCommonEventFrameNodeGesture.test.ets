@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
 
-export default function ActionEventCommonEventFrameNodeGestureTest() {
-  describe('ActionEventCommonEventFrameNodeGestureTest', () => {
+export default function actionEventCommonEventFrameNodeGestureTest() {
+  describe('actionEventCommonEventFrameNodeGestureTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

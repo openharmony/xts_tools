@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function TextChipStyleEnhancement() {
+export default function textChipStyleEnhancement() {
 
-  describe('TextChipStyleEnhancement', () => {
+  describe('textChipStyleEnhancement', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

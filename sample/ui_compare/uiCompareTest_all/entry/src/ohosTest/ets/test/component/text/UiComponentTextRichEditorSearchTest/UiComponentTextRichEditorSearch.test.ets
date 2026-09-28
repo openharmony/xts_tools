@@ -21,8 +21,8 @@ import windowSnap from '../../../model/snapShot'
 import { hilog } from '@kit.PerformanceAnalysisKit'
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentTextRichEditorSearch() {
-  describe('UiComponentTextRichEditorSearch', () => {
+export default function uiComponentTextRichEditorSearch() {
+  describe('uiComponentTextRichEditorSearch', () => {
 
     afterEach(async (done: Function) => {
 

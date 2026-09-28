@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentTextReverseAnalysis() {
+export default function uiComponentTextReverseAnalysis() {
 
-  describe('UiComponentTextReverseAnalysis', () => {
+  describe('uiComponentTextReverseAnalysis', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

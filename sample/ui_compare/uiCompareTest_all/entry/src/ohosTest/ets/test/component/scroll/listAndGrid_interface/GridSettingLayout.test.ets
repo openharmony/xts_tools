@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function GridSettingLayoutTest() {
-  describe('GridSettingLayoutTest', () => {
+export default function gridSettingLayoutTest() {
+  describe('gridSettingLayoutTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

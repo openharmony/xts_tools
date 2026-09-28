@@ -38,9 +38,9 @@ import { BusinessError } from '@kit.BasicServicesKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentInputFontsTzeScale() {
+export default function uiComponentInputFontsTzeScale() {
 
-  describe('UiComponentInputFontsTzeScale', () => {
+  describe('uiComponentInputFontsTzeScale', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

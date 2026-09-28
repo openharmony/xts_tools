@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function GridAlignItemsTest() {
-  describe('GridAlignItemsTest', () => {
+export default function gridAlignItemsTest() {
+  describe('gridAlignItemsTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

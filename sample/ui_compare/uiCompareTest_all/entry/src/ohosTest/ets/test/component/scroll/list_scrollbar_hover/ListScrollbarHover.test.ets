@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ListScrollbarHoverTest () {
+export default function listScrollbarHoverTest () {
 
-  describe('ListScrollbarHoverTest', () => {
+  describe('listScrollbarHoverTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

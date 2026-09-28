@@ -20,8 +20,8 @@ import Logger from '../../../model/Logger';
 import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function ArkuiComponentfunctionNouiAnimatorTest() {
-  describe('ArkuiComponentfunctionNouiAnimatorTest', () => {
+export default function arkuiComponentfunctionNouiAnimatorTest() {
+  describe('arkuiComponentfunctionNouiAnimatorTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

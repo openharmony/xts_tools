@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UITestCaseTest() {
+export default function uITestCaseTest() {
 
-  describe('UITestCaseTest', () => {
+  describe('uITestCaseTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

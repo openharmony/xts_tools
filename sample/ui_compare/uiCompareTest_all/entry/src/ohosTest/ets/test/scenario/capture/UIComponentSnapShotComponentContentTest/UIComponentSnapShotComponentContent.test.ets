@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 
-export default function UIComponentSnapShotComponentContentTest() {
-  describe('UIComponentSnapShotComponentContentTest', () => {
+export default function uIComponentSnapShotComponentContentTest() {
+  describe('uIComponentSnapShotComponentContentTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

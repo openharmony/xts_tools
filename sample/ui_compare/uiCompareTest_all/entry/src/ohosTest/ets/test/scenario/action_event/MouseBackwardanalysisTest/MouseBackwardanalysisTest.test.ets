@@ -25,8 +25,8 @@ import { Driver, ON } from '@kit.TestKit';
 
 const PAGE_URI = 'testability/pages/scenario/action_event/MouseBackwardanalysis/MouseBackwardanalysis';
 
-export default function MouseBackwardanalysisTest() {
-  describe('MouseBackwardanalysisTest', () => {
+export default function mouseBackwardanalysisTest() {
+  describe('mouseBackwardanalysisTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

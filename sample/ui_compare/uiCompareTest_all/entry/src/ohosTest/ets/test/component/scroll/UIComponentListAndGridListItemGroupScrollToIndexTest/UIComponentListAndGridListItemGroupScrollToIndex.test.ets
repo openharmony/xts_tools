@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridListItemGroupScrollToIndex() {
-  describe('UIComponentListAndGridListItemGroupScrollToIndex', () => {
+export default function uIComponentListAndGridListItemGroupScrollToIndex() {
+  describe('uIComponentListAndGridListItemGroupScrollToIndex', () => {
     beforeAll(() => {
 
     })

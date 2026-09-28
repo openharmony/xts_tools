@@ -23,9 +23,9 @@ import { inputEventClient } from '@kit.InputKit';
 import { FormComponentModifier } from '@ohos.arkui.modifier'
 
 
-export default function FocusTextPickerTest() {
+export default function focusTextPickerTest() {
 
-  describe('FocusTextPickerTest', () => {
+  describe('focusTextPickerTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridListUniversalPropertyConstraintSize() {
-  describe('UIComponentListAndGridListUniversalPropertyConstraintSize', () => {
+export default function uIComponentListAndGridListUniversalPropertyConstraintSize() {
+  describe('uIComponentListAndGridListUniversalPropertyConstraintSize', () => {
     beforeAll(() => {
 
     })

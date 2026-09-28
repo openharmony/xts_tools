@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, Point } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function RepeatWaterFlowTest() {
+export default function repeatWaterFlowTest() {
 
-  describe('RepeatWaterFlowTest', () => {
+  describe('repeatWaterFlowTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

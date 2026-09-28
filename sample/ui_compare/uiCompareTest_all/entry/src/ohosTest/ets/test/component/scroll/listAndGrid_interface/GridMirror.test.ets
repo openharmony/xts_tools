@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function GridMirrorTest() {
-  describe('GridMirrorTest', () => {
+export default function gridMirrorTest() {
+  describe('gridMirrorTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

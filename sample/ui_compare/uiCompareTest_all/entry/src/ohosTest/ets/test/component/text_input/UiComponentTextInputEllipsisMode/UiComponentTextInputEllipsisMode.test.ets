@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentTextInputEllipsisMode() {
+export default function uiComponentTextInputEllipsisMode() {
 
-  describe('UiComponentTextInputEllipsisMode', () => {
+  describe('uiComponentTextInputEllipsisMode', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

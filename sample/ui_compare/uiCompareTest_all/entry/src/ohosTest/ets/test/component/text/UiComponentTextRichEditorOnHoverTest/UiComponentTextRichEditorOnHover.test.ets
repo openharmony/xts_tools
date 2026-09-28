@@ -19,8 +19,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, MouseButton } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorOnHover() {
-  describe('UiComponentTextRichEditorOnHover', () => {
+export default function uiComponentTextRichEditorOnHover() {
+  describe('uiComponentTextRichEditorOnHover', () => {
 
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {

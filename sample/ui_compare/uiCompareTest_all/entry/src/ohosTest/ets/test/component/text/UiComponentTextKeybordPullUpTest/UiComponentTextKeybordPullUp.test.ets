@@ -19,8 +19,8 @@ import Utils from '../../../model/Utils'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextKeybordPullUp() {
-  describe('UiComponentTextKeybordPullUp', () => {
+export default function uiComponentTextKeybordPullUp() {
+  describe('uiComponentTextKeybordPullUp', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass != undefined) {
         await Settings.windowClass.destroyWindow()

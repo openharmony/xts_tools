@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIRadialGradientTest() {
+export default function uIRadialGradientTest() {
 
-  describe('UIRadialGradientTest', () => {
+  describe('uIRadialGradientTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

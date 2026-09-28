@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function ListCachedCountTest() {
-  describe('ListCachedCountTest', () => {
+export default function listCachedCountTest() {
+  describe('listCachedCountTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

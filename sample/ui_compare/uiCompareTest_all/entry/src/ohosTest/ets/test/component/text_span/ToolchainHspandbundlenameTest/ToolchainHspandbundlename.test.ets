@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function ToolchainHspandbundlename() {
-  describe('ToolchainHspandbundlename', () => {
-    const TAG: string = 'ToolchainHspandbundlename';
+export default function toolchainHspandbundlename() {
+  describe('toolchainHspandbundlename', () => {
+    const TAG: string = 'toolchainHspandbundlename';
     let driver = Driver.create();
 
     afterEach(async () => {

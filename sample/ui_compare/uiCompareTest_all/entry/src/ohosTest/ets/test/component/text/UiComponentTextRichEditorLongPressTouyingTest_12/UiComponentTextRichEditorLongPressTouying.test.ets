@@ -22,8 +22,8 @@ import { uiAppearance } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit';
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorLongPressTouying() {
-  describe('UiComponentTextRichEditorLongPressTouying', () => {
+export default function uiComponentTextRichEditorLongPressTouying() {
+  describe('uiComponentTextRichEditorLongPressTouying', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

@@ -22,9 +22,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 import { i18n } from '@kit.LocalizationKit'
 
-export default function TextInputTest() {
+export default function textInputTest() {
 
-  describe('TextInputTest', () => {
+  describe('textInputTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

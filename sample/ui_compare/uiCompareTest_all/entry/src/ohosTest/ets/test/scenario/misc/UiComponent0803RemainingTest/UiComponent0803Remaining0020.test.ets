@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponent0803Remaining0020() {
-  describe('UiComponent0803Remaining0020', () => {
+export default function uiComponent0803Remaining0020() {
+  describe('uiComponent0803Remaining0020', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTITHREAD_ISSUE_GC_0020
      * @tc.name   : Real component path: image

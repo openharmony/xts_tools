@@ -21,14 +21,14 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function TextPickerWearTest() {
-  describe('TextPickerWearTest', () => {
+export default function textPickerWearTest() {
+  describe('textPickerWearTest', () => {
     beforeAll(() => {
-      console.info('TextPickerWearTest beforeAll');
+      console.info('textPickerWearTest beforeAll');
     });
 
     beforeEach(() => {
-      console.info('TextPickerWearTest beforeEach');
+      console.info('textPickerWearTest beforeEach');
     });
 
     afterEach(async (done: Function) => {
@@ -48,7 +48,7 @@ export default function TextPickerWearTest() {
     })
 
     afterAll(() => {
-      console.info('TextPickerWearTest afterAll');
+      console.info('textPickerWearTest afterAll');
     });
 
     /*

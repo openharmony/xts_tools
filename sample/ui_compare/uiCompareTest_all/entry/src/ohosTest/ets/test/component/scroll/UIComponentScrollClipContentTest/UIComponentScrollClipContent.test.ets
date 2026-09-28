@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentScrollClipContent() {
-  describe('UIComponentScrollClipContent', () => {
+export default function uIComponentScrollClipContent() {
+  describe('uIComponentScrollClipContent', () => {
     beforeAll(() => {
 
     })

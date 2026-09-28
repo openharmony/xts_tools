@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { uiAppearance } from '@kit.ArkUI';
 
-export default function TextSearchInterface() {
+export default function textSearchInterface() {
 
-  describe('TextSearchInterface', () => {
+  describe('textSearchInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { Point } from '@kit.TestKit';
 
-export default function UIComponentScrollSwiperInterfaceTest() {
-  describe('UIComponentScrollSwiperInterfaceTest', () => {
+export default function uIComponentScrollSwiperInterfaceTest() {
+  describe('uIComponentScrollSwiperInterfaceTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

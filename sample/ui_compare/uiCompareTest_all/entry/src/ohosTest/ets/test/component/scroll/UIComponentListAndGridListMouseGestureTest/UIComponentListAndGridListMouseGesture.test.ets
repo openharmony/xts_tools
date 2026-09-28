@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridListMouseGesture() {
-  describe('UIComponentListAndGridListMouseGesture', () => {
+export default function uIComponentListAndGridListMouseGesture() {
+  describe('uIComponentListAndGridListMouseGesture', () => {
     beforeAll(() => {
 
     })

@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIBGSeriableTest() {
+export default function uIBGSeriableTest() {
 
-  describe('UIBGSeriableTest', () => {
+  describe('uIBGSeriableTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

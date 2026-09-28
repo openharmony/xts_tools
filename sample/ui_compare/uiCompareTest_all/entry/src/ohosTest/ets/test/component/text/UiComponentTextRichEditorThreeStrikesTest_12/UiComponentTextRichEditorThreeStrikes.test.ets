@@ -22,8 +22,8 @@ import { uiAppearance } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit';
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorThreeStrikes() {
-  describe('UiComponentTextRichEditorThreeStrikes', () => {
+export default function uiComponentTextRichEditorThreeStrikes() {
+  describe('uiComponentTextRichEditorThreeStrikes', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

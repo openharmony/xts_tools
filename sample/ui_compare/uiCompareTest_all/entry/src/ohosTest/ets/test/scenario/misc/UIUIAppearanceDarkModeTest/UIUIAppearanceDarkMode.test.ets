@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIUIAppearanceDarkMode() {
-  describe('UIUIAppearanceDarkMode', () => {
+export default function uIUIAppearanceDarkMode() {
+  describe('uIUIAppearanceDarkMode', () => {
     beforeAll(() => {
 
     })

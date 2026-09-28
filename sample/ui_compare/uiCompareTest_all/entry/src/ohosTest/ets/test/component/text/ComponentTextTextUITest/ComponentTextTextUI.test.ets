@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function ComponentTextTextUI() {
+export default function componentTextTextUI() {
 
-  describe('ComponentTextTextUI', () => {
+  describe('componentTextTextUI', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

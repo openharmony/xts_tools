@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentScrollSwiperIgnoreBlank() {
-  describe('UIComponentScrollSwiperIgnoreBlank', () => {
+export default function uIComponentScrollSwiperIgnoreBlank() {
+  describe('uIComponentScrollSwiperIgnoreBlank', () => {
     beforeAll(() => {
 
     })

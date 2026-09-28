@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function ListComponentContentTest() {
-  describe('ListComponentContentTest', () => {
+export default function listComponentContentTest() {
+  describe('listComponentContentTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

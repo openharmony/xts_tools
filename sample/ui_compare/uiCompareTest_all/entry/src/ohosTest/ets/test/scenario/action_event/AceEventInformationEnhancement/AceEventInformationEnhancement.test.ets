@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton, PointerMatrix } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function AceEventInformationEnhancement() {
+export default function aceEventInformationEnhancement() {
 
-  describe('AceEventInformationEnhancement', () => {
+  describe('aceEventInformationEnhancement', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

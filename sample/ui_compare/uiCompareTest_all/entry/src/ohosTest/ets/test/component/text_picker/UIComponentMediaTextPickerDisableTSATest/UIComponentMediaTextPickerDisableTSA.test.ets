@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaTextPickerDisableTSA() {
-  describe('UIComponentMediaTextPickerDisableTSA', () => {
+export default function uIComponentMediaTextPickerDisableTSA() {
+  describe('uIComponentMediaTextPickerDisableTSA', () => {
     beforeAll(() => {
 
     })

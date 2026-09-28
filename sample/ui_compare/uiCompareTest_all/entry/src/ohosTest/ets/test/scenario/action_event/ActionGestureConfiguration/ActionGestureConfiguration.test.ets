@@ -36,9 +36,9 @@ import { Driver, ON, Component, MouseButton, PointerMatrix } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function ActionGestureConfiguration() {
+export default function actionGestureConfiguration() {
 
-  describe('ActionGestureConfiguration', () => {
+  describe('actionGestureConfiguration', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function TextPicker02Test () {
+export default function textPicker02Test () {
 
-  describe('TextPicker02Test', () => {
+  describe('textPicker02Test', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

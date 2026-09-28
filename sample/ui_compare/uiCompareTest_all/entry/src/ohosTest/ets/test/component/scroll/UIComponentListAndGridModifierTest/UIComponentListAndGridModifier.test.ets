@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridModifier() {
-  describe('UIComponentListAndGridModifier', () => {
+export default function uIComponentListAndGridModifier() {
+  describe('uIComponentListAndGridModifier', () => {
     beforeAll(() => {
 
     })

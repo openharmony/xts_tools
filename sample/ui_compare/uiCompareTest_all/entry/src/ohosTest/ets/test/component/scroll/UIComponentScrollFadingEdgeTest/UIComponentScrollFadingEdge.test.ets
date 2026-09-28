@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentScrollFadingEdge() {
-  describe('UIComponentScrollFadingEdge', () => {
+export default function uIComponentScrollFadingEdge() {
+  describe('uIComponentScrollFadingEdge', () => {
     beforeAll(() => {
 
     })

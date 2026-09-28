@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 
-export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponentTest() {
-  describe('UIComponentListAndGridListLeftSwipDeleteBuilderComponentTest', () => {
+export default function uIComponentListAndGridListLeftSwipDeleteBuilderComponentTest() {
+  describe('uIComponentListAndGridListLeftSwipDeleteBuilderComponentTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

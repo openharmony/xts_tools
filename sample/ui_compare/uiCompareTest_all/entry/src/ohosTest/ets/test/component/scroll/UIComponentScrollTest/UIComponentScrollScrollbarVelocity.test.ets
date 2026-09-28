@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, Component, ON } from '@kit.TestKit'
 
-export default function UIComponentScrollScrollbarVelocity() {
+export default function uIComponentScrollScrollbarVelocity() {
 
-  describe('UIComponentScrollScrollbarVelocity', () => {
+  describe('uIComponentScrollScrollbarVelocity', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function RouterPushTest() {
+export default function routerPushTest() {
 
-  describe('RouterPushTest', () => {
+  describe('routerPushTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -18,8 +18,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextImagespanColorfilter() {
-  describe('UiComponentTextImagespanColorfilter', () => {
+export default function uiComponentTextImagespanColorfilter() {
+  describe('uiComponentTextImagespanColorfilter', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

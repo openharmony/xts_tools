@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, On } from '@kit.TestKit';
 
-export default function MediaTextpickerDisabletsa() {
+export default function mediaTextpickerDisabletsa() {
 
-  describe('MediaTextpickerDisabletsa', () => {
+  describe('mediaTextpickerDisabletsa', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

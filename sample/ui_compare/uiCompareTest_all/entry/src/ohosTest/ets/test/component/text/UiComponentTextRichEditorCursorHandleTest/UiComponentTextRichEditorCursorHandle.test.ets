@@ -23,8 +23,8 @@ import { BusinessError } from '@kit.BasicServicesKit';
 import Logger from '../../../model/Logger';
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentTextRichEditorCursorHandle() {
-  describe('UiComponentTextRichEditorCursorHandle', () => {
+export default function uiComponentTextRichEditorCursorHandle() {
+  describe('uiComponentTextRichEditorCursorHandle', () => {
 
     afterEach(async (done: Function) => {
 

@@ -33,8 +33,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentTextRichEditorInterface() {
-  describe('UIComponentTextRichEditorInterface', () => {
+export default function uIComponentTextRichEditorInterface() {
+  describe('uIComponentTextRichEditorInterface', () => {
     beforeAll(() => {
 
     })

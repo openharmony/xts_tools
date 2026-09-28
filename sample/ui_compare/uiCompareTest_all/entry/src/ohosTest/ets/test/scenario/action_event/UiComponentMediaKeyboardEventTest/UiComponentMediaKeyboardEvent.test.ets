@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentMediaKeyboardEventTest() {
-  describe('UiComponentMediaKeyboardEventTest', () => {
+export default function uiComponentMediaKeyboardEventTest() {
+  describe('uiComponentMediaKeyboardEventTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentMediaKeyboardEventTest beforeAll')
+      console.info('uiComponentMediaKeyboardEventTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentMediaKeyboardEventTest beforeEach')
+      console.info('uiComponentMediaKeyboardEventTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentMediaKeyboardEventTest afterEach')
+      console.info('uiComponentMediaKeyboardEventTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentMediaKeyboardEventTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentMediaKeyboardEventTest afterAll')
+      console.info('uiComponentMediaKeyboardEventTest afterAll')
     })
 
     /*

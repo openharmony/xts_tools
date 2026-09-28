@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { uiAppearance } from '@kit.ArkUI';
 
-export default function UiArkuiTexttimer() {
+export default function uiArkuiTexttimer() {
 
-  describe('UiArkuiTexttimer', () => {
+  describe('uiArkuiTexttimer', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

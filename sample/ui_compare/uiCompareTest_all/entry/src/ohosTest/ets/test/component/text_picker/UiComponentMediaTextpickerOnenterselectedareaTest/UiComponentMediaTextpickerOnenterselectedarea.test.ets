@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
-  describe('UiComponentMediaTextpickerOnenterselectedareaTest', () => {
+export default function uiComponentMediaTextpickerOnenterselectedareaTest() {
+  describe('uiComponentMediaTextpickerOnenterselectedareaTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentMediaTextpickerOnenterselectedareaTest beforeAll')
+      console.info('uiComponentMediaTextpickerOnenterselectedareaTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentMediaTextpickerOnenterselectedareaTest beforeEach')
+      console.info('uiComponentMediaTextpickerOnenterselectedareaTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentMediaTextpickerOnenterselectedareaTest afterEach')
+      console.info('uiComponentMediaTextpickerOnenterselectedareaTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentMediaTextpickerOnenterselectedareaTest afterAll')
+      console.info('uiComponentMediaTextpickerOnenterselectedareaTest afterAll')
     })
 
     /*

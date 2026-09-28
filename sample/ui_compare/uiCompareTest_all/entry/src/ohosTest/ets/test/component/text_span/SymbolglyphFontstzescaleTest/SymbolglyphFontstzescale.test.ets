@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component,} from '@kit.TestKit';
 import { uiAppearance } from '@kit.ArkUI'
 
-export default function SymbolglyphFontstzescale() {
+export default function symbolglyphFontstzescale() {
 
-  describe('SymbolglyphFontstzescale', () => {
+  describe('symbolglyphFontstzescale', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -37,9 +37,9 @@ import { KeyCode } from '@kit.InputKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function AceActionEventCommonEventAxisEventsListen() {
+export default function aceActionEventCommonEventAxisEventsListen() {
 
-  describe('AceActionEventCommonEventAxisEventsListen', () => {
+  describe('aceActionEventCommonEventAxisEventsListen', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

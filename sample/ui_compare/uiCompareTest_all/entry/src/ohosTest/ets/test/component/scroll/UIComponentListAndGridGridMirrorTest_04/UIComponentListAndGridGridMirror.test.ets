@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentListAndGridGridMirrorTest() {
-  describe('UIComponentListAndGridGridMirrorTest', () => {
+export default function uIComponentListAndGridGridMirrorTest() {
+  describe('uIComponentListAndGridGridMirrorTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

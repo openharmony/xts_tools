@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function ActionBlockageDragBatch13Test() {
-  describe('ActionBlockageDragBatch13Test', () => {
+export default function actionBlockageDragBatch13Test() {
+  describe('actionBlockageDragBatch13Test', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass);

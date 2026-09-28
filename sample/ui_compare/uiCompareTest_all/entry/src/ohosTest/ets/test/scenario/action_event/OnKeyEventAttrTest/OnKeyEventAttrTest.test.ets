@@ -26,9 +26,9 @@ import { Driver, ON } from '@kit.TestKit';
 
 const PAGE_PREFIX = 'testability/pages/scenario/action_event/onKeyEventAttrTest/onKeyEventAttrTest';
 
-export default function OnKeyEventAttrTest() {
+export default function onKeyEventAttrTest() {
 
-  describe('OnKeyEventAttrTest', () => {
+  describe('onKeyEventAttrTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

@@ -22,9 +22,9 @@ import { Driver, Component, ON } from '@kit.TestKit'
 import { BusinessError } from '@kit.BasicServicesKit';
 import { i18n } from '@kit.LocalizationKit'
 
-export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
+export default function arkUIComponentFunctionAdvancedComponentsMirror() {
 
-  describe('ArkUIComponentFunctionAdvancedComponentsMirror', () => {
+  describe('arkUIComponentFunctionAdvancedComponentsMirror', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

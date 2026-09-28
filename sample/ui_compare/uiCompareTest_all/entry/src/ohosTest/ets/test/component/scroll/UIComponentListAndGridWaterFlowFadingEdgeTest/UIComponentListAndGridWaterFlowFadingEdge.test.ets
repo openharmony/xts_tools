@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridWaterFlowFadingEdge() {
-  describe('UIComponentListAndGridWaterFlowFadingEdge', () => {
+export default function uIComponentListAndGridWaterFlowFadingEdge() {
+  describe('uIComponentListAndGridWaterFlowFadingEdge', () => {
     beforeAll(() => {
 
     })

@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIPositionOffsetTest() {
+export default function uIPositionOffsetTest() {
 
-  describe('UIPositionOffsetTest', () => {
+  describe('uIPositionOffsetTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

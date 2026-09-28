@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentWaterFlowEventModifier() {
-  describe('UIComponentWaterFlowEventModifier', () => {
+export default function uIComponentWaterFlowEventModifier() {
+  describe('uIComponentWaterFlowEventModifier', () => {
     beforeAll(() => {
 
     })

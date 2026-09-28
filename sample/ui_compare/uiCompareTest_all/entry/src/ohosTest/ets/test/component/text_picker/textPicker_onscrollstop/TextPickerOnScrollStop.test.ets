@@ -22,14 +22,14 @@ import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 import { KeyCode } from '@kit.InputKit'
 
-export default function TextPickerOnScrollStopTest() {
-  describe('TextPickerOnScrollStopTest', () => {
+export default function textPickerOnScrollStopTest() {
+  describe('textPickerOnScrollStopTest', () => {
     beforeAll(() => {
-      console.info('TextPickerOnScrollStopTest beforeAll');
+      console.info('textPickerOnScrollStopTest beforeAll');
     });
 
     beforeEach(() => {
-      console.info('TextPickerOnScrollStopTest beforeEach');
+      console.info('textPickerOnScrollStopTest beforeEach');
     });
 
     afterEach(async (done: Function) => {
@@ -49,7 +49,7 @@ export default function TextPickerOnScrollStopTest() {
     })
 
     afterAll(() => {
-      console.info('TextPickerOnScrollStopTest afterAll');
+      console.info('textPickerOnScrollStopTest afterAll');
     });
 
     /*

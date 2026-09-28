@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, } from '@kit.TestKit';
 
-export default function FocusSegmentButtonV2TestPart3() {
+export default function focusSegmentButtonV2TestPart3() {
 
-  describe('FocusSegmentButtonV2TestPart3', () => {
+  describe('focusSegmentButtonV2TestPart3', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

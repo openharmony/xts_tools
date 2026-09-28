@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentMediaTextClockOutliers0071() {
-  describe('UiComponentMediaTextClockOutliers0071', () => {
+export default function uiComponentMediaTextClockOutliers0071() {
+  describe('uiComponentMediaTextClockOutliers0071', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071
      * @tc.name   : TextClock textShadow outlier marker
@@ -31,7 +31,7 @@ export default function UiComponentMediaTextClockOutliers0071() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow(
         'testability/pages/component/text_clock/UiComponentMediaTextClockOutliers/' +
-        'UiComponentMediaTextClockOutliers0071'
+        'uiComponentMediaTextClockOutliers0071'
       )
       let driver = await Driver.create()
       await Utils.sleep(1500)

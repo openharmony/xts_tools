@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function ListScrollSnapAlignTest() {
-  describe('ListScrollSnapAlignTest', () => {
+export default function listScrollSnapAlignTest() {
+  describe('listScrollSnapAlignTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function StatusManagerV2WithThemeTest() {
-  describe('StatusManagerV2WithThemeTest', () => {
+export default function statusManagerV2WithThemeTest() {
+  describe('statusManagerV2WithThemeTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

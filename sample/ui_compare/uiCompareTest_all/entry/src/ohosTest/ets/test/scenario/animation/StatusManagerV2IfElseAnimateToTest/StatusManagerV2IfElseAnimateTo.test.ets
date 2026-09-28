@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, On } from '@kit.TestKit'
 import { Point } from '@kit.TestKit'
 
-export default function StatusManagerV2IfElseAnimateToTest() {
-  describe('StatusManagerV2IfElseAnimateToTest', () => {
+export default function statusManagerV2IfElseAnimateToTest() {
+  describe('statusManagerV2IfElseAnimateToTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

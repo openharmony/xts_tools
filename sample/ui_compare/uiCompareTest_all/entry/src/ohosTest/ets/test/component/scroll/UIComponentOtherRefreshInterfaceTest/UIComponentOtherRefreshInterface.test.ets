@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentOtherRefreshInterface() {
-  describe('UIComponentOtherRefreshInterface', () => {
+export default function uIComponentOtherRefreshInterface() {
+  describe('uIComponentOtherRefreshInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

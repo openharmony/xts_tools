@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function Statusmanagerv2Freezing() {
+export default function statusmanagerv2Freezing() {
 
-  describe('Statusmanagerv2Freezing', () => {
+  describe('statusmanagerv2Freezing', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -23,11 +23,11 @@ import { inputEventClient } from '@kit.InputKit';
 
 
 
-export default function FocusPopupBoxTest() {
+export default function focusPopupBoxTest() {
 
-  describe('FocusPopupBoxTest', () => {
+  describe('focusPopupBoxTest', () => {
     afterEach(async (done: Function) => {
-      Logger.info('TEST', 'FocusPopupBoxTest afterEach called');
+      Logger.info('TEST', 'focusPopupBoxTest afterEach called');
       // 销毁窗口，为下一个测试做准备
       try {
         await Settings.destroyCurrentWindow();

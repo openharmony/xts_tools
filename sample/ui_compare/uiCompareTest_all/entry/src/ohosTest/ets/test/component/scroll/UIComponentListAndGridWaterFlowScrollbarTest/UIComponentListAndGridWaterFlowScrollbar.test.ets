@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridWaterFlowScrollbar() {
-  describe('UIComponentListAndGridWaterFlowScrollbar', () => {
+export default function uIComponentListAndGridWaterFlowScrollbar() {
+  describe('uIComponentListAndGridWaterFlowScrollbar', () => {
     beforeAll(() => {
 
     })

@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 
-export default function UIComponentScrollBarVelocityTest() {
-  describe('UIComponentScrollBarVelocityTest', () => {
+export default function uIComponentScrollBarVelocityTest() {
+  describe('uIComponentScrollBarVelocityTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

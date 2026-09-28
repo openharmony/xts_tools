@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton, PointerMatrix } from '@kit.TestKit'
 
-export default function ACEActionGestureFingersLimit() {
+export default function aCEActionGestureFingersLimit() {
 
-  describe('ACEActionGestureFingersLimit', () => {
+  describe('aCEActionGestureFingersLimit', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

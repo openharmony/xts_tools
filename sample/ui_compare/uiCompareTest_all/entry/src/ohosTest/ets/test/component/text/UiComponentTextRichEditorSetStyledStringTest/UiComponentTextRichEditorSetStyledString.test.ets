@@ -20,8 +20,8 @@ import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentTextRichEditorSetStyledString() {
-  describe('UiComponentTextRichEditorSetStyledString', () => {
+export default function uiComponentTextRichEditorSetStyledString() {
+  describe('uiComponentTextRichEditorSetStyledString', () => {
 
     afterEach(async (done: Function) => {
 

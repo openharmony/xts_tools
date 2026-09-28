@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function ActionBlockageDragBatch2() {
-  describe('ActionBlockageDragBatch2', () => {
+export default function actionBlockageDragBatch2() {
+  describe('actionBlockageDragBatch2', () => {
 
     afterEach(async () => {
       if (Settings.windowClass) {

@@ -22,8 +22,8 @@ import snapShot from '../../../model/snapShot'
 import { KeyCode } from '@kit.InputKit'
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentTextRichEditorAction() {
-  describe('UiComponentTextRichEditorAction', () => {
+export default function uiComponentTextRichEditorAction() {
+  describe('uiComponentTextRichEditorAction', () => {
 
     afterEach(async (done: Function) => {
 

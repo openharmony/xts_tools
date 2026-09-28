@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function ActionEventDragVibrationTest() {
-  describe('ActionEventDragVibrationTest', () => {
+export default function actionEventDragVibrationTest() {
+  describe('actionEventDragVibrationTest', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass);

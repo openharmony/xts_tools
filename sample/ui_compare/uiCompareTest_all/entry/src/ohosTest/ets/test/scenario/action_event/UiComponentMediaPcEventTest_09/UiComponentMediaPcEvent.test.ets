@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentMediaPcEventTest() {
-  describe('UiComponentMediaPcEventTest', () => {
+export default function uiComponentMediaPcEventTest() {
+  describe('uiComponentMediaPcEventTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentMediaPcEventTest beforeAll')
+      console.info('uiComponentMediaPcEventTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentMediaPcEventTest beforeEach')
+      console.info('uiComponentMediaPcEventTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentMediaPcEventTest afterEach')
+      console.info('uiComponentMediaPcEventTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentMediaPcEventTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentMediaPcEventTest afterAll')
+      console.info('uiComponentMediaPcEventTest afterAll')
     })
 
     /*

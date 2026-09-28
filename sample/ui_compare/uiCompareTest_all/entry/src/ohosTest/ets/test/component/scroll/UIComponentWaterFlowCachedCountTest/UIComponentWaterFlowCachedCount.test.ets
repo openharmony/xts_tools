@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentWaterFlowCachedCount() {
-  describe('UIComponentWaterFlowCachedCount', () => {
+export default function uIComponentWaterFlowCachedCount() {
+  describe('uIComponentWaterFlowCachedCount', () => {
     beforeAll(() => {
 
     })

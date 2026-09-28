@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentHyperLinkPreventDefault() {
+export default function uiComponentHyperLinkPreventDefault() {
 
-  describe('UiComponentHyperLinkPreventDefault', () => {
+  describe('uiComponentHyperLinkPreventDefault', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

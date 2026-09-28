@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridListDisplayedColumns() {
-  describe('UIComponentListAndGridListDisplayedColumns', () => {
+export default function uIComponentListAndGridListDisplayedColumns() {
+  describe('uIComponentListAndGridListDisplayedColumns', () => {
     beforeAll(() => {
 
     })

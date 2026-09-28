@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component,} from '@kit.TestKit';
 import { uiAppearance } from '@kit.ArkUI'
 
-export default function TextRichtexteditorMenuReinforcing() {
+export default function textRichtexteditorMenuReinforcing() {
 
-  describe('TextRichtexteditorMenuReinforcing', () => {
+  describe('textRichtexteditorMenuReinforcing', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

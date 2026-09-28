@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function ActionEventAreachangeApproximatechangeBatch2Test() {
-  describe('ActionEventAreachangeApproximatechangeBatch2Test', () => {
+export default function actionEventAreachangeApproximatechangeBatch2Test() {
+  describe('actionEventAreachangeApproximatechangeBatch2Test', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass);

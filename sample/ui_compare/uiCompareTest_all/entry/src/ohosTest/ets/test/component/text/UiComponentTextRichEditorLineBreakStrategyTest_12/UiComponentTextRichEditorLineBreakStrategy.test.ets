@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorLineBreakStrategy() {
-  describe('UiComponentTextRichEditorLineBreakStrategy', () => {
+export default function uiComponentTextRichEditorLineBreakStrategy() {
+  describe('uiComponentTextRichEditorLineBreakStrategy', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

@@ -21,9 +21,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function ForegroundColor() {
+export default function foregroundColor() {
 
-  describe('ForegroundColor', () => {
+  describe('foregroundColor', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

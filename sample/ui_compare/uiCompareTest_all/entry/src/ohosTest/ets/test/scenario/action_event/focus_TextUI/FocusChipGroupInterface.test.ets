@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, UiDirection } from '@kit.TestKit';
 
-export default function FocusChipGroupInterfaceTest() {
+export default function focusChipGroupInterfaceTest() {
 
-  describe('FocusChipGroupInterfaceTest', () => {
+  describe('focusChipGroupInterfaceTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

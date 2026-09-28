@@ -21,8 +21,8 @@ import { uiAppearance } from '@kit.ArkUI'
 import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentTextTextRichtext() {
-  describe('UiComponentTextTextRichtext', () => {
+export default function uiComponentTextTextRichtext() {
+  describe('uiComponentTextTextRichtext', () => {
 
     afterEach(async (done: Function) => {
 

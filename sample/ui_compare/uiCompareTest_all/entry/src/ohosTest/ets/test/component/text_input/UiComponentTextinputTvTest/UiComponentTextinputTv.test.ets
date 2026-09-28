@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentTextinputTv() {
-  describe('UiComponentTextinputTv', () => {
-    const TAG: string = 'UiComponentTextinputTv';
+export default function uiComponentTextinputTv() {
+  describe('uiComponentTextinputTv', () => {
+    const TAG: string = 'uiComponentTextinputTv';
     let driver = Driver.create();
 
     afterEach(async () => {

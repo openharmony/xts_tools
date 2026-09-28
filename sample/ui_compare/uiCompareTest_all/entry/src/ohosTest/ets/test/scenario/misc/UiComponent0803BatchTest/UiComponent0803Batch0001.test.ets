@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponent0803Batch0001() {
-  describe('UiComponent0803Batch0001', () => {
+export default function uiComponent0803Batch0001() {
+  describe('uiComponent0803Batch0001', () => {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENT_ONCOMPLETE_0001
      * @tc.name   : PluginComponent onComplete readiness marker

@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function UIComponentListChildMainSizeTest() {
-  describe('UIComponentListChildMainSizeTest', () => {
+export default function uIComponentListChildMainSizeTest() {
+  describe('uIComponentListChildMainSizeTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

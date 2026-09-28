@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger';
 import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function UIComponentMediaQualitys() {
-  describe('UIComponentMediaQualitys', () => {
+export default function uIComponentMediaQualitys() {
+  describe('uIComponentMediaQualitys', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

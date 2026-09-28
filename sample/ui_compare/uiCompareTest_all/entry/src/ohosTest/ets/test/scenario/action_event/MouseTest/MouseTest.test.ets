@@ -25,8 +25,8 @@ import { Driver, ON } from '@kit.TestKit';
 
 const PAGE_URI = 'testability/pages/scenario/action_event/Mouse/Mouse';
 
-export default function MouseTest() {
-  describe('MouseTest', () => {
+export default function mouseTest() {
+  describe('mouseTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

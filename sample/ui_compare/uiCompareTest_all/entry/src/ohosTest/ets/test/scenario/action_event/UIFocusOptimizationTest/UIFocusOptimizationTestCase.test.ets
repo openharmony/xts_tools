@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIFocusOptimizationTest() {
+export default function uIFocusOptimizationTest() {
 
-  describe('UIFocusOptimizationTest', () => {
+  describe('uIFocusOptimizationTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

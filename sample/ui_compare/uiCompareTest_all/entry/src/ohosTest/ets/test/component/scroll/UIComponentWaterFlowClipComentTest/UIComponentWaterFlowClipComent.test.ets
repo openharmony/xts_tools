@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentWaterFlowClipComent() {
-  describe('UIComponentWaterFlowClipComent', () => {
+export default function uIComponentWaterFlowClipComent() {
+  describe('uIComponentWaterFlowClipComent', () => {
     beforeAll(() => {
 
     })

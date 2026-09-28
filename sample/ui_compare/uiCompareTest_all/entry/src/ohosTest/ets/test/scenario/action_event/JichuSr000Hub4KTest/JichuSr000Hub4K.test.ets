@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function JichuSr000Hub4K() {
+export default function jichuSr000Hub4K() {
 
-  describe('JichuSr000Hub4K', () => {
+  describe('jichuSr000Hub4K', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

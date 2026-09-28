@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentScrollScrollInterface() {
-  describe('UIComponentScrollScrollInterface', () => {
+export default function uIComponentScrollScrollInterface() {
+  describe('uIComponentScrollScrollInterface', () => {
     beforeAll(() => {
 
     })

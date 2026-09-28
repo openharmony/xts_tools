@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentMediaDarkColorModeTest() {
-  describe('UiComponentMediaDarkColorModeTest', () => {
+export default function uiComponentMediaDarkColorModeTest() {
+  describe('uiComponentMediaDarkColorModeTest', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass);

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component,} from '@kit.TestKit';
 
 
-export default function RoutingSupportstageInterface() {
+export default function routingSupportstageInterface() {
 
-  describe('RoutingSupportstageInterface', () => {
+  describe('routingSupportstageInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

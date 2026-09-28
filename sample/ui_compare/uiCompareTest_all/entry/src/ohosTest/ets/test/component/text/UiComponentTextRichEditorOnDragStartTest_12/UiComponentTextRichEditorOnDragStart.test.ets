@@ -21,8 +21,8 @@ import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 import { image } from '@kit.ImageKit'
 
-export default function UiComponentTextRichEditorOnDragStart() {
-  describe('UiComponentTextRichEditorOnDragStart', () => {
+export default function uiComponentTextRichEditorOnDragStart() {
+  describe('uiComponentTextRichEditorOnDragStart', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function ActionEventCommonEventFrameNode() {
+export default function actionEventCommonEventFrameNode() {
 
-  describe('ActionEventCommonEventFrameNode', () => {
+  describe('actionEventCommonEventFrameNode', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

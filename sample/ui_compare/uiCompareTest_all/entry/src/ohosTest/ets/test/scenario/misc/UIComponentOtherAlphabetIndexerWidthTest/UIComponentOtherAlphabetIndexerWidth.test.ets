@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, MouseButton, UiDirection } from '@kit.TestKit'
 
-export default function UIComponentOtherAlphabetIndexerWidth() {
-  describe('UIComponentOtherAlphabetIndexerWidth', () => {
+export default function uIComponentOtherAlphabetIndexerWidth() {
+  describe('uIComponentOtherAlphabetIndexerWidth', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

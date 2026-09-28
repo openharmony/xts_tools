@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentOtherScrollableAnimation() {
-  describe('UIComponentOtherScrollableAnimation', () => {
+export default function uIComponentOtherScrollableAnimation() {
+  describe('uIComponentOtherScrollableAnimation', () => {
     beforeAll(() => {
 
     })

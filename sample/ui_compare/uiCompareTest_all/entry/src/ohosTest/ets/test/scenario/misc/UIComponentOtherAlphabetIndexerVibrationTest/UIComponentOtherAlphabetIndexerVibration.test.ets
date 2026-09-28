@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, MouseButton, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentOtherAlphabetIndexerVibration() {
-  describe('UIComponentOtherAlphabetIndexerVibration', () => {
+export default function uIComponentOtherAlphabetIndexerVibration() {
+  describe('uIComponentOtherAlphabetIndexerVibration', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component,} from '@kit.TestKit';
 
 
-export default function RoutingRedirection() {
+export default function routingRedirection() {
 
-  describe('RoutingRedirection', () => {
+  describe('routingRedirection', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

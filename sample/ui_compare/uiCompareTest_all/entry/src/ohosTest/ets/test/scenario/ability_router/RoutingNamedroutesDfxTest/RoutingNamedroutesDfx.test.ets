@@ -20,8 +20,8 @@ import Logger from '../../../model/Logger';
 import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function RoutingNamedroutesDfxTest() {
-  describe('RoutingNamedroutesDfxTest', () => {
+export default function routingNamedroutesDfxTest() {
+  describe('routingNamedroutesDfxTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

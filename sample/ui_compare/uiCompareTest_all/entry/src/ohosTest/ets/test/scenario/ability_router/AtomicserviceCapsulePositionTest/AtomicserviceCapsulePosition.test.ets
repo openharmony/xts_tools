@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function AtomicserviceCapsulePosition() {
+export default function atomicserviceCapsulePosition() {
 
-  describe('AtomicserviceCapsulePosition', () => {
+  describe('atomicserviceCapsulePosition', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

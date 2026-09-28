@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentScrollScrollBarScrollEdge() {
-  describe('UIComponentScrollScrollBarScrollEdge', () => {
+export default function uIComponentScrollScrollBarScrollEdge() {
+  describe('uIComponentScrollScrollBarScrollEdge', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

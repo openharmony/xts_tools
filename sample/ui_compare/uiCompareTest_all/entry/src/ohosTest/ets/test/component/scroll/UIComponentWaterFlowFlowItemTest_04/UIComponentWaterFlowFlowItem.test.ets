@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentWaterFlowFlowItemTest() {
-  describe('UIComponentWaterFlowFlowItemTest', () => {
+export default function uIComponentWaterFlowFlowItemTest() {
+  describe('uIComponentWaterFlowFlowItemTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

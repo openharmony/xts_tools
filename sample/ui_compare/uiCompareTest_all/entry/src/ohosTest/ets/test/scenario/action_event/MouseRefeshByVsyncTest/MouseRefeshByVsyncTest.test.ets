@@ -33,8 +33,8 @@ async function clickZone(driver: Driver, id: string): Promise<void> {
   await driver.click(cx, cy);
 }
 
-export default function MouseRefeshByVsyncTest() {
-  describe('MouseRefeshByVsyncTest', () => {
+export default function mouseRefeshByVsyncTest() {
+  describe('mouseRefeshByVsyncTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

@@ -22,9 +22,9 @@ import { Driver, ON, Component } from '@kit.TestKit';
 import { hidebug } from '@kit.PerformanceAnalysisKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function Statusmanagerv2Optimize() {
+export default function statusmanagerv2Optimize() {
 
-  describe('Statusmanagerv2Optimize', () => {
+  describe('statusmanagerv2Optimize', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

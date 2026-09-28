@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component, On } from '@kit.TestKit'
 
-export default function UIComponentListScrollerScrollToTest() {
-  describe('UIComponentListScrollerScrollToTest', () => {
+export default function uIComponentListScrollerScrollToTest() {
+  describe('uIComponentListScrollerScrollToTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

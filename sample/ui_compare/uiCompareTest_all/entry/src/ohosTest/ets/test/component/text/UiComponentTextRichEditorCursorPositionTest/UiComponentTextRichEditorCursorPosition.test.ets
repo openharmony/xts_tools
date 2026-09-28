@@ -20,8 +20,8 @@ import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentTextRichEditorCursorPosition() {
-  describe('UiComponentTextRichEditorCursorPosition', () => {
+export default function uiComponentTextRichEditorCursorPosition() {
+  describe('uiComponentTextRichEditorCursorPosition', () => {
 
     afterEach(async (done: Function) => {
 

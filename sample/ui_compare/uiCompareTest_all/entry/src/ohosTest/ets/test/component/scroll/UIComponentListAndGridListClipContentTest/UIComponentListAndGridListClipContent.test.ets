@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function UIComponentListAndGridListClipContentTest() {
-  describe('UIComponentListAndGridListClipContentTest', () => {
+export default function uIComponentListAndGridListClipContentTest() {
+  describe('uIComponentListAndGridListClipContentTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

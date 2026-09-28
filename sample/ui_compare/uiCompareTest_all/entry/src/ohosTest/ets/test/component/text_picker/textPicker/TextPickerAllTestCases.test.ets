@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function TextPickerAllTestCases() {
-  describe('TextPickerAllTestCases', () => {
+export default function textPickerAllTestCases() {
+  describe('textPickerAllTestCases', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;
@@ -314,41 +314,41 @@ export default function TextPickerAllTestCases() {
     });
 
     /*
-     * @tc.number : TestCase_25f6417f4ecb434d8ad92b418b28252d
+     * @tc.number : TestCase_25f6417f4ecb434daad92b418b28252d
      * @tc.name   : 多列TextPicker向上滑动测试
      * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('TestCase_25f6417f4ecb434d8ad92b418b28252d', Level.LEVEL3, async (done: Function) => {
+    it('TestCase_25f6417f4ecb434daad92b418b28252d', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
       Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase08");
       await driver.waitForIdle(500, 2000);
 
       try {
-        console.info('TEST_25f6417f4ecb434d8ad92b418b28252d: 开始查找TextPicker组件 (textPicker_08)');
+        console.info('TEST_25f6417f4ecb434daad92b418b28252d: 开始查找TextPicker组件 (textPicker_08)');
         let textPicker: Component = await driver.waitForComponent(ON.id('textPicker_08'), 1000);
-        console.info('TEST_25f6417f4ecb434d8ad92b418b28252d: 成功找到TextPicker组件');
+        console.info('TEST_25f6417f4ecb434daad92b418b28252d: 成功找到TextPicker组件');
 
-        console.info('TEST_25f6417f4ecb434d8ad92b418b28252d: 开始向上滑动TextPicker');
+        console.info('TEST_25f6417f4ecb434daad92b418b28252d: 开始向上滑动TextPicker');
         let rect = await textPicker.getBounds();
         let centerX = rect.left + (rect.right - rect.left) / 2;
         let height = rect.bottom - rect.top;
         let startY = rect.top + height * 0.2;
         let endY = rect.top + height * 0.8;
         await driver.swipe(centerX, startY, centerX, endY, 1000);
-        console.info('TEST_25f6417f4ecb434d8ad92b418b28252d: TextPicker向上滑动完成');
+        console.info('TEST_25f6417f4ecb434daad92b418b28252d: TextPicker向上滑动完成');
         await driver.waitForIdle(1000, 2000);
 
-        await windowSnap.snapShot('TestCase_25f6417f4ecb434d8ad92b418b28252d');
+        await windowSnap.snapShot('TestCase_25f6417f4ecb434daad92b418b28252d');
         await Utils.sleep(1000);
 
-        console.info('TEST_25f6417f4ecb434d8ad92b418b28252d: 测试用例执行成功');
+        console.info('TEST_25f6417f4ecb434daad92b418b28252d: 测试用例执行成功');
         done();
       } catch (error) {
-        console.error('TEST_25f6417f4ecb434d8ad92b418b28252d: 测试用例执行失败 - ' + JSON.stringify(error));
-        console.error('TEST_25f6417f4ecb434d8ad92b418b28252d: 错误堆栈: ' + error.message);
+        console.error('TEST_25f6417f4ecb434daad92b418b28252d: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_25f6417f4ecb434daad92b418b28252d: 错误堆栈: ' + error.message);
         expect().assertFail();
       }
     });
@@ -534,41 +534,41 @@ export default function TextPickerAllTestCases() {
     });
 
     /*
-     * @tc.number : TestCase_45a89390e1fa4ed886efd8313e14becd
+     * @tc.number : TestCase_45a89390e1fa4eda86efda313e14becd
      * @tc.name   : string[][]
      * @tc.desc   : Verify the interface under test: string[][].
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('TestCase_45a89390e1fa4ed886efd8313e14becd', Level.LEVEL3, async (done: Function) => {
+    it('TestCase_45a89390e1fa4eda86efda313e14becd', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
       Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase14");
       await driver.waitForIdle(500, 2000);
 
       try {
-        console.info('TEST_45a89390e1fa4ed886efd8313e14becd: 开始查找TextPicker组件 (textPicker_14)');
+        console.info('TEST_45a89390e1fa4eda86efda313e14becd: 开始查找TextPicker组件 (textPicker_14)');
         let textPicker: Component = await driver.waitForComponent(ON.id('textPicker_14'), 1000);
-        console.info('TEST_45a89390e1fa4ed886efd8313e14becd: 成功找到TextPicker组件');
+        console.info('TEST_45a89390e1fa4eda86efda313e14becd: 成功找到TextPicker组件');
 
-        console.info('TEST_45a89390e1fa4ed886efd8313e14becd: 开始向上抛滑TextPicker');
+        console.info('TEST_45a89390e1fa4eda86efda313e14becd: 开始向上抛滑TextPicker');
         let rect = await textPicker.getBounds();
         let centerX = rect.left + (rect.right - rect.left) / 2;
         let height = rect.bottom - rect.top;
         let startY = rect.top + height * 0.2;
         let endY = rect.top + height * 0.9;
         await driver.swipe(centerX, startY, centerX, endY, 500);
-        console.info('TEST_45a89390e1fa4ed886efd8313e14becd: TextPicker向上抛滑完成');
+        console.info('TEST_45a89390e1fa4eda86efda313e14becd: TextPicker向上抛滑完成');
         await driver.waitForIdle(1000, 2000);
 
-        await windowSnap.snapShot('TestCase_45a89390e1fa4ed886efd8313e14becd');
+        await windowSnap.snapShot('TestCase_45a89390e1fa4eda86efda313e14becd');
         await Utils.sleep(1000);
 
-        console.info('TEST_45a89390e1fa4ed886efd8313e14becd: 测试用例执行成功');
+        console.info('TEST_45a89390e1fa4eda86efda313e14becd: 测试用例执行成功');
         done();
       } catch (error) {
-        console.error('TEST_45a89390e1fa4ed886efd8313e14becd: 测试用例执行失败 - ' + JSON.stringify(error));
-        console.error('TEST_45a89390e1fa4ed886efd8313e14becd: 错误堆栈: ' + error.message);
+        console.error('TEST_45a89390e1fa4eda86efda313e14becd: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_45a89390e1fa4eda86efda313e14becd: 错误堆栈: ' + error.message);
         expect().assertFail();
       }
     });
@@ -879,41 +879,41 @@ export default function TextPickerAllTestCases() {
     });
 
     /*
-     * @tc.number : TestCase_88aed828742e415091f54af6df16ac76
+     * @tc.number : TestCase_88aeda28742e415091f54af6df16ac76
      * @tc.name   : 单列TextPicker向上滑动测试
      * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('TestCase_88aed828742e415091f54af6df16ac76', Level.LEVEL3, async (done: Function) => {
+    it('TestCase_88aeda28742e415091f54af6df16ac76', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
       Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase23");
       await driver.waitForIdle(500, 2000);
 
       try {
-        console.info('TEST_88aed828742e415091f54af6df16ac76: 开始查找TextPicker组件 (textPicker_23)');
+        console.info('TEST_88aeda28742e415091f54af6df16ac76: 开始查找TextPicker组件 (textPicker_23)');
         let textPicker: Component = await driver.waitForComponent(ON.id('textPicker_23'), 1000);
-        console.info('TEST_88aed828742e415091f54af6df16ac76: 成功找到TextPicker组件');
+        console.info('TEST_88aeda28742e415091f54af6df16ac76: 成功找到TextPicker组件');
 
-        console.info('TEST_88aed828742e415091f54af6df16ac76: 开始向上滑动TextPicker');
+        console.info('TEST_88aeda28742e415091f54af6df16ac76: 开始向上滑动TextPicker');
         let rect = await textPicker.getBounds();
         let centerX = rect.left + (rect.right - rect.left) / 2;
         let height = rect.bottom - rect.top;
         let startY = rect.top + height * 0.2;
         let endY = rect.top + height * 0.8;
         await driver.swipe(centerX, startY, centerX, endY, 1000);
-        console.info('TEST_88aed828742e415091f54af6df16ac76: TextPicker向上滑动完成');
+        console.info('TEST_88aeda28742e415091f54af6df16ac76: TextPicker向上滑动完成');
         await driver.waitForIdle(1000, 2000);
 
-        await windowSnap.snapShot('TestCase_88aed828742e415091f54af6df16ac76');
+        await windowSnap.snapShot('TestCase_88aeda28742e415091f54af6df16ac76');
         await Utils.sleep(1000);
 
-        console.info('TEST_88aed828742e415091f54af6df16ac76: 测试用例执行成功');
+        console.info('TEST_88aeda28742e415091f54af6df16ac76: 测试用例执行成功');
         done();
       } catch (error) {
-        console.error('TEST_88aed828742e415091f54af6df16ac76: 测试用例执行失败 - ' + JSON.stringify(error));
-        console.error('TEST_88aed828742e415091f54af6df16ac76: 错误堆栈: ' + error.message);
+        console.error('TEST_88aeda28742e415091f54af6df16ac76: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_88aeda28742e415091f54af6df16ac76: 错误堆栈: ' + error.message);
         expect().assertFail();
       }
     });
@@ -1279,41 +1279,41 @@ export default function TextPickerAllTestCases() {
     });
 
     /*
-     * @tc.number : TestCase_bac8776d9aa94f7087bf2e13350d8157
+     * @tc.number : TestCase_bac8776d9aa94f7087bf2e13350da157
      * @tc.name   : TextCascadePickerRangeContent[]
      * @tc.desc   : Verify the interface under test: TextCascadePickerRangeContent[].
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('TestCase_bac8776d9aa94f7087bf2e13350d8157', Level.LEVEL3, async (done: Function) => {
+    it('TestCase_bac8776d9aa94f7087bf2e13350da157', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
       Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase33");
       await driver.waitForIdle(500, 2000);
 
       try {
-        console.info('TEST_bac8776d9aa94f7087bf2e13350d8157: 开始查找TextPicker组件 (textPicker_33)');
+        console.info('TEST_bac8776d9aa94f7087bf2e13350da157: 开始查找TextPicker组件 (textPicker_33)');
         let textPicker: Component = await driver.waitForComponent(ON.id('textPicker_33'), 1000);
-        console.info('TEST_bac8776d9aa94f7087bf2e13350d8157: 成功找到TextPicker组件');
+        console.info('TEST_bac8776d9aa94f7087bf2e13350da157: 成功找到TextPicker组件');
 
-        console.info('TEST_bac8776d9aa94f7087bf2e13350d8157: 开始多指操作同时滑动多列');
+        console.info('TEST_bac8776d9aa94f7087bf2e13350da157: 开始多指操作同时滑动多列');
         let rect = await textPicker.getBounds();
         let centerX = rect.left + (rect.right - rect.left) / 2;
         let height = rect.bottom - rect.top;
         let startY = rect.top + height * 0.8;
         let endY = rect.top + height * 0.2;
         await driver.swipe(centerX, startY, centerX, endY, 1000);
-        console.info('TEST_bac8776d9aa94f7087bf2e13350d8157: 多指操作同时滑动多列完成');
+        console.info('TEST_bac8776d9aa94f7087bf2e13350da157: 多指操作同时滑动多列完成');
         await driver.waitForIdle(1000, 2000);
 
-        await windowSnap.snapShot('TestCase_bac8776d9aa94f7087bf2e13350d8157');
+        await windowSnap.snapShot('TestCase_bac8776d9aa94f7087bf2e13350da157');
         await Utils.sleep(1000);
 
-        console.info('TEST_bac8776d9aa94f7087bf2e13350d8157: 测试用例执行成功');
+        console.info('TEST_bac8776d9aa94f7087bf2e13350da157: 测试用例执行成功');
         done();
       } catch (error) {
-        console.error('TEST_bac8776d9aa94f7087bf2e13350d8157: 测试用例执行失败 - ' + JSON.stringify(error));
-        console.error('TEST_bac8776d9aa94f7087bf2e13350d8157: 错误堆栈: ' + error.message);
+        console.error('TEST_bac8776d9aa94f7087bf2e13350da157: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_bac8776d9aa94f7087bf2e13350da157: 错误堆栈: ' + error.message);
         expect().assertFail();
       }
     });

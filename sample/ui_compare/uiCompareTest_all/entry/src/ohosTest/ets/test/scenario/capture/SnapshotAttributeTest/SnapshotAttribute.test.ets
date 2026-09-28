@@ -23,9 +23,9 @@ import I18n from '@ohos.i18n';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 
-export default function SnapshotAttribute() {
+export default function snapshotAttribute() {
 
-  describe('SnapshotAttribute', () => {
+  describe('snapshotAttribute', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

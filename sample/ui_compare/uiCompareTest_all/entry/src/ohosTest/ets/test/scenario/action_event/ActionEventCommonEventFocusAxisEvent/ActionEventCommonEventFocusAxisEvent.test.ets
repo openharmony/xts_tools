@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function ActionEventCommonEventFocusAxisEvent() {
+export default function actionEventCommonEventFocusAxisEvent() {
 
-  describe('ActionEventCommonEventFocusAxisEvent', () => {
+  describe('actionEventCommonEventFocusAxisEvent', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function TestCase() {
-  describe('TestCase', () => {
+export default function testCase() {
+  describe('testCase', () => {
     beforeAll(() => {
 
     })

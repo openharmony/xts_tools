@@ -21,8 +21,8 @@ import { Component, Driver, ON } from '@kit.TestKit'
 import { KeyCode } from '@kit.InputKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorInterface() {
-  describe('UiComponentTextRichEditorInterface', () => {
+export default function uiComponentTextRichEditorInterface() {
+  describe('uiComponentTextRichEditorInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

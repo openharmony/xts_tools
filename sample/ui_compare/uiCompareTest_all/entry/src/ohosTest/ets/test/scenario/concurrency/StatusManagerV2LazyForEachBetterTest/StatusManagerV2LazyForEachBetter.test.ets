@@ -19,8 +19,8 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit'
 
-export default function StatusManagerV2LazyForEachBetterTest() {
-  describe('StatusManagerV2LazyForEachBetterTest', () => {
+export default function statusManagerV2LazyForEachBetterTest() {
+  describe('statusManagerV2LazyForEachBetterTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

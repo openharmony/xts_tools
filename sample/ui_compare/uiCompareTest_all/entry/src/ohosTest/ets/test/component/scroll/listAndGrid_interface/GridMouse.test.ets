@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function GridMouseTest() {
-  describe('GridMouseTest', () => {
+export default function gridMouseTest() {
+  describe('gridMouseTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

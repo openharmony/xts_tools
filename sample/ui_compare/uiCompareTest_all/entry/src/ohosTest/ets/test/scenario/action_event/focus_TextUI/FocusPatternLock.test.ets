@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function FocusPatternLockTest() {
+export default function focusPatternLockTest() {
 
-  describe('FocusPatternLockTest', () => {
+  describe('focusPatternLockTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

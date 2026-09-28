@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentTextTv() {
-  describe('UiComponentTextTv', () => {
-    const TAG: string = 'UiComponentTextTv';
+export default function uiComponentTextTv() {
+  describe('uiComponentTextTv', () => {
+    const TAG: string = 'uiComponentTextTv';
     let driver = Driver.create();
 
     afterEach(async () => {

@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridWaterFlowSections() {
-  describe('UIComponentListAndGridWaterFlowSections', () => {
+export default function uIComponentListAndGridWaterFlowSections() {
+  describe('uIComponentListAndGridWaterFlowSections', () => {
     beforeAll(() => {
 
     })

@@ -19,8 +19,8 @@ import windowSnap from '../../../model/snapShot'
 import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 
-export default function RoutingComponent() {
-  describe('RoutingComponent', () => {
+export default function routingComponent() {
+  describe('routingComponent', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

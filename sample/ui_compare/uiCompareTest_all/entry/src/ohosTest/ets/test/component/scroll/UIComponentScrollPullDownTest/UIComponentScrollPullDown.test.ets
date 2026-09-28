@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentScrollPullDown() {
-  describe('UIComponentScrollPullDown', () => {
+export default function uIComponentScrollPullDown() {
+  describe('uIComponentScrollPullDown', () => {
     beforeAll(() => {
 
     })

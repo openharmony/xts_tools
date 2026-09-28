@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridGridScrollbar() {
-  describe('UIComponentListAndGridGridScrollbar', () => {
+export default function uIComponentListAndGridGridScrollbar() {
+  describe('uIComponentListAndGridGridScrollbar', () => {
     beforeAll(() => {
 
     })

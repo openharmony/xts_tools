@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentMediaPcEvent0027() {
-  describe('UiComponentMediaPcEvent0027', () => {
+export default function uiComponentMediaPcEvent0027() {
+  describe('uiComponentMediaPcEvent0027', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0027
      * @tc.name   : Progress mouse event readiness marker

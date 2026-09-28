@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorCustomspan() {
-  describe('UiComponentTextRichEditorCustomspan', () => {
+export default function uiComponentTextRichEditorCustomspan() {
+  describe('uiComponentTextRichEditorCustomspan', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

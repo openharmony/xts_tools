@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function ArkuiA11yHover() {
-  describe('ArkuiA11yHover', () => {
-    const TAG: string = 'ArkuiA11yHover';
+export default function arkuiA11yHover() {
+  describe('arkuiA11yHover', () => {
+    const TAG: string = 'arkuiA11yHover';
     let driver = Driver.create();
 
     afterEach(async () => {

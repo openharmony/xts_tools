@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentTextRichEditorAvoidCursor() {
-  describe('UiComponentTextRichEditorAvoidCursor', () => {
+export default function uiComponentTextRichEditorAvoidCursor() {
+  describe('uiComponentTextRichEditorAvoidCursor', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

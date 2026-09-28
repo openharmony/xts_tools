@@ -38,9 +38,9 @@ async function runCase(driver: Driver, keyCode: number): Promise<void> {
   await Utils.sleep(1000);
 }
 
-export default function KeyEventUnicodeTest() {
+export default function keyEventUnicodeTest() {
 
-  describe('KeyEventUnicodeTest', () => {
+  describe('keyEventUnicodeTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

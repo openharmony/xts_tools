@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function FocusMediaBadgeBorder() {
+export default function focusMediaBadgeBorder() {
 
-  describe('FocusMediaBadgeBorder', () => {
+  describe('focusMediaBadgeBorder', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

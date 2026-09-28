@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridGridMirror() {
-  describe('UIComponentListAndGridGridMirror', () => {
+export default function uIComponentListAndGridGridMirror() {
+  describe('uIComponentListAndGridGridMirror', () => {
     beforeAll(() => {
 
     })

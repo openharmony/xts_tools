@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
-  describe('UIComponentListAndGridListLeftSeipeDeleteChain', () => {
+export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
+  describe('uIComponentListAndGridListLeftSeipeDeleteChain', () => {
     beforeAll(() => {
 
     })
