@@ -34,7 +34,7 @@ struct UiComponentTextRichEditorGundongtiao0002 {
               }
             })
           })
-          .id("rich_editor_gundongtiao_0002")
+          .id('rich_editor_gundongtiao_0002')
           .width('80%')
           .height(120)
           .margin({ top: 50 })
@@ -64,7 +64,7 @@ struct UiComponentTextRichEditorGundongtiao0002 {
           })
           this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
             imageStyle: {
-              size: ["50px", "50px"]
+              size: ['50px', '50px']
             }
           })
         })

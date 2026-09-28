@@ -22,14 +22,14 @@ import { text } from '@kit.ArkGraphics2D';
 struct UiComponentTextRichEditorGetRects10 {
   stringLength: number = 0;
   imagePixelMap: image.PixelMap | undefined = undefined;
-  @State selection: string = "";
+  @State selection: string = '';
   @State rect : TextBox[] = []
-  @State content: string = "";
-  @State range: string = "";
-  @State replaceString: string = "";
-  @State rangeBefore: string = "";
-  @State rangeAfter: string = "";
-  richEditorStyledString: MutableStyledString = new MutableStyledString("");
+  @State content: string = '';
+  @State range: string = '';
+  @State replaceString: string = '';
+  @State rangeBefore: string = '';
+  @State rangeAfter: string = '';
+  richEditorStyledString: MutableStyledString = new MutableStyledString('');
   textStyle: TextStyle = new TextStyle({
     fontWeight: FontWeight.Lighter,
     fontColor: Color.Green,
@@ -47,9 +47,9 @@ struct UiComponentTextRichEditorGetRects10 {
 
   controller1: RichEditorController = new RichEditorController()
   options1: RichEditorOptions = { controller: this.controller1 };
-  mutableStyledString: MutableStyledString = new MutableStyledString("初始属性字符串",
+  mutableStyledString: MutableStyledString = new MutableStyledString('初始属性字符串',
     [{ start: 0, length: 5, styledKey: StyledStringKey.FONT, styledValue: this.fontStyle1 }]);
-  styledString: StyledString = new StyledString("插入属性字符串",
+  styledString: StyledString = new StyledString('插入属性字符串',
     [{ start: 2, length: 4, styledKey: StyledStringKey.FONT, styledValue: this.fontStyle2 }]);
   controller: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = {controller: this.controller};
@@ -66,7 +66,7 @@ struct UiComponentTextRichEditorGetRects10 {
   }
 
   async aboutToAppear() {
-    console.info("aboutToAppear initial imagePixelMap");
+    console.info('aboutToAppear initial imagePixelMap');
     this.imagePixelMap = await this.getPixmapFromMedia($r('app.media.app_icon'));
   }
 
@@ -92,48 +92,48 @@ struct UiComponentTextRichEditorGetRects10 {
           .fontSize(5)
           .fontColor(Color.Red)
           .fontWeight(FontWeight.Bolder)
-        Text("getRectsForRange result is:"+JSON.stringify(this.rect))
-          .width("100%")
+        Text('getRectsForRange result is:'+JSON.stringify(this.rect))
+          .width('100%')
           .fontSize(5)
           .fontColor(Color.Red)
           .fontWeight(FontWeight.Bolder)
       }
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Column() {
-        Text("onWillChange回调信息")
+        Text('onWillChange回调信息')
           .fontSize(10)
-          .width("100%")
-        Text("range: " + this.range)
-          .width("100%")
+          .width('100%')
+        Text('range: ' + this.range)
+          .width('100%')
           .fontSize(10)
-          .width("100%")
+          .width('100%')
       }
       .borderWidth(1)
       .borderColor(Color.Black)
-      .width("100%")
-      .height("20%")
+      .width('100%')
+      .height('20%')
 
       RichEditor(this.options)
         .onReady(() => {
           this.controller.onContentChanged(this.contentChangedListener);
           this.controller.setStyledString(this.mutableStyledString);
         })
-        .height("20%")
-        .width("100%")
+        .height('20%')
+        .width('100%')
 
       RichEditor(this.options1)
         .onReady(() => {
-          this.controller1.addTextSpan("把这些文字转换成属性字符串");
+          this.controller1.addTextSpan('把这些文字转换成属性字符串');
         })
-        .height("10%")
-        .width("100%")
+        .height('10%')
+        .width('100%')
         .borderWidth(1)
         .borderColor(Color.Black)
 
       Row({space:2}) {
-        Button("getRectsForRange")
+        Button('getRectsForRange')
           .id('UiComponentTextRichEditorGetRects10')
           .onClick(() => {
             const range: TextRange = {
@@ -144,10 +144,10 @@ struct UiComponentTextRichEditorGetRects10 {
             this.rect = layoutManager.getRectsForRange(range,text.RectWidthStyle.TIGHT,text.RectHeightStyle.TIGHT)
             console.info('getRectsForRange return ' + JSON.stringify(this.rect))
           })
-          .width("30%")
-        Button("插入图片")
+          .width('30%')
+        Button('插入图片')
           .stateEffect(true)
-          .width("30%")
+          .width('30%')
           .onClick(() => {
             if (this.imagePixelMap !== undefined) {
               let imageStyledString = new MutableStyledString(new ImageAttachment({
@@ -163,7 +163,7 @@ struct UiComponentTextRichEditorGetRects10 {
               this.controller.setCaretOffset(this.richEditorStyledString.length);
             }
           })
-        Button("删除选中内容")
+        Button('删除选中内容')
           .onClick(() => {
             let richEditorSelection = this.controller.getSelection();
             let start = richEditorSelection.start ? richEditorSelection.start : 0;
@@ -175,10 +175,10 @@ struct UiComponentTextRichEditorGetRects10 {
             this.richEditorStyledString.removeString(start, end - start);
             this.controller.setStyledString(this.richEditorStyledString);
           })
-          .width("30%")
+          .width('30%')
       }
       Row({space:2}) {
-        Button("获取选中内容")
+        Button('获取选中内容')
           .onClick(() => {
             let richEditorSelection = this.controller.getSelection();
             let start = richEditorSelection.start ? richEditorSelection.start : 0;
@@ -186,13 +186,13 @@ struct UiComponentTextRichEditorGetRects10 {
             this.richEditorStyledString = this.controller.getStyledString();
             this.selection = '[ ' + start + ' , ' + end + ' ]';
             if (start == end) {
-              this.content = "";
+              this.content = '';
             } else {
               this.content = this.richEditorStyledString.subStyledString(start, end - start).getString();
             }
           })
-          .width("40%")
-        Button("更新选中样式")
+          .width('40%')
+        Button('更新选中样式')
           .onClick(() => {
             let richEditorSelection = this.controller.getSelection();
             let start = richEditorSelection.start ? richEditorSelection.start : 0;
@@ -209,14 +209,14 @@ struct UiComponentTextRichEditorGetRects10 {
             })
             this.controller.setStyledString(this.richEditorStyledString);
           })
-          .width("40%")
+          .width('40%')
       }
       Row({space:2}){
-        Button("调用fromStyledString")
+        Button('调用fromStyledString')
           .onClick(() => {
-            this.controller1.addTextSpan("调用fromStyledString：" +JSON.stringify(this.controller1.fromStyledString(this.mutableStyledString)))
+            this.controller1.addTextSpan('调用fromStyledString：' +JSON.stringify(this.controller1.fromStyledString(this.mutableStyledString)))
           })
-          .width("40%")
+          .width('40%')
           .labelStyle({ overflow: TextOverflow.Clip,
             maxLines: 2,
             minFontSize: 10,
@@ -228,11 +228,11 @@ struct UiComponentTextRichEditorGetRects10 {
               style: FontStyle.Italic
             }
           })
-        Button("调用toStyledString")
+        Button('调用toStyledString')
           .onClick(() => {
             this.controller.setStyledString(this.controller1.toStyledString({start:0,end:13}))
           })
-          .width("40%")
+          .width('40%')
           .labelStyle({ overflow: TextOverflow.Clip,
             maxLines: 2,
             minFontSize: 10,

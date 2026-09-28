@@ -19,7 +19,7 @@ const halfleadingIndentation = 40;
 class HalfleadingLeadingMarginCreator {
   private settings: RenderingContextSettings = new RenderingContextSettings(true);
   private offscreenCanvas: OffscreenCanvas = new OffscreenCanvas(halfleadingcanvasWidth, halfleadingcanvasHeight);
-  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext("2d", this.settings);
+  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext('2d', this.settings);
   public static instance: HalfleadingLeadingMarginCreator = new HalfleadingLeadingMarginCreator();
 
   public getFontSizeLevel(fontSize: number) {
@@ -69,7 +69,7 @@ class HalfleadingLeadingMarginCreator {
   }
 
   public genStrMark(fontSize: number, str: string): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings);
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings);
     this.clearCanvas()
     this.offContext.font = fontSize + 'vp sans-serif';
     this.offContext.fillText(str + '.', 0, fontSize * 0.9)
@@ -77,7 +77,7 @@ class HalfleadingLeadingMarginCreator {
   }
 
   public genSquareMark(fontSize: number): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings);
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings);
     this.clearCanvas()
     const coordinate = fontSize * (1 - 1 / 1.5) / 2;
     const sideLength = fontSize / 1.5;
@@ -91,7 +91,7 @@ class HalfleadingLeadingMarginCreator {
     const fontSizeLevel = this.getFontSizeLevel(fontSize);
     const marginlevel = this.getmarginLevel(width);
     const newCanvas = new OffscreenCanvas(halfleadingcanvasWidth, halfleadingcanvasHeight);
-    const newOffContext: OffscreenCanvasRenderingContext2D = newCanvas.getContext("2d", this.settings);
+    const newOffContext: OffscreenCanvasRenderingContext2D = newCanvas.getContext('2d', this.settings);
     const centerCoordinate = 50;
     const radius = 10;
     this.clearCanvas()
@@ -130,7 +130,7 @@ struct UiComponentTextRichEditorHalfLeading01 {
       Column() {
         RichEditor(this.options)
           .onReady(() => {
-            this.controller.addTextSpan("set halfLeading to true\n",
+            this.controller.addTextSpan('set halfLeading to true\n',
               {
                 style:
                 {
@@ -144,7 +144,7 @@ struct UiComponentTextRichEditorHalfLeading01 {
                   decoration: { type: TextDecorationType.Underline, color: Color.Green }
                 }
               })
-            this.controller.addTextSpan("set halfLeading to false\n",
+            this.controller.addTextSpan('set halfLeading to false\n',
               {
                 style:
                 {
@@ -163,7 +163,7 @@ struct UiComponentTextRichEditorHalfLeading01 {
           .height(200)
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
+          .width('100%')
 
         Row({ space: 5 }) {
           Button('setTypingStyle1')
@@ -194,13 +194,13 @@ struct UiComponentTextRichEditorHalfLeading01 {
             })
         }
         Divider()
-        Button("getTypingStyle").onClick(() => {
+        Button('getTypingStyle').onClick(() => {
           this.richEditorTextStyle = this.controller.getTypingStyle();
-          console.info("RichEditor getTypingStyle:" + JSON.stringify(this.richEditorTextStyle));
+          console.info('RichEditor getTypingStyle:' + JSON.stringify(this.richEditorTextStyle));
         })
         Divider()
         Row({ space: 5 }) {
-          Button("向右列表缩进").onClick(() => {
+          Button('向右列表缩进').onClick(() => {
             let margin = Number(this.leftMargin);
             if (margin < 200) {
               margin += halfleadingIndentation;
@@ -218,7 +218,7 @@ struct UiComponentTextRichEditorHalfLeading01 {
             })
           })
 
-          Button("向左列表缩进").onClick(() => {
+          Button('向左列表缩进').onClick(() => {
             let margin = Number(this.leftMargin);
             if (margin > 0) {
               margin -= halfleadingIndentation;
@@ -238,7 +238,7 @@ struct UiComponentTextRichEditorHalfLeading01 {
         }
         Divider()
         Row({ space: 5 }) {
-          Button("向右空白缩进").onClick(() => {
+          Button('向右空白缩进').onClick(() => {
             let margin = Number(this.leftMargin);
             if (margin < 200) {
               margin += halfleadingIndentation;
@@ -253,7 +253,7 @@ struct UiComponentTextRichEditorHalfLeading01 {
             })
           })
 
-          Button("向左空白缩进").onClick(() => {
+          Button('向左空白缩进').onClick(() => {
             let margin = Number(this.leftMargin)
             if (margin > 0) {
               margin -= halfleadingIndentation;

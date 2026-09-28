@@ -18,7 +18,7 @@ import { text } from '@kit.ArkGraphics2D';
 @Builder
 function getRects09placeholderBuilder2() {
   Row({ space: 2 }) {
-    Image($r("app.media.icon"))
+    Image($r('app.media.icon'))
       .width(24)
       .height(24)
       .margin({ left: -5 })
@@ -39,8 +39,8 @@ struct UiComponentTextRichEditorGetRects09 {
   option: RichEditorOptions = { controller: this.controller };
   private start: number = 2;
   private end: number = 4;
-  @State message: string = "[-1, -1]"
-  @State content: string = ""
+  @State message: string = '[-1, -1]'
+  @State content: string = ''
   private my_offset: number | undefined = undefined
   private my_builder: CustomBuilder = undefined
   @BuilderParam my_builder2:() => void = getRects09placeholderBuilder2;
@@ -49,7 +49,7 @@ struct UiComponentTextRichEditorGetRects09 {
   @Builder
   placeholderBuilder() {
     Row({ space: 2 }) {
-      Image($r("app.media.icon"))
+      Image($r('app.media.icon'))
         .width(24)
         .height(24)
         .margin({ left: -5 })
@@ -63,7 +63,7 @@ struct UiComponentTextRichEditorGetRects09 {
 
   @Builder
   placeholderBuilder3() {
-    Text("hello")
+    Text('hello')
       .padding('20')
       .borderWidth(1)
       .width('100%')
@@ -130,8 +130,8 @@ struct UiComponentTextRichEditorGetRects09 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项1" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项2" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项1' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项2' })
         .enabled(false)
     }
   }
@@ -143,66 +143,66 @@ struct UiComponentTextRichEditorGetRects09 {
           .fontSize(11)
           .fontColor(Color.Red)
           .fontWeight(FontWeight.Bolder)
-        Text("getRectsForRange result is:"+JSON.stringify(this.rect))
-          .width("100%")
+        Text('getRectsForRange result is:'+JSON.stringify(this.rect))
+          .width('100%')
           .fontSize(10)
           .fontColor(Color.Red)
           .fontWeight(FontWeight.Bolder)
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("20%")
+      .width('100%')
+      .height('20%')
 
       Row() {
-        Button("获取选择内容 getSpans")
+        Button('获取选择内容 getSpans')
           .onClick(() => {
             console.info('getSpans='+JSON.stringify(this.controller.getSpans({ start:1, end:5 })))
             console.info('getParagraphs='+JSON.stringify(this.controller.getParagraphs({ start:1, end:5 })))
-            this.content = ""
+            this.content = ''
             this.controller.getSpans({
               start: this.start,
               end: this.end
             }).forEach(item => {
               if (typeof (item as RichEditorImageSpanResult)['imageStyle'] != 'undefined') {
-                if ((item as RichEditorImageSpanResult).valueResourceStr == "") {
-                  console.info("builder span index " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range : " + (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " + (item as RichEditorImageSpanResult).imageStyle[0] + ", " + (item as RichEditorImageSpanResult).imageStyle[1])
+                if ((item as RichEditorImageSpanResult).valueResourceStr == '') {
+                  console.info('builder span index ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range : ' + (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' + (item as RichEditorImageSpanResult).imageStyle[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle[1])
                 } else {
-                  console.info("image span " + (item as RichEditorImageSpanResult).valueResourceStr + ", index : " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range: " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " + (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " +
-                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ", " + (item as RichEditorImageSpanResult).imageStyle.size[1])
+                  console.info('image span ' + (item as RichEditorImageSpanResult).valueResourceStr + ', index : ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range: ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' + (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' +
+                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle.size[1])
                 }
               } else {
                 this.content += (item as RichEditorTextSpanResult).value;
-                this.content += "\n"
-                console.info("text span: " + (item as RichEditorTextSpanResult).value)
+                this.content += '\n'
+                console.info('text span: ' + (item as RichEditorTextSpanResult).value)
               }
             })
           })
-        Button("获取选择内容 getSelection")
+        Button('获取选择内容 getSelection')
           .onClick(() => {
-            this.content = "";
+            this.content = '';
             let select = this.controller.getSelection()
-            console.info("selection start " + select.selection[0] + " end " + select.selection[1])
+            console.info('selection start ' + select.selection[0] + ' end ' + select.selection[1])
             select.spans.forEach(item => {
               if (typeof (item as RichEditorImageSpanResult)['imageStyle'] != 'undefined') {
-                if ((item as RichEditorImageSpanResult).valueResourceStr == "") {
-                  console.info("builder span index " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range : " + (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " + (item as RichEditorImageSpanResult).imageStyle[0] + ", " + (item as RichEditorImageSpanResult).imageStyle[1])
+                if ((item as RichEditorImageSpanResult).valueResourceStr == '') {
+                  console.info('builder span index ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range : ' + (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' + (item as RichEditorImageSpanResult).imageStyle[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle[1])
                 } else {
-                  console.info("image span " + (item as RichEditorImageSpanResult).valueResourceStr + ", index : " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range: " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " + (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " +
-                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ", " + (item as RichEditorImageSpanResult).imageStyle.size[1])
+                  console.info('image span ' + (item as RichEditorImageSpanResult).valueResourceStr + ', index : ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range: ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' + (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' +
+                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle.size[1])
                 }
               } else {
                 this.content += (item as RichEditorTextSpanResult).value;
-                this.content += "\n"
-                console.info("text span: " + (item as RichEditorTextSpanResult).value)
+                this.content += '\n'
+                console.info('text span: ' + (item as RichEditorTextSpanResult).value)
               }
             })
           })
-        Button("删除选择内容")
+        Button('删除选择内容')
           .onClick(() => {
             this.controller.deleteSpans({
               start: this.start,
@@ -212,13 +212,13 @@ struct UiComponentTextRichEditorGetRects09 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Column() {
         RichEditor(this.option)
           .onReady(() => {
-            this.controller.addTextSpan("012hello你好!😀",
+            this.controller.addTextSpan('012hello你好!😀',
               {
                 style:
                 {
@@ -232,51 +232,51 @@ struct UiComponentTextRichEditorGetRects09 {
           .onSelect((value: RichEditorSelection) => {
             this.start = value.selection[0];
             this.end = value.selection[1];
-            this.message = "[" + this.start + ", " + this.end + "]"
-            console.info("onSelect="+JSON.stringify(value))
+            this.message = '[' + this.start + ', ' + this.end + ']'
+            console.info('onSelect='+JSON.stringify(value))
           })
           .aboutToIMEInput((value: RichEditorInsertValue) => {
-            console.log("---------------------- aboutToIMEInput --------------------")
-            console.info("aboutToIMEInput="+JSON.stringify(value))
-            console.log("insertOffset:" + value.insertOffset)
-            console.log("insertValue:" + value.insertValue)
+            console.log('---------------------- aboutToIMEInput --------------------')
+            console.info('aboutToIMEInput='+JSON.stringify(value))
+            console.log('insertOffset:' + value.insertOffset)
+            console.log('insertValue:' + value.insertValue)
             return true;
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
-            console.log("---------------------- onIMEInputComplete --------------------")
-            console.info("onIMEInputComplete="+JSON.stringify(value))
-            console.log("spanIndex:" + value.spanPosition.spanIndex)
-            console.log("spanRange:[" + value.spanPosition.spanRange[0] + "," + value.spanPosition.spanRange[1] + "]")
-            console.log("offsetInSpan:[" + value.offsetInSpan[0] + "," + value.offsetInSpan[1] + "]")
-            console.log("value:" + value.value)
+            console.log('---------------------- onIMEInputComplete --------------------')
+            console.info('onIMEInputComplete='+JSON.stringify(value))
+            console.log('spanIndex:' + value.spanPosition.spanIndex)
+            console.log('spanRange:[' + value.spanPosition.spanRange[0] + ',' + value.spanPosition.spanRange[1] + ']')
+            console.log('offsetInSpan:[' + value.offsetInSpan[0] + ',' + value.offsetInSpan[1] + ']')
+            console.log('value:' + value.value)
           })
           .aboutToDelete((value: RichEditorDeleteValue) => {
             value.richEditorDeleteSpans.forEach(item => {
-              console.log("---------------------- item --------------------")
-              console.info("spanIndex=" + item.spanPosition.spanIndex)
-              console.log("spanRange:[" + item.spanPosition.spanRange[0] + "," + item.spanPosition.spanRange[1] + "]")
-              console.log("offsetInSpan:[" + item.offsetInSpan[0] + "," + item.offsetInSpan[1] + "]")
+              console.log('---------------------- item --------------------')
+              console.info('spanIndex=' + item.spanPosition.spanIndex)
+              console.log('spanRange:[' + item.spanPosition.spanRange[0] + ',' + item.spanPosition.spanRange[1] + ']')
+              console.log('offsetInSpan:[' + item.offsetInSpan[0] + ',' + item.offsetInSpan[1] + ']')
               if (typeof (item as RichEditorImageSpanResult)['imageStyle'] != 'undefined') {
-                if ((item as RichEditorImageSpanResult).valueResourceStr == "") {
-                  console.info("builder span index " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range : " + (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " + (item as RichEditorImageSpanResult).imageStyle[0] + ", " + (item as RichEditorImageSpanResult).imageStyle[1])
+                if ((item as RichEditorImageSpanResult).valueResourceStr == '') {
+                  console.info('builder span index ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range : ' + (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' + (item as RichEditorImageSpanResult).imageStyle[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle[1])
                 } else {
-                  console.info("image span " + (item as RichEditorImageSpanResult).valueResourceStr + ", index : " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range: " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " + (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " +
-                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ", " + (item as RichEditorImageSpanResult).imageStyle.size[1])
+                  console.info('image span ' + (item as RichEditorImageSpanResult).valueResourceStr + ', index : ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range: ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' + (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' +
+                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle.size[1])
                 }
               } else {
-                console.info("delete text: " + (item as RichEditorTextSpanResult).value)
+                console.info('delete text: ' + (item as RichEditorTextSpanResult).value)
               }
             })
             return true;
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("30%")
+          .width('100%')
+          .height('30%')
 
-        Button("getRectsForRange")
+        Button('getRectsForRange')
           .id('UiComponentTextRichEditorGetRects09_01')
           .onClick(() => {
             const range: TextRange = {
@@ -287,7 +287,7 @@ struct UiComponentTextRichEditorGetRects09 {
             this.rect = layoutManager.getRectsForRange(range,text.RectWidthStyle.TIGHT,text.RectHeightStyle.TIGHT)
             console.info('getRectsForRange return ' + JSON.stringify(this.rect))
           })
-        Button("更新样式")
+        Button('更新样式')
           .id('UiComponentTextRichEditorGetRects09_02')
           .onClick(() => {
             this.controller.updateSpanStyle({
@@ -299,7 +299,7 @@ struct UiComponentTextRichEditorGetRects09 {
                 fontColor: Color.Orange,
                 fontSize: 20,
                 fontStyle: FontStyle.Italic,
-                decoration:{ type: TextDecorationType.None, color: "#FF000000", style: TextDecorationStyle.SOLID },
+                decoration:{ type: TextDecorationType.None, color: '#FF000000', style: TextDecorationStyle.SOLID },
                 lineHeight:40,
                 fontWeight: FontWeight.Bolder
               }
@@ -341,8 +341,8 @@ struct UiComponentTextRichEditorGetRects09 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }
