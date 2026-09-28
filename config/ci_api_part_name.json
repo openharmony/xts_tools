@@ -6199,6 +6199,34 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.boardInfo.d.ts",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.boardInfo.d.ts",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.boardInfo.static.d.ets",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.boardInfo.static.d.ets",
+            "bundle_name": [
+                "init"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.deviceInfo.d.ets",
             "bundle_name": [
                 "init"
