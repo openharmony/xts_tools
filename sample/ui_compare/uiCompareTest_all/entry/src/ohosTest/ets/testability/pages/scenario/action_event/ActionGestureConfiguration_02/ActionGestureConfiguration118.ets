@@ -16,12 +16,12 @@
 @Entry
 @Component
 struct ActionGestureConfiguration118 {
-  @State message: string = "PinchGesture fingers=null 测试"
-  @State gestureInfo: string = "等待获取手势信息..."
+  @State message: string = 'PinchGesture fingers=null 测试'
+  @State gestureInfo: string = '等待获取手势信息...'
   @State scaleValue: number = 1
   @State pinchValue: number = 1
   @State currentGestureInfo: BaseGestureEvent | null = null
-  @State testResults: string = "未开始测试"
+  @State testResults: string = '未开始测试'
   @State buttonClickCount: number = 0
 
   build() {
@@ -40,7 +40,7 @@ struct ActionGestureConfiguration118 {
         .textAlign(TextAlign.Center)
 
       Column() {
-        Text("手势信息")
+        Text('手势信息')
           .height(40)
           .textAlign(TextAlign.Start)
           .fontColor(Color.Black)
@@ -66,7 +66,7 @@ struct ActionGestureConfiguration118 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 30 })
 
-      Button("测试按钮")
+      Button('测试按钮')
         .id('ActionGestureConfiguration118')
         .fontSize(18)
         .fontWeight(FontWeight.Medium)
@@ -92,7 +92,7 @@ struct ActionGestureConfiguration118 {
         .gesture(
           PinchGesture({ fingers: undefined })
             .onActionStart((event: GestureEvent) => {
-              this.testResults = "PinchGesture触发成功";
+              this.testResults = 'PinchGesture触发成功';
               console.info('Pinch start')
             })
             .onActionUpdate((event: GestureEvent) => {
@@ -144,7 +144,7 @@ struct ActionGestureConfiguration118 {
         })
 
       Column() {
-        Text("测试结果")
+        Text('测试结果')
           .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .margin({ bottom: 10 })
@@ -164,7 +164,7 @@ struct ActionGestureConfiguration118 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 10 })
 
-      Button("重置测试")
+      Button('重置测试')
         .fontSize(16)
         .width('60%')
         .height(45)
@@ -172,16 +172,16 @@ struct ActionGestureConfiguration118 {
         .borderRadius(8)
         .fontColor(Color.White)
         .onClick(() => {
-          this.gestureInfo = "等待获取手势信息...";
+          this.gestureInfo = '等待获取手势信息...';
           this.scaleValue = 1;
           this.pinchValue = 1;
           this.currentGestureInfo = null;
-          this.testResults = "未开始测试";
+          this.testResults = '未开始测试';
           this.buttonClickCount = 0;
           console.info('测试已重置');
         })
 
-      Text("说明：捏合按钮触发PinchGesture(fingers:null)，在onGestureRecognizerJudgeBegin中获取手势信息，验证fingers值为2")
+      Text('说明：捏合按钮触发PinchGesture(fingers:null)，在onGestureRecognizerJudgeBegin中获取手势信息，验证fingers值为2')
         .fontSize(8)
         .fontColor('#999999')
         .textAlign(TextAlign.Center)

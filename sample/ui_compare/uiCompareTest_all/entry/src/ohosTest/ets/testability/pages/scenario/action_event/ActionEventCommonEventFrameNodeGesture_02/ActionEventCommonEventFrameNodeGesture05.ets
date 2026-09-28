@@ -25,7 +25,7 @@ struct ActionEventCommonEventFrameNodeGesture05 {
 
   build() {
     Column() {
-      Text("The finger moves more than 2 distances")
+      Text('The finger moves more than 2 distances')
         .fontSize(10)
         .fontColor(0xCCCCCC)
         .width('90%')

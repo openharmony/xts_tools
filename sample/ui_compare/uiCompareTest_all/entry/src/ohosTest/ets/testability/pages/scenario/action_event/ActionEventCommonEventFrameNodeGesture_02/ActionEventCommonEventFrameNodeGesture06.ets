@@ -24,7 +24,7 @@ struct ActionEventCommonEventFrameNodeGesture06 {
 
   build() {
     Column() {
-      Text("SwipeGesture speed\n" + this.speed+"SwipeGesture angle\n" + this.rotateAngle)
+      Text('SwipeGesture speed\n' + this.speed+'SwipeGesture angle\n' + this.rotateAngle)
         .fontSize(10)
         .fontColor(0xCCCCCC)
         .width('90%')

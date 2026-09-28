@@ -16,12 +16,12 @@
 @Entry
 @Component
 struct ActionGestureConfiguration35 {
-  @State message: string = "LongPressGesture isFingerCountLimited=false 测试"
-  @State gestureInfo: string = "等待获取手势信息..."
+  @State message: string = 'LongPressGesture isFingerCountLimited=false 测试'
+  @State gestureInfo: string = '等待获取手势信息...'
   @State count: number = 0
   @State tapCount: number = 0
   @State currentGestureInfo: BaseGestureEvent | null = null
-  @State testResults: string = "未开始测试"
+  @State testResults: string = '未开始测试'
   @State buttonClickCount: number = 0
   @State bool : boolean = false
 
@@ -41,7 +41,7 @@ struct ActionGestureConfiguration35 {
         .textAlign(TextAlign.Center)
 
       Column() {
-        Text("手势信息")
+        Text('手势信息')
           .height(40)
           .textAlign(TextAlign.Start)
           .fontColor(Color.Black)
@@ -67,7 +67,7 @@ struct ActionGestureConfiguration35 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 30 })
 
-      Button("测试按钮")
+      Button('测试按钮')
         .id('ActionGestureConfiguration35')
         .fontSize(18)
         .fontWeight(FontWeight.Medium)
@@ -104,7 +104,7 @@ struct ActionGestureConfiguration35 {
             })
             .onActionEnd((event: GestureEvent) => {
               this.count = 0
-              console.log("LongPressGesture onActionEnd success")
+              console.log('LongPressGesture onActionEnd success')
             })
         )
         .onGestureRecognizerJudgeBegin((event: BaseGestureEvent, current: GestureRecognizer,
@@ -146,7 +146,7 @@ struct ActionGestureConfiguration35 {
         })
 
       Column() {
-        Text("测试结果")
+        Text('测试结果')
           .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .margin({ bottom: 10 })
@@ -166,7 +166,7 @@ struct ActionGestureConfiguration35 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 10 })
 
-      Button("重置测试")
+      Button('重置测试')
         .fontSize(16)
         .width('60%')
         .height(45)
@@ -174,15 +174,15 @@ struct ActionGestureConfiguration35 {
         .borderRadius(8)
         .fontColor(Color.White)
         .onClick(() => {
-          this.gestureInfo = "等待获取手势信息...";
+          this.gestureInfo = '等待获取手势信息...';
           this.tapCount = 0;
           this.currentGestureInfo = null;
-          this.testResults = "未开始测试";
+          this.testResults = '未开始测试';
           this.buttonClickCount = 0;
           console.info('测试已重置');
         })
 
-      Text("说明：长按按钮触发LongPressGesture(isFingerCountLimited:false)，在onGestureRecognizerJudgeBegin中获取手势信息，验证isFingerCountLimited值为false")
+      Text('说明：长按按钮触发LongPressGesture(isFingerCountLimited:false)，在onGestureRecognizerJudgeBegin中获取手势信息，验证isFingerCountLimited值为false')
         .fontSize(8)
         .fontColor('#999999')
         .textAlign(TextAlign.Center)

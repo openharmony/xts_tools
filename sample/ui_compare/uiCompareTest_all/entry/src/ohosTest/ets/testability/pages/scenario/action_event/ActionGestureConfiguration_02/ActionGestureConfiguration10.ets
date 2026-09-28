@@ -16,11 +16,11 @@
 @Entry
 @Component
 struct ActionGestureConfiguration10 {
-  @State message: string = "TapGesture count =null测试"
-  @State gestureInfo: string = "等待获取手势信息..."
+  @State message: string = 'TapGesture count =null测试'
+  @State gestureInfo: string = '等待获取手势信息...'
   @State tapCount: number = 0
   @State currentGestureInfo: BaseGestureEvent | null = null
-  @State testResults: string = "未开始测试"
+  @State testResults: string = '未开始测试'
   @State buttonClickCount: number = 0
 
   build() {
@@ -38,7 +38,7 @@ struct ActionGestureConfiguration10 {
         .textAlign(TextAlign.Center)
 
       Column() {
-        Text("手势信息")
+        Text('手势信息')
           .height(40)
           .textAlign(TextAlign.Start)
           .fontColor(Color.Black)
@@ -64,7 +64,7 @@ struct ActionGestureConfiguration10 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 30 })
 
-      Button("测试按钮")
+      Button('测试按钮')
         .id('ActionGestureConfiguration10')
         .fontSize(18)
         .fontWeight(FontWeight.Medium)
@@ -134,7 +134,7 @@ struct ActionGestureConfiguration10 {
         })
 
       Column() {
-        Text("测试结果")
+        Text('测试结果')
           .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .margin({ bottom: 10 })
@@ -154,7 +154,7 @@ struct ActionGestureConfiguration10 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 10 })
 
-      Button("重置测试")
+      Button('重置测试')
         .fontSize(16)
         .width('60%')
         .height(45)
@@ -162,15 +162,15 @@ struct ActionGestureConfiguration10 {
         .borderRadius(8)
         .fontColor(Color.White)
         .onClick(() => {
-          this.gestureInfo = "等待获取手势信息...";
+          this.gestureInfo = '等待获取手势信息...';
           this.tapCount = 0;
           this.currentGestureInfo = null;
-          this.testResults = "未开始测试";
+          this.testResults = '未开始测试';
           this.buttonClickCount = 0;
           console.info('测试已重置');
         })
 
-      Text("说明：点击按钮触发TapGesture(count: null)，在onGestureRecognizerJudgeBegin中获取手势信息，验证count值为1")
+      Text('说明：点击按钮触发TapGesture(count: null)，在onGestureRecognizerJudgeBegin中获取手势信息，验证count值为1')
         .fontSize(12)
         .fontColor('#999999')
         .textAlign(TextAlign.Center)

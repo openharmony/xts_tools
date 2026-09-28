@@ -53,7 +53,7 @@ struct ActionEventCommonEventKeyEventDispatch0250 {
             bottom: 10
           })
 
-        Button("button组件1")
+        Button('button组件1')
           .onKeyEventDispatch(this.keyEventHandler)
           .defaultFocus(true)
           .onFocus(() => {
@@ -62,21 +62,21 @@ struct ActionEventCommonEventKeyEventDispatch0250 {
           .id(this.name + '_01')
           .margin(10)
 
-        Button("button组件2")
+        Button('button组件2')
           .onFocus(() => {
             this.focusInfo += '\n button组件2 onFocus.';
           })
           .id(this.name + '_02')
           .margin(10)
 
-        Button("button组件3")
+        Button('button组件3')
           .onFocus(() => {
             this.focusInfo += '\n button组件3 onFocus.';
           })
           .id(this.name + '_03')
           .margin(10)
 
-        Button("button组件4")
+        Button('button组件4')
           .onFocus(() => {
             this.focusInfo += '\n button组件4 onFocus.';
           })

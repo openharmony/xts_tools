@@ -16,7 +16,7 @@
 import { NodeController, FrameNode, UIContext, typeNode } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-const TEST_TAG: string = "FrameNode "
+const TEST_TAG: string = 'FrameNode '
 
 class MyNodeController extends NodeController {
   public frameNode: FrameNode | null = null;
@@ -41,7 +41,7 @@ class MyNodeController extends NodeController {
       this.childList.push(childNode);
       this.frameNode.appendChild(childNode);
     }
-    let stackNode = typeNode.createNode(uiContext, "Stack");
+    let stackNode = typeNode.createNode(uiContext, 'Stack');
     this.frameNode.appendChild(stackNode);
     return this.rootNode;
   }
@@ -85,8 +85,8 @@ class MyNodeController extends NodeController {
   }
 
   getChildNumber() {
-    console.log(TEST_TAG + " getChildNumber " + this.rootNode!.getChildrenCount())
-    console.log(TEST_TAG + " children count is " + this.childrenCount);
+    console.log(TEST_TAG + ' getChildNumber ' + this.rootNode!.getChildrenCount())
+    console.log(TEST_TAG + ' children count is ' + this.childrenCount);
   }
 
   clearChildren() {
@@ -95,36 +95,36 @@ class MyNodeController extends NodeController {
 
   searchFrameNode() {
     if (this.rootNode!.getFirstChild() === null) {
-      console.log(TEST_TAG + " the rootNode does not have child node.")
+      console.log(TEST_TAG + ' the rootNode does not have child node.')
     }
     if (this.rootNode!.getFirstChild() === this.frameNode) {
       console.log(TEST_TAG +
-        " getFirstChild  result: success. The first child of the rootNode is equals to frameNode.");
+        ' getFirstChild  result: success. The first child of the rootNode is equals to frameNode.');
     } else {
       console.log(TEST_TAG +
-        " getFirstChild  result: fail. The first child of the rootNode is not equals to frameNode.");
+        ' getFirstChild  result: fail. The first child of the rootNode is not equals to frameNode.');
     }
     if (this.frameNode!.getChild(5) === this.frameNode!.getChild(4)!.getNextSibling()) {
-      console.log(TEST_TAG + " getNextSibling  result: success.");
+      console.log(TEST_TAG + ' getNextSibling  result: success.');
     } else {
-      console.log(TEST_TAG + " getNextSibling  result: fail.");
+      console.log(TEST_TAG + ' getNextSibling  result: fail.');
     }
     if (this.frameNode!.getChild(3) === this.frameNode!.getChild(4)!.getPreviousSibling()) {
-      console.log(TEST_TAG + " getPreviousSibling  result: success.");
+      console.log(TEST_TAG + ' getPreviousSibling  result: success.');
     } else {
-      console.log(TEST_TAG + " getPreviousSibling  result: fail.");
+      console.log(TEST_TAG + ' getPreviousSibling  result: fail.');
     }
     if (this.rootNode!.getFirstChild() !== null && this.rootNode!.getFirstChild()!.getParent() === this.rootNode) {
-      console.log(TEST_TAG + " getParent  result: success.");
+      console.log(TEST_TAG + ' getParent  result: success.');
     } else {
-      console.log(TEST_TAG + " getParent  result: fail.");
+      console.log(TEST_TAG + ' getParent  result: fail.');
     }
     if (this.rootNode!.getParent() !== undefined || this.rootNode!.getParent() !== null) {
-      console.log(TEST_TAG + " get ArkTsNode success.")
-      console.log(TEST_TAG + " check rootNode whether is modifiable " + this.rootNode!.isModifiable())
-      console.log(TEST_TAG + " check getParent whether is modifiable " + this.rootNode!.getParent()!.isModifiable())
+      console.log(TEST_TAG + ' get ArkTsNode success.')
+      console.log(TEST_TAG + ' check rootNode whether is modifiable ' + this.rootNode!.isModifiable())
+      console.log(TEST_TAG + ' check getParent whether is modifiable ' + this.rootNode!.getParent()!.isModifiable())
     } else {
-      console.log(TEST_TAG + " get ArkTsNode fail.");
+      console.log(TEST_TAG + ' get ArkTsNode fail.');
     }
   }
 
@@ -133,13 +133,13 @@ class MyNodeController extends NodeController {
     try {
       currentNode!.moveTo(this.rootNode, 0);
       if (this.rootNode!.getChild(0) === currentNode) {
-        console.log(TEST_TAG + " moveTo  result: success.");
+        console.log(TEST_TAG + ' moveTo  result: success.');
       } else {
-        console.log(TEST_TAG + " moveTo  result: fail.");
+        console.log(TEST_TAG + ' moveTo  result: fail.');
       }
     } catch (err) {
-      console.log(TEST_TAG + " " + (err as BusinessError).code + " : " + (err as BusinessError).message);
-      console.log(TEST_TAG + " moveTo  result: fail.");
+      console.log(TEST_TAG + ' ' + (err as BusinessError).code + ' : ' + (err as BusinessError).message);
+      console.log(TEST_TAG + ' moveTo  result: fail.');
     }
   }
 
@@ -239,34 +239,34 @@ class MyNodeController extends NodeController {
   }
 
   setCrossLanguageOptions() {
-    console.log(TEST_TAG + " getCrossLanguageOptions " + JSON.stringify(this.frameNode?.getCrossLanguageOptions()));
+    console.log(TEST_TAG + ' getCrossLanguageOptions ' + JSON.stringify(this.frameNode?.getCrossLanguageOptions()));
     try {
       this.frameNode?.setCrossLanguageOptions({
         attributeSetting: true
       });
-      console.log(TEST_TAG + " setCrossLanguageOptions success.");
+      console.log(TEST_TAG + ' setCrossLanguageOptions success.');
     } catch (err) {
-      console.log(TEST_TAG + " " + (err as BusinessError).code + " : " + (err as BusinessError).message);
-      console.log(TEST_TAG + " setCrossLanguageOptions fail.");
+      console.log(TEST_TAG + ' ' + (err as BusinessError).code + ' : ' + (err as BusinessError).message);
+      console.log(TEST_TAG + ' setCrossLanguageOptions fail.');
     }
-    console.log(TEST_TAG + " getCrossLanguageOptions " + JSON.stringify(this.frameNode?.getCrossLanguageOptions()));
+    console.log(TEST_TAG + ' getCrossLanguageOptions ' + JSON.stringify(this.frameNode?.getCrossLanguageOptions()));
   }
 
   throwError() {
     try {
       this.rootNode!.getParent()!.clearChildren();
     } catch (err) {
-      console.log(TEST_TAG + " " + (err as BusinessError).code + " : " + (err as BusinessError).message);
+      console.log(TEST_TAG + ' ' + (err as BusinessError).code + ' : ' + (err as BusinessError).message);
     }
     try {
       this.rootNode!.getParent()!.appendChild(new FrameNode(this.uiContext));
     } catch (err) {
-      console.log(TEST_TAG + " " + (err as BusinessError).code + " : " + (err as BusinessError).message);
+      console.log(TEST_TAG + ' ' + (err as BusinessError).code + ' : ' + (err as BusinessError).message);
     }
     try {
       this.rootNode!.getParent()!.removeChild(this.rootNode!.getParent()!.getChild(0));
     } catch (err) {
-      console.log(TEST_TAG + " " + (err as BusinessError).code + " : " + (err as BusinessError).message);
+      console.log(TEST_TAG + ' ' + (err as BusinessError).code + ' : ' + (err as BusinessError).message);
     }
   }
 }
@@ -283,16 +283,16 @@ struct ActionEventCommonEventFrameNode01 {
       Column({ space: 8 }) {
         Column() {
           Row() {
-            Button("ADD")
+            Button('ADD')
               .onClick(() => {
                 this.index++;
               })
-            Button("DEC")
+            Button('DEC')
               .onClick(() => {
                 this.index--;
               })
           }
-          Text("Current index is " + this.index)
+          Text('Current index is ' + this.index)
             .textAlign(TextAlign.Center)
             .borderRadius(10)
             .backgroundColor(0xFFFFFF)
@@ -300,7 +300,7 @@ struct ActionEventCommonEventFrameNode01 {
             .fontSize(16)
         }
         Column() {
-          Text("This is a NodeContainer.")
+          Text('This is a NodeContainer.')
             .textAlign(TextAlign.Center)
             .borderRadius(10)
             .backgroundColor(0xFFFFFF)
@@ -311,24 +311,24 @@ struct ActionEventCommonEventFrameNode01 {
             .width(300)
             .height(100)
         }
-        Button("isVisible")
+        Button('isVisible')
           .width(300)
           .onClick(() => {
             this.myNodeController.isVisible();
             this.mybool=this.myNodeController.myboolean
           })
           .id('ActionEventCommonEventFrameNode01')
-        Button("appendChild")
+        Button('appendChild')
           .width(300)
           .onClick(() => {
             this.myNodeController.appendChild();
           })
-        Button("getCustomProperty")
+        Button('getCustomProperty')
           .width(300)
           .onClick(() => {
             const uiContext: UIContext = this.getUIContext();
             if (uiContext) {
-              const node: FrameNode | null = uiContext.getFrameNodeById("Test_Button") || null;
+              const node: FrameNode | null = uiContext.getFrameNodeById('Test_Button') || null;
               if (node) {
                 for (let i = 1; i < 4; i++) {
                   const key = 'customProperty' + i;
@@ -350,19 +350,19 @@ struct ActionEventCommonEventFrameNode01 {
           })
           .customProperty('customProperty2', {})
           .customProperty('customProperty2', undefined)
-        Button("setCrossLanguageOptions")
+        Button('setCrossLanguageOptions')
           .width(300)
           .onClick(() => {
             this.myNodeController.setCrossLanguageOptions();
           })
-        Button("throwError")
+        Button('throwError')
           .width(300)
           .onClick(() => {
             this.myNodeController.throwError();
           })
-        Text("FrameNode："+this.mybool)
+        Text('FrameNode：'+this.mybool)
       }
-      .width("100%")
+      .width('100%')
     }
     .scrollable(ScrollDirection.Vertical)
   }

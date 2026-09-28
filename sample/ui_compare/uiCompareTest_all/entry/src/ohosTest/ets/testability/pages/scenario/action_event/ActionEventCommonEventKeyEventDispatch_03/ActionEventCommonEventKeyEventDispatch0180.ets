@@ -52,7 +52,7 @@ struct ActionEventCommonEventKeyEventDispatch0180 {
             bottom: 10
           })
 
-        Button("button组件")
+        Button('button组件')
           .onKeyEventDispatch(this.keyEventHandler)
           .defaultFocus(true)
           .id(this.name + '_01')

@@ -27,17 +27,17 @@ struct AceActionEventCommonEventDragMenu46 {
   @Builder
   menuBuider() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.menuStatus = '菜单项1被点击'
           console.info('[MenuTest] 菜单项1被点击')
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.menuStatus = '菜单项2被点击'
           console.info('[MenuTest] 菜单项2被点击')
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.menuStatus = '菜单项3被点击'
           console.info('[MenuTest] 菜单项3被点击')

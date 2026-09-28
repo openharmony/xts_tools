@@ -35,7 +35,7 @@ struct ActionEventCommonEventKeyEventDispatch0050 {
             bottom: 10
           })
 
-        Button("button组件")
+        Button('button组件')
           .onKeyEvent((event?: KeyEvent) => {
             if (event) {
               if (event.type === KeyType.Down) {

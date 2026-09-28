@@ -77,7 +77,7 @@ struct AceActionEventGestureComponentId36 {
         .margin({ top: 20 })
         .gesture(
           LongPressGesture({ repeat: false, duration: 500 })
-            .tag("longPress1")
+            .tag('longPress1')
             .onAction((event?: GestureEvent) => {
               if (event) {
                 let targetId = event.target.id ? event.target.id : 'undefined';

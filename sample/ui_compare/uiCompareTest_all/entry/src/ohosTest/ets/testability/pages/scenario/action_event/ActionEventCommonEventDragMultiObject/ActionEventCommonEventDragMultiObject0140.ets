@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { dragController } from "@kit.ArkUI";
+import { dragController } from '@kit.ArkUI';
 import { unifiedDataChannel } from '@kit.ArkData';
 
 @Entry
@@ -23,7 +23,7 @@ struct ActionEventCommonEventDragMultiObject0140 {
 
   @Builder DraggingBuilder() {
     Column() {
-      Text("DraggingBuilder")
+      Text('DraggingBuilder')
         .fontColor(Color.White)
         .fontSize(12)
     }

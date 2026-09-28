@@ -49,7 +49,7 @@ struct ActionEventCommonEventAreaChangeApproximateChange001 {
 
       Scroll(this.scroller) {
         Column() {
-          Text("Test Text Visible Change")
+          Text('Test Text Visible Change')
             .fontSize(20)
             .height(200)
             .margin({ top: 50, bottom: 20 })

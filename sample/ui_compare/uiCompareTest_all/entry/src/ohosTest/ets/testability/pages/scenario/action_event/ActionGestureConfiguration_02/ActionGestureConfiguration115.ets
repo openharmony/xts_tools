@@ -16,11 +16,11 @@
 @Entry
 @Component
 struct ActionGestureConfiguration115 {
-  @State message: string = "RotationGesture angle=2.5 测试"
-  @State gestureInfo: string = "等待获取手势信息..."
+  @State message: string = 'RotationGesture angle=2.5 测试'
+  @State gestureInfo: string = '等待获取手势信息...'
   @State rotateAngle: number = 0
   @State currentGestureInfo: BaseGestureEvent | null = null
-  @State testResults: string = "未开始测试"
+  @State testResults: string = '未开始测试'
   @State buttonClickCount: number = 0
 
   build() {
@@ -39,7 +39,7 @@ struct ActionGestureConfiguration115 {
         .textAlign(TextAlign.Center)
 
       Column() {
-        Text("手势信息")
+        Text('手势信息')
           .height(40)
           .textAlign(TextAlign.Start)
           .fontColor(Color.Black)
@@ -65,7 +65,7 @@ struct ActionGestureConfiguration115 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 30 })
 
-      Button("测试按钮")
+      Button('测试按钮')
         .id('ActionGestureConfiguration115')
         .fontSize(18)
         .fontWeight(FontWeight.Medium)
@@ -91,7 +91,7 @@ struct ActionGestureConfiguration115 {
         .gesture(
           RotationGesture({ angle: 2.5 })
             .onActionStart((event: GestureEvent) => {
-              this.testResults = "RotationGesture触发成功";
+              this.testResults = 'RotationGesture触发成功';
               console.info('Rotation start')
             })
             .onActionUpdate((event: GestureEvent) => {
@@ -142,7 +142,7 @@ struct ActionGestureConfiguration115 {
         })
 
       Column() {
-        Text("测试结果")
+        Text('测试结果')
           .fontSize(16)
           .fontWeight(FontWeight.Medium)
           .margin({ bottom: 10 })
@@ -162,7 +162,7 @@ struct ActionGestureConfiguration115 {
       .alignItems(HorizontalAlign.Start)
       .margin({ bottom: 10 })
 
-      Button("重置测试")
+      Button('重置测试')
         .fontSize(16)
         .width('60%')
         .height(45)
@@ -170,15 +170,15 @@ struct ActionGestureConfiguration115 {
         .borderRadius(8)
         .fontColor(Color.White)
         .onClick(() => {
-          this.gestureInfo = "等待获取手势信息...";
+          this.gestureInfo = '等待获取手势信息...';
           this.rotateAngle = 0;
           this.currentGestureInfo = null;
-          this.testResults = "未开始测试";
+          this.testResults = '未开始测试';
           this.buttonClickCount = 0;
           console.info('测试已重置');
         })
 
-      Text("说明：旋转按钮触发RotationGesture(angle:2.5)，在onGestureRecognizerJudgeBegin中获取手势信息，验证angle值为2.5")
+      Text('说明：旋转按钮触发RotationGesture(angle:2.5)，在onGestureRecognizerJudgeBegin中获取手势信息，验证angle值为2.5')
         .fontSize(8)
         .fontColor('#999999')
         .textAlign(TextAlign.Center)
