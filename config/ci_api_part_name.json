@@ -21338,6 +21338,13 @@
                 "assessment_configuration_service"
             ],
             "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/formComponent.static.d.ets",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
         }
     ],
     "sdk_c": [
@@ -23041,13 +23048,6 @@
             "path": "drivers/interface/midi",
             "bundle_name": [
                 "drivers_interface_midi"
-            ],
-            "build_targets": {}
-        },
-        {
-            "path": "interface/sdk-js/zh-cn/api/arkui/component/formComponent.static.d.ets",
-            "bundle_name": [
-                "form_fwk"
             ],
             "build_targets": {}
         }
