@@ -47,6 +47,18 @@
     {
       "name": "abc",
       "value": "abc"
+    },
+    {
+      "name": "letterSpacing",
+      "value": "8"
+    },
+    {
+      "name": "string45",
+      "value": "200"
+    },
+    {
+      "name": "textIndent",
+      "value": "20"
     }
   ]
 }

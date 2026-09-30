@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Component, Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 import { KeyCode } from '@kit.InputKit'
 
 export default function UiComponentTextRichEditorInterface() {
@@ -51,7 +51,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)检查 log 信息，能准确获取到 span 信息
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0031", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0031")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0031")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -92,7 +92,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)检查 log 信息，能准确获取到输入前光标位置
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0032", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0032")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0032")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -133,7 +133,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)检查 log 信息，能准确获取到输入前段落样式和范围信息
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0033", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0033")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0033")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -174,7 +174,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)检查 log 信息，能准确获取到删除前 span 信息
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0037", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0037")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0037")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -213,7 +213,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)检查 log 信息，能准确获取到删除前光标位置
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0038", Level.LEVEL2, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0038")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0038")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -249,7 +249,7 @@ export default function UiComponentTextRichEditorInterface() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0039", Level.LEVEL2, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0039")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0039")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -278,7 +278,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)检查 log 信息，能准确获取到段落样式和范围信息
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0042", Level.LEVEL2, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0042")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0042")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -317,7 +317,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)可以正确更新文本、图片或 SymbolSpan 样式，无 crash 现象
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0064", Level.LEVEL2, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0064")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0064")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -351,7 +351,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)执行 updateSpanStyle，指定范围内（不包括此次输入）的文本、图片或 SymbolSpan 样式被更新，且更新后的样式符合预期
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0077", Level.LEVEL2, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0077")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0077")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       
@@ -392,7 +392,7 @@ export default function UiComponentTextRichEditorInterface() {
         *              (3)执行 updateSpanStyle，指定范围内（不包括此次删除）的文本、图片或 SymbolSpan 样式被更新，且更新后的样式符合预期
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0078", Level.LEVEL2, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0078")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_12/UiComponentTextRichEditorInterface0078")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       

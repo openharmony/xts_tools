@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,10 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import { common } from '@kit.AbilityKit'
 
-import common from '@ohos.app.ability.common'
+// 构造单例对象
 
-// 鏋勯€犲崟渚嬪璞?
 export  class  GlobalThis {
 
   private constructor() {
@@ -44,4 +44,5 @@ export  class  GlobalThis {
         this._uiContexts.set(key,value);
   }
 
-  // 鍏朵粬闇€瑕佷紶閫掔殑绫讳緷娆℃墿灞?}
+  // 其他需要传递的类依次扩展
+}

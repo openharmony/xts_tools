@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorAvoidCursor() {
   describe('UiComponentTextRichEditorAvoidCursor', () => {
@@ -46,7 +46,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0001")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0001")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -111,7 +111,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0002", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0002")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0002")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -148,7 +148,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0014", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0014")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0014")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -185,7 +185,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0015", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0015")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0015")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -227,7 +227,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0013", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0013")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0013")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 

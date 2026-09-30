@@ -71,7 +71,7 @@ struct DarkColorMode0027 {
           .fontColor('#333333')
           .id('log_text')
       }
-      .height(60)
+      .height('4.92%')
       .width('100%')
       .backgroundColor('#F5F5F5')
       .padding(5)

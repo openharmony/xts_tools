@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Component, Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 import { KeyCode } from '@kit.InputKit'
 
 export default function UiRichEditorScroll() {
@@ -47,7 +47,7 @@ export default function UiRichEditorScroll() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0100", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0100")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0100")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       let addSpanBtn0100 = await driver.waitForComponent(ON.id("addSpanBtn0100"), 500)
@@ -71,7 +71,7 @@ export default function UiRichEditorScroll() {
         @tc.level : 3
     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0070", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0070")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0070")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       // 1.查找富文本组件和添加文本按钮
@@ -99,7 +99,7 @@ export default function UiRichEditorScroll() {
         @tc.level : 3
    */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0190", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0190")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0190")
       await Utils.sleep(1000)
       let driver = await Driver.create()
 
@@ -138,7 +138,7 @@ export default function UiRichEditorScroll() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0200", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0200")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0200")
       await Utils.sleep(1000)
       let driver = await Driver.create()
 
@@ -177,7 +177,7 @@ export default function UiRichEditorScroll() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0170", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0170")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0170")
       await Utils.sleep(1000)
       let driver = await Driver.create()
 
@@ -215,7 +215,7 @@ export default function UiRichEditorScroll() {
         @tc.level : 3
    */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0260", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0260")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0260")
       await Utils.sleep(1000)
       let driver = await Driver.create()
 
@@ -247,7 +247,7 @@ export default function UiRichEditorScroll() {
             @tc.level : 3
        */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0080", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0080")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0080")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       // 1. 添加测试图片
@@ -275,7 +275,7 @@ export default function UiRichEditorScroll() {
             @tc.level : 3
        */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0090", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0090")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0090")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       // 1. 添加测试图片
@@ -302,7 +302,7 @@ export default function UiRichEditorScroll() {
         @tc.level : 3
    */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0060", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0060")
+      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_12/UiRichEditorScroll0060")
       await Utils.sleep(1000)
       let driver = await Driver.create()
 

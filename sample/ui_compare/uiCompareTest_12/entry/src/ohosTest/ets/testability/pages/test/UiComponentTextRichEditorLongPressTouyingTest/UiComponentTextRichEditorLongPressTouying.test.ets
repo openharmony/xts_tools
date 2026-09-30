@@ -14,13 +14,13 @@
  */
 
 import { describe, it, afterEach, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component, On, MouseButton } from '@kit.TestKit'
 import { uiAppearance } from '@kit.ArkUI'
-import { BusinessError } from '@ohos.base';
-import windowSnap from '../model/snapShot'
+import { BusinessError } from '@kit.BasicServicesKit';
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorLongPressTouying() {
   describe('UiComponentTextRichEditorLongPressTouying', () => {
@@ -48,7 +48,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0005")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0005")
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -85,7 +85,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
         * @tc.level  : 3
      */
                 it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0002", Level.LEVEL3, async (done: Function) => {
-          Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0002")
+          Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0002")
           await Utils.sleep(2000) // 等待窗口创建完成
           let driver = await Driver.create()
 
@@ -122,7 +122,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
         * @tc.level  : 3
      */
                  it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0006", Level.LEVEL3, async (done: Function) => {
-           Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0006")
+           Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0006")
            await Utils.sleep(2000) // 等待窗口创建完成
            let driver = await Driver.create()
 
@@ -159,7 +159,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0003")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0003")
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -196,7 +196,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0010")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0010")
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -230,7 +230,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0009", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0009")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0009")
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 

@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, MouseButton, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorFloatOff() {
   describe('UiComponentTextRichEditorFloatOff', () => {
@@ -46,7 +46,7 @@ export default function UiComponentTextRichEditorFloatOff() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0006", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0006")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0006")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       //  1.添加预置图文
@@ -80,7 +80,7 @@ export default function UiComponentTextRichEditorFloatOff() {
         * @tc.level  : 3
     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0010")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0010")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       //  1.添加预置图文
@@ -111,7 +111,7 @@ export default function UiComponentTextRichEditorFloatOff() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0011", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0011")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0011")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       //  1.添加预置图文
@@ -145,7 +145,7 @@ export default function UiComponentTextRichEditorFloatOff() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0001")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0001")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       //  1.添加预置图文
@@ -176,7 +176,7 @@ export default function UiComponentTextRichEditorFloatOff() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0008", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0008")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0008")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       //  1.添加预置图文（包含多行空格）
@@ -210,7 +210,7 @@ export default function UiComponentTextRichEditorFloatOff() {
         * @tc.level  : 3
     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0002", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0002")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0002")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       //  1.添加预置图文（包含图片）
@@ -238,7 +238,7 @@ export default function UiComponentTextRichEditorFloatOff() {
         * @tc.level  : 3
     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0007", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0007")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0007")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       //  1.添加预置内容（文本/图片/图文混合）

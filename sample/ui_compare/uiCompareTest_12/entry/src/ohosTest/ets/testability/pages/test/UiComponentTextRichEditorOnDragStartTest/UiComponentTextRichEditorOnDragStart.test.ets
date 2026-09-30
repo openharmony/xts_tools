@@ -14,12 +14,12 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
-import image from '@ohos.multimedia.image'
+import windowSnap from '../../../model/snapShot'
+import { image } from '@kit.ImageKit'
 
 export default function UiComponentTextRichEditorOnDragStart() {
   describe('UiComponentTextRichEditorOnDragStart', () => {
@@ -47,7 +47,7 @@ export default function UiComponentTextRichEditorOnDragStart() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005")
       await Utils.sleep(1000)
       let driver = await Driver.create()
       // 1.查找预备拖出组件，添加预设图文并选择
@@ -68,7 +68,7 @@ export default function UiComponentTextRichEditorOnDragStart() {
       const imagePoint005 = await image005.getBoundsCenter()
       await driver.drag(imagePoint005.x,imagePoint005.y,richEditorDropInPoint005.x,richEditorDropInPoint005.y,2000)
       await Utils.sleep(2000)
-      await windowSnap.snapShot("testability/pages/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005")
+      await windowSnap.snapShot("testability/pages/component/text/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005")
       await Utils.sleep(1000)
       done();
     })
@@ -82,7 +82,7 @@ export default function UiComponentTextRichEditorOnDragStart() {
     @tc.level : 3
     */
     it ("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow ("testability/pages/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart006")
+      Settings.createWindow ("testability/pages/component/text/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart006")
       await Utils.sleep (1000)
       let driver = await Driver.create ()
       // 1. 查找预备拖出组件，添加预设图文并选择
@@ -102,7 +102,7 @@ export default function UiComponentTextRichEditorOnDragStart() {
 
       await driver.drag (richEditorDragOutPoint006.x-30,richEditorDragOutPoint006.y-30,richEditorDropInPoint006.x,richEditorDropInPoint006.y,2000)
       await Utils.sleep (2000)
-      await windowSnap.snapShot ("testability/pages/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart006")
+      await windowSnap.snapShot ("testability/pages/component/text/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart006")
       await Utils.sleep (1000)
       done ();
     })

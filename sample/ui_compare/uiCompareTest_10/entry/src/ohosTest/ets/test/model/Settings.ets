@@ -12,12 +12,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import screen from '@ohos.screen';
-import window from '@ohos.window';
+import { screen } from '@kit.ArkUI';
+import { window } from '@kit.ArkUI';
 import Logger from './Logger';
 import { GlobalThis } from './globalThis'
-import { BusinessError } from '@ohos.base'
+import { BusinessError } from '@kit.BasicServicesKit'
 
 const TAG: string = '[TEST]';
 

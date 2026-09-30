@@ -13,10 +13,10 @@
  * limitations under the License.
  */
 {
-  "modelVersion": "5.0.0",
+  "modelVersion": "5.1.1",
   "license": "",
   "devDependencies": {
-    "@ohos/hypium": "1.0.6"
+    "@ohos/hypium": "1.0.21"
   },
   "author": "",
   "name": "uicompare",

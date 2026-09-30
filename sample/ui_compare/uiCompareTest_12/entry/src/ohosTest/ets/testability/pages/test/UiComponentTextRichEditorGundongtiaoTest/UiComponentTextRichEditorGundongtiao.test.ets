@@ -14,13 +14,13 @@
  */
 
 import { describe, it, afterEach, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component, On, } from '@kit.TestKit'
 import { uiAppearance } from '@kit.ArkUI'
-import { BusinessError } from '@ohos.base';
-import windowSnap from '../model/snapShot'
+import { BusinessError } from '@kit.BasicServicesKit';
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorGundongtiao() {
   describe('UiComponentTextRichEditorGundongtiao', () => {
@@ -48,7 +48,7 @@ export default function UiComponentTextRichEditorGundongtiao() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0001")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0001")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -80,7 +80,7 @@ export default function UiComponentTextRichEditorGundongtiao() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0010")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0010")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -118,7 +118,7 @@ export default function UiComponentTextRichEditorGundongtiao() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0002")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0002")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -156,7 +156,7 @@ export default function UiComponentTextRichEditorGundongtiao() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0003")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0003")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 

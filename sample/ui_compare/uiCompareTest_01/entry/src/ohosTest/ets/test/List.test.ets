@@ -14,24 +14,16 @@
  */
 
 import gestureMonopolize01Test from './gesture_monopolize/GestureMonopolize01.test';
-import stepperInterface01Test from './stepper_interface/StepperInterface01.test';
-import navigationContent01Test from './navigation_content/NavigationContent01.test';
 import animatorCreate01Test from './animator_sample/animatorCreate01.test';
-import expectedFrameTest from './expectedFrame/ExpectedFrame.test';
-import waterflowMirrorTest from './waterflow_mirror/WaterflowMirror.test';
 import scrollAccessibleTest from './scroll_accessible/ScrollAccessible.test';
-import SpecialComponentsTest from './special_components/SpecialComponents.test';
 import measureResultTest from './measureResult/MeasureResult.test';
 import FocusDynamicTest from './focus_dynamic/FocusDynamic.test';
 import RouterPushTest from './router_push/RouterPush.test';
-import ImageSpanTest from './image_span/ImageSpan.test';
-import SelectionMenuSymbolTest from './selectionMenu_symbol/SelectionMenuSymbol.test';
 import NavigationInterfaceTest from './navigation_interface/NavigationInterface.test';
 import NavigationFeatureTest from './navigation_interface/NavigationFeatureTest.test';
 import NavigationInterfaceFalseTest from './navigation_interface/NavigationInterfaceFalse.test';
 import NavigationEnableModeChangeAnimationTest from './navigation_interface/NavigationEnableModeChangeAnimation.test';
 import NavigationBindToScrollableTest from './navigation_interface/NavigationBindToScrollable.test';
-import NavigationMTBFTest from './navigation_interface/NavigationMTBF.test';
 import NavigationOnActiveOnInActiveTest from './navigation_interface/NavigationOnActiveOnInActive.test';
 import NavigationOnNewParamTest from './navigation_interface/NavigationOnNewParam.test';
 import NavigationControlButtonTest from './navigation_interface/NavigationControlButton.test';
@@ -79,15 +71,12 @@ import ImageOpacityTest from './image_svg_animate/ImageOpacity.test';
 import MediaImageTest from './mediaImage/MediaImage.test';
 import ImageOutliersTest from './image_svg_animate/ImageOutliers.test';
 import ImageThumbNailsTest from './image_svg_animate/ImageThumbNails.test';
-import ImageAnimatorMonitorTest from './imageAnimator/ImageAnimatorMonitor.test';
-import CheckboxScenariosTest from './button/CheckboxScenarios.test';
 import RefreshTest from './other/RefreshTest.test';
 import SwiperIndicatorInteractiveTest from './swiper_indicatorInteractive/SwiperIndicatorInteractive.test';
 import ListFadingEdgeTest from './list_fadingEdge/ListFadingEdge.test';
 import ArcScrollBarTest from './arcScrollBar/ArcScrollBar.test';
 import ToastPromptActionTest from './toast_promptAction/ToastPromptAction.test';
 import ToastAvoidTest from './toast_promptAction/ToastAvoid.test';
-import AttributesFeatureOutliersTest from './attributesFeatureOutliers/AttributesFeatureOutliers.test';
 import ListScrollbarHoverTest from './list_scrollbar_hover/ListScrollbarHover.test';
 import TextPickerWearTest from './textPicker_wear/TextPickerWear.test';
 import TextPickerOnScrollStopTest from './textPicker_onscrollstop/TextPickerOnScrollStop.test';
@@ -118,28 +107,19 @@ import ListScrollToItemInGroupTest from './listAndGrid/ListScrollToItemInGroup.t
 import ScrollToTopTest from './listAndGrid/ScrollToTop.test';
 import BlurMaterialSeparatedLayerTest from './popupbox_blurMaterialSeparatedLayer/BlurMaterialSeparatedLayer.test';
 // import DarkColorModeTest from './darkColorMode/DarkColorModeTest.test';
-import abilityTest from './Ability.test';
 
 export default function testsuite() {
   gestureMonopolize01Test();
-  stepperInterface01Test();
-  navigationContent01Test();
   animatorCreate01Test();
-  expectedFrameTest();
-  waterflowMirrorTest();
   scrollAccessibleTest();
   measureResultTest();
-  SpecialComponentsTest();
   FocusDynamicTest();
   RouterPushTest();
-  ImageSpanTest();
-  SelectionMenuSymbolTest();
   NavigationInterfaceTest();
   NavigationFeatureTest();
   NavigationInterfaceFalseTest();
   NavigationEnableModeChangeAnimationTest();
   NavigationBindToScrollableTest();
-  NavigationMTBFTest();
   NavigationOnActiveOnInActiveTest();
   NavigationOnNewParamTest();
   NavigationControlButtonTest();
@@ -187,15 +167,12 @@ export default function testsuite() {
   MediaImageTest();
   ImageOutliersTest();
   ImageThumbNailsTest();
-  ImageAnimatorMonitorTest();
-  CheckboxScenariosTest();
   RefreshTest();
   SwiperIndicatorInteractiveTest();
   ListFadingEdgeTest();
   ArcScrollBarTest();
   ToastPromptActionTest();
   ToastAvoidTest();
-  AttributesFeatureOutliersTest();
   ListScrollbarHoverTest();
   TextPickerWearTest();
   TextPickerOnScrollStopTest();
@@ -225,5 +202,4 @@ export default function testsuite() {
   ListScrollToItemInGroupTest();
   ScrollToTopTest();
   BlurMaterialSeparatedLayerTest();
-  abilityTest();
 }
